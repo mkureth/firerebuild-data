@@ -4,8 +4,8 @@ const csv = require('csv-parser');
 const { Parser } = require('json2csv');
 
 const inputFolder = path.join(__dirname, 'csvtest');
-const outputCSVFile = path.join(__dirname, 'combined.csv');
-const outputJSONFile = path.join(__dirname, 'combined.json');
+const outputCSVFile = path.join(__dirname, 'combined/combined.csv');
+const outputJSONFile = path.join(__dirname, 'combined/combined.json');
 
 let allData = [];
 let headersSet = new Set();

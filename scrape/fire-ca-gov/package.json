@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "json2csv": "^6.0.0-alpha.2",
+    "moment": "^2.30.1",
+    "path": "^0.12.7",
+    "puppeteer": "^24.5.0"
+  }
+}
