@@ -27,6 +27,7 @@ fs.readdir(inputFolder, (err, files) => {
             .pipe(csv())
             .on('data', (row) => {
                 if ('Time' in row) {
+                    row['Source Weather'] = row['Time'].split('|')[0];
                     let [date, time] = row['Time'].split('|').map(val => val.trim());
                     
                     if (date && time) {
@@ -42,7 +43,7 @@ fs.readdir(inputFolder, (err, files) => {
                     }
 
                     row['Date'] = date || '';  
-                    row['Time'] = time || '';  
+                    row['Time'] = time || '';
                 }
 
                 if ('Temperature' in row) {
