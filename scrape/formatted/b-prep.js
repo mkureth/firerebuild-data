@@ -36,6 +36,30 @@ const convertToMilitaryTime = (time) => {
     return `${hours.toString().padStart(2, '0')}:${minutes}`;
 };
 
+const formatDisplayDate = (dateStr, timeStr) => {
+    const date = new Date(dateStr);
+    if (isNaN(date.getTime())) return '';
+
+    // Increment the date by one day
+    date.setDate(date.getDate() + 1);
+
+    // Format date as 'Jan 8' (assuming original was 'Jan 7')
+    const options = { month: 'short', day: 'numeric' };
+    let formattedDate = date.toLocaleDateString('en-US', options);
+
+    // Format time as '11:06AM' (time remains the same)
+    if (timeStr) {
+        let [hours, minutes] = timeStr.split(':');
+        hours = parseInt(hours, 10);
+        const period = hours >= 12 ? 'PM' : 'AM';
+        if (hours > 12) hours -= 12;
+        if (hours === 0) hours = 12;
+        formattedDate += ` - ${hours}:${minutes}${period}`;
+    }
+
+    return formattedDate;
+};
+
 // Process all files
 Promise.all(inputFiles.map(readCsv))
     .then(results => {
@@ -61,6 +85,8 @@ Promise.all(inputFiles.map(readCsv))
             if (combinedData[index]['Time']) {
                 combinedData[index]['Time'] = convertToMilitaryTime(combinedData[index]['Time']);
             }
+
+            combinedData[index]['Display Date'] = formatDisplayDate(combinedData[index]['Date'], combinedData[index]['Time']);
         });
         
         // Sort combinedData by Date then Time
