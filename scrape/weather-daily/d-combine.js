@@ -44,7 +44,36 @@ fs.readdir(inputFolder, (err, files) => {
                     row['Date'] = date || '';  
                     row['Time'] = time || '';  
                 }
-                
+
+                if ('Temperature' in row) {
+                    row['Temperature'] = row['Temperature'].split(' ')[0];
+                }
+
+                if ('Dew Point' in row) {
+                    row['Dew Point'] = row['Dew Point'].split(' ')[0];
+                }
+
+                if ('Humidity' in row) {
+                    row['Humidity'] = row['Humidity'].split(' ')[0];
+                }
+
+                if ('Wind Speed' in row) {
+                    row['Wind Speed'] = row['Wind Speed'].split(' ')[0];
+                }
+
+                if ('Wind Gust' in row) {
+                    row['Wind Gust'] = row['Wind Gust'].split(' ')[0];
+                }
+
+                if ('Pressure' in row) {
+                    row['Pressure'] = row['Pressure'].split(' ')[0];
+                }
+
+                if ('Precip.' in row) {
+                    row['Precipitation'] = row['Precip.'].split(' ')[0];
+                    delete row['Precip.'];
+                }
+
                 let newRow = {};
                 Object.keys(row).forEach(header => {
                     if (header === 'Time') {
