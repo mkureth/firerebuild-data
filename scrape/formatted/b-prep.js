@@ -96,6 +96,60 @@ Promise.all(inputFiles.map(readCsv))
             if (dateA - dateB !== 0) return dateA - dateB;
             return a['Time'] && b['Time'] ? a['Time'].localeCompare(b['Time']) : 0;
         });
+
+        combinedData.forEach(function(content, index) {
+            if (typeof content['Temperature'] === 'undefined' && index > 0) {
+                combinedData[index]['Temperature'] = combinedData[index - 1]['Temperature'];
+            }
+            if (typeof content['Dew Point'] === 'undefined' && index > 0) {
+                combinedData[index]['Dew Point'] = combinedData[index - 1]['Dew Point'];
+            }
+            if (typeof content['Humidity'] === 'undefined' && index > 0) {
+                combinedData[index]['Humidity'] = combinedData[index - 1]['Humidity'];
+            }
+            if (typeof content['Wind'] === 'undefined' && index > 0) {
+                combinedData[index]['Wind'] = combinedData[index - 1]['Wind'];
+            }
+            if (typeof content['Wind Speed'] === 'undefined' && index > 0) {
+                combinedData[index]['Wind Speed'] = combinedData[index - 1]['Wind Speed'];
+            }
+            if (typeof content['Wind Gust'] === 'undefined' && index > 0) {
+                combinedData[index]['Wind Gust'] = combinedData[index - 1]['Wind Gust'];
+            }
+            if (typeof content['Pressure'] === 'undefined' && index > 0) {
+                combinedData[index]['Pressure'] = combinedData[index - 1]['Pressure'];
+            }
+            if (typeof content['Condition'] === 'undefined' && index > 0) {
+                combinedData[index]['Condition'] = combinedData[index - 1]['Condition'];
+            }
+            if (typeof content['Precipitation'] === 'undefined' && index > 0) {
+                combinedData[index]['Precipitation'] = combinedData[index - 1]['Precipitation'];
+            }
+            if (typeof content['Size'] === 'undefined' && index > 0) {
+                combinedData[index]['Size'] = combinedData[index - 1]['Size'];
+            }
+            if (typeof content['Containment'] === 'undefined' && index > 0) {
+                combinedData[index]['Containment'] = combinedData[index - 1]['Containment'];
+            }
+            if (typeof content['Structures Threatened'] === 'undefined' && index > 0) {
+                combinedData[index]['Structures Threatened'] = combinedData[index - 1]['Structures Threatened'];
+            }
+            if (typeof content['Structures Destroyed'] === 'undefined' && index > 0) {
+                combinedData[index]['Structures Destroyed'] = combinedData[index - 1]['Structures Destroyed'];
+            }
+            if (typeof content['Civilian Injuries'] === 'undefined' && index > 0) {
+                combinedData[index]['Civilian Injuries'] = combinedData[index - 1]['Civilian Injuries'];
+            }
+            if (typeof content['Civilian Fatalities'] === 'undefined' && index > 0) {
+                combinedData[index]['Civilian Fatalities'] = combinedData[index - 1]['Civilian Fatalities'];
+            }
+            if (typeof content['Structures Damaged'] === 'undefined' && index > 0) {
+                combinedData[index]['Structures Damaged'] = combinedData[index - 1]['Structures Damaged'];
+            }
+            if (typeof content['Firefighter Injuries'] === 'undefined' && index > 0) {
+                combinedData[index]['Firefighter Injuries'] = combinedData[index - 1]['Firefighter Injuries'];
+            }
+        });
         
         // Ensure output directory exists
         fs.mkdir(path.dirname(outputCsvPath), { recursive: true }, (err) => {
