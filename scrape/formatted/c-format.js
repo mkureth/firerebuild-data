@@ -1,15 +1,84 @@
 const fs = require('fs');
 const path = require('path');
 
-// Step 1: Read the input JSON file
 const inputFilePath = path.join('data/prep', 'prep.json');
 const rawData = fs.readFileSync(inputFilePath);
 const inputData = JSON.parse(rawData);
 
+const output = {
+    dataTable: {
+        columns: {
+            Date: [],
+            Temperature: [],
+            Wind: [],
+            "Wind Speed": [],
+            "Wind Gust": [],
+            "Fire Size": [],
+            Containment: [],
+            "Structures Threatened": [],
+            "Structures Destroyed": [],
+            "Structures Damaged": [],
+            "Data Source": []
+        }
+
+    },
+    rendering: {
+        rows: {
+            strictHeights: true,
+        },
+    },
+    header: [
+        'Date',
+        {
+
+            format: 'Weather Data',
+            columns: [{
+                columnId: 'Temperature',
+                format: 'Temperature'
+            }, {
+                columnId: 'Wind',
+                format: 'Wind'
+            }, {
+                columnId: 'Wind Speed',
+                format: 'Wind Speed'
+            }, {
+                columnId: 'Wind Gust',
+                format: 'Wind Gust'
+            }]
+        }, {
+            format: 'Fire Data',
+            columns: [{
+                columnId: 'Fire Size',
+                format: 'Fire Size'
+            }, {
+                columnId: 'Containment',
+                format: 'Containment'
+            }, {
+                columnId: 'Structures Threatened',
+                format: 'Structures Threatened'
+            }, {
+                columnId: 'Structures Destroyed',
+                format: 'Structures Destroyed'
+            }, {
+                columnId: 'Structures Damaged',
+                format: 'Structures Damaged'
+            }]
+
+        },
+        'Data Source'
+    ],
+    columns: [{
+        id: 'Date',
+        header: {
+            format: 'Date'
+        }
+    }],
+};
+
+/*
 // Step 2: Initialize the output structure
 const output = {
         dataTable: {
-
           columns: {
             Date: [],
             Temperature: [],
@@ -84,8 +153,8 @@ const output = {
             }
         }],
     };
+*/
 
-// Step 3: Transform data
 inputData.forEach(entry => {
   output.dataTable.columns.Date.push(entry["Display Date"] || null);
   output.dataTable.columns.Temperature.push(Number(entry.Temperature) || 0);
@@ -104,30 +173,26 @@ inputData.forEach(entry => {
 
 });
 
-// Helper to parse percentage strings like "95%"
 function parsePercentage(str) {
   return str ? parseFloat(str.replace('%', '')) : 0;
 }
 
-// Helper to parse percentage strings like "95%"
 function checkSource(fire, weather) {
-    var source = '';
-    if (fire) {
-        source = fire;
-    }
+    var displayFormat = '';
     if (weather) {
-        source = weather;
+        displayFormat = '<a href="https://www.wunderground.com/history/daily/us/ca/los-angeles/KLAX/date/' + weather + '" target="_blank">Weather Source</a>';
     }
-  return source;
+    if (fire) {
+        displayFormat = '<a href="https://www.fire.ca.gov/incidents/2025/1/7/palisades-fire/updates/' + fire + '" target="_blank">Fire Source</a>';
+    }
+    return displayFormat;
 }
 
-// Helper to parse numbers with commas
 function parseNumber(str) {
   return str ? parseInt(str.replace(/,/g, '')) : 0;
 }
 
-// Step 4: Write the output JSON file
 const outputFilePath = path.join('data/deploy', 'output.json');
-fs.writeFileSync(outputFilePath, JSON.stringify(output, null, 2));
+fs.writeFileSync(outputFilePath, JSON.stringify(output));
 
 console.log('Conversion complete. Output saved to output.json');
