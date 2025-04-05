@@ -8,7 +8,8 @@ const inputData = JSON.parse(rawData);
 const output = {
     dataTable: {
         columns: {
-            Date: [],
+            "Display Date": [],
+            "Sort Date": [],
             Temperature: [],
             Wind: [],
             "Wind Speed": [],
@@ -23,14 +24,22 @@ const output = {
 
     },
     rendering: {
+        theme: 'hcg-theme-default theme-compact',
         rows: {
             strictHeights: true,
         },
     },
     header: [
-        'Date',
         {
-
+            format: 'Date',
+            columns: [{
+                columnId: 'Display Date',
+                format: 'Display Date'
+            }, {
+                columnId: 'Sort Date',
+                format: 'Sort Date'
+            }]
+        }, {
             format: 'Weather Data',
             columns: [{
                 columnId: 'Temperature',
@@ -72,105 +81,77 @@ const output = {
         header: {
             format: 'Date'
         }
+    }, {
+        id: 'Temperature',
+        cells: {
+            format: '{value} °F'
+        }
+    }, {
+        id: 'Wind Speed',
+        cells: {
+            format: '{value} mph'
+        }
+    }, {
+        id: 'Wind Gust',
+        cells: {
+            format: '{value} mph'
+        }
+    }, {
+        id: 'Fire Size',
+        cells: {
+            formatter: function () {
+                return 'acres';
+            }
+        }
+    }, {
+        id: 'Containment',
+        cells: {
+            format: '{value}%'
+        }
     }],
+    caption: {
+        text: 'Weather and Fire Data from the 2025 Palisades Fire'
+    },
+    description: {
+        text: 'Weather and Fire Data is provided by https://www.fire.ca.gov/ and https://weather.com/'
+    }
 };
 
 /*
-// Step 2: Initialize the output structure
-const output = {
-        dataTable: {
-          columns: {
-            Date: [],
-            Temperature: [],
-            Wind: [],
-            "Wind Speed": [],
-            "Wind Gust": [],
-            "Fire Size": [],
-            Containment: [],
-            "Structures Threatened": [],
-            "Structures Destroyed": [],
-            "Structures Damaged": [],
-            "Data Source": []
-          }
+return this.value + 'acres';
 
-        },
-        rendering: {
-            rows: {
-                strictHeights: true,
-            },
-        },
-        header: [
-            'Date',
-            {
-                format: 'Nutritional Info',
-                columns: [{
-                    format: 'Weather Data',
-                    columns: [{
-                        columnId: 'Temperature',
-                        format: 'Temperature'
-                    }, {
-                        columnId: 'Wind',
-                        format: 'Wind'
-                    }, {
-                        columnId: 'Wind Speed',
-                        format: 'Wind Speed'
-                    }, {
-                        columnId: 'Wind Gust',
-                        format: 'Wind Gust'
-                    }]
-                }, {
-                    format: 'Fire Data',
-                    columns: [{
-                        columnId: 'Fire Size',
-                        format: 'Fire Size'
-                    }, {
-                        columnId: 'Containment',
-                        format: 'Containment'
-                    }, {
-                        columnId: 'Structures Threatened',
-                        format: 'Structures Threatened'
-                    }, {
-                        columnId: 'Structures Destroyed',
-                        format: 'Structures Destroyed'
-                    }, {
-                        columnId: 'Structures Damaged',
-                        format: 'Structures Damaged'
-                    }]
-                }]
-            },
-            {
-                format: 'Data Source',
-                columns: [{
-                    columnId: 'Data Source',
-                    format: 'Data Source'
-                }]
+        cells: {
+            format: '{value.toLocaleString()} acres',
+            formatter: function () {
+                const items = this.value.split(',');
+                let list = '';
+
+                items.forEach(el => {
+                    list += '<li>' + el + '</li>';
+                });
+
+                return '<ul>' + list + '</ul>';
             }
-        ],
-        columns: [{
-            id: 'Date',
-            header: {
-                format: 'Date'
-            }
-        }],
-    };
+        }
 */
 
 inputData.forEach(entry => {
-  output.dataTable.columns.Date.push(entry["Display Date"] || null);
-  output.dataTable.columns.Temperature.push(Number(entry.Temperature) || 0);
-  output.dataTable.columns.Wind.push(entry.Wind) || '';
-  output.dataTable.columns["Wind Speed"].push(Number(entry["Wind Speed"]) || 0);
-  output.dataTable.columns["Wind Gust"].push(Number(entry["Wind Gust"]) || 0);
+    output.dataTable.columns["Display Date"].push(entry["Display Date"] || null);
 
-  output.dataTable.columns["Fire Size"].push(entry["Size"] || 0);
+    output.dataTable.columns["Sort Date"].push(formatDate(entry.Date, entry.Time));
 
-  output.dataTable.columns.Containment.push(parsePercentage(entry.Containment));
-  output.dataTable.columns["Structures Threatened"].push(parseNumber(entry["Structures Threatened"]));
-  output.dataTable.columns["Structures Destroyed"].push(parseNumber(entry["Structures Destroyed"]));
-  output.dataTable.columns["Structures Damaged"].push(parseNumber(entry["Structures Damaged"]));
+    output.dataTable.columns.Temperature.push(Number(entry.Temperature) || 0);
+    output.dataTable.columns.Wind.push(entry.Wind) || '';
+    output.dataTable.columns["Wind Speed"].push(Number(entry["Wind Speed"]) || 0);
+    output.dataTable.columns["Wind Gust"].push(Number(entry["Wind Gust"]) || 0);
 
-  output.dataTable.columns["Data Source"].push(checkSource(entry["Source Fire CA"], entry["Source Weather"]));
+    output.dataTable.columns["Fire Size"].push(parseNumber(entry["Size"]));
+    output.dataTable.columns.Containment.push(parsePercentage(entry.Containment));
+    output.dataTable.columns["Structures Threatened"].push(parseNumber(entry["Structures Threatened"]));
+    output.dataTable.columns["Structures Destroyed"].push(parseNumber(entry["Structures Destroyed"]));
+    output.dataTable.columns["Structures Damaged"].push(parseNumber(entry["Structures Damaged"]));
 
+    output.dataTable.columns["Data Source"].push(checkSource(entry["Source Fire CA"], entry["Source Weather"]));
 });
 
 function parsePercentage(str) {
@@ -189,7 +170,12 @@ function checkSource(fire, weather) {
 }
 
 function parseNumber(str) {
-  return str ? parseInt(str.replace(/,/g, '')) : 0;
+    return str ? parseInt(str.replace(/,/g, '')) : 0;
+    //return str ? str : 0;
+}
+
+function formatDate(date, time) {
+    return date;
 }
 
 const outputFilePath = path.join('data/deploy', 'output.json');
