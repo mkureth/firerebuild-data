@@ -27,7 +27,7 @@ const output = {
         "precipitation_amount": "mm",
         "relative_humidity": "%",
         "wind_from_direction": "degrees",
-        "wind_speed": "m/s"
+        "wind_speed": "mph"
       }
     },
     "timeseries": []
@@ -68,7 +68,8 @@ inputData.forEach((entry, index) => {
             "wind_speed": Number(entry["Wind Speed"]),
             "wind_gust": Number(entry["Wind Gust"]),
             "symbol_code": "clearsky_day",
-            "precipitation_amount": 0
+            "precipitation_amount": 0,
+            "fire_size": parseNumber(entry["Size"])
         }
     };
 

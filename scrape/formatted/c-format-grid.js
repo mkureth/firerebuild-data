@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const moment = require('moment');
 
 const inputFilePath = path.join('data/prep', 'prep.json');
 const rawData = fs.readFileSync(inputFilePath);
@@ -8,8 +9,7 @@ const inputData = JSON.parse(rawData);
 const output = {
     dataTable: {
         columns: {
-            "Display Date": [],
-            "Sort Date": [],
+            "Date": [],
             Temperature: [],
             Wind: [],
             "Wind Speed": [],
@@ -30,16 +30,8 @@ const output = {
         },
     },
     header: [
+        'Date',
         {
-            format: 'Date',
-            columns: [{
-                columnId: 'Display Date',
-                format: 'Display Date'
-            }, {
-                columnId: 'Sort Date',
-                format: 'Sort Date'
-            }]
-        }, {
             format: 'Weather Data',
             columns: [{
                 columnId: 'Temperature',
@@ -76,10 +68,16 @@ const output = {
         },
         'Data Source'
     ],
+
     columns: [{
         id: 'Date',
         header: {
             format: 'Date'
+        }
+    }, {
+        id: 'Sort Date',
+        cells: {
+            format: 'test {value}'
         }
     }, {
         id: 'Temperature',
@@ -113,32 +111,14 @@ const output = {
         text: 'Weather and Fire Data from the 2025 Palisades Fire'
     },
     description: {
-        text: 'Weather and Fire Data is provided by https://www.fire.ca.gov/ and https://weather.com/'
+        text: 'Weather and Fire Data is provided by https://weather.com and https://www.fire.ca.gov'
     }
 };
 
-/*
-return this.value + 'acres';
-
-        cells: {
-            format: '{value.toLocaleString()} acres',
-            formatter: function () {
-                const items = this.value.split(',');
-                let list = '';
-
-                items.forEach(el => {
-                    list += '<li>' + el + '</li>';
-                });
-
-                return '<ul>' + list + '</ul>';
-            }
-        }
-*/
-
 inputData.forEach(entry => {
-    output.dataTable.columns["Display Date"].push(entry["Display Date"] || null);
+    //output.dataTable.columns["Display Date"].push(entry["Display Date"] || null);
 
-    output.dataTable.columns["Sort Date"].push(formatDate(entry.Date, entry.Time));
+    output.dataTable.columns["Date"].push(formatDate(entry.Date, entry.Time));
 
     output.dataTable.columns.Temperature.push(Number(entry.Temperature) || 0);
     output.dataTable.columns.Wind.push(entry.Wind) || '';
@@ -175,7 +155,8 @@ function parseNumber(str) {
 }
 
 function formatDate(date, time) {
-    return date;
+    const momentDate = moment(date + ' ' + time, "YYYY-MM-DD HH:mm");
+    return  momentDate.format('YYYY-MM-DDTHH:mm:ss[Z]');
 }
 
 const outputFilePath = path.join('data/deploy', 'grid.json');
