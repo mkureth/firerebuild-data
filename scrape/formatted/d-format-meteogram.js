@@ -3,7 +3,7 @@ const path = require('path');
 const moment = require('moment');
 //const moment = require('moment-timezone');
 
-const inputFilePath = path.join('data/deploy', 'times.json');
+const inputFilePath = path.join('data/prep', 'times.json');
 const rawData = fs.readFileSync(inputFilePath);
 const inputData = JSON.parse(rawData);
 
@@ -179,7 +179,7 @@ function formatDate(date, time) {
     return date;
 }
 
-const outputFilePath = path.join('data/meteogram', 'data.json');
+const outputFilePath = path.join('data/deploy', 'meteogram.json');
 fs.writeFileSync(outputFilePath, JSON.stringify(output, null, 2));
 //fs.writeFileSync(outputFilePath, JSON.stringify(output));
 

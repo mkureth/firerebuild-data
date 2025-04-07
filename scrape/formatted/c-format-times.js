@@ -180,7 +180,7 @@ function formatDate(date, time) {
     return date;
 }
 
-const outputFilePath = path.join('data/deploy', 'times.json');
+const outputFilePath = path.join('data/prep', 'times.json');
 fs.writeFileSync(outputFilePath, JSON.stringify(output, null, 2));
 //fs.writeFileSync(outputFilePath, JSON.stringify(output));
 
