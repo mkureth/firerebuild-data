@@ -3,37 +3,40 @@ const path = require('path');
 const moment = require('moment');
 //const moment = require('moment-timezone');
 
-const inputFilePath = path.join('data/prep', 'prep.json');
+const inputFilePath = path.join('data/deploy', 'times.json');
 const rawData = fs.readFileSync(inputFilePath);
 const inputData = JSON.parse(rawData);
 
-const templateData = {
-    "Date": "2025-02-11",
-    "Time": "00:53",
-    "Temperature": "53",
-    "Dew Point": "44",
-    "Humidity": "71",
-    "Wind": "E",
-    "Wind Speed": "9",
-    "Wind Gust": "0",
-    "Pressure": "29.87",
-    "Condition": "Mostly Cloudy",
-    "Source Weather": "2025-2-10",
-    "Precipitation": "0.0",
-    "Display Date": "Feb 11 - 12:53AM",
-    "Size": "23,448",
-    "Containment": "95%",
-    "Structures Threatened": "12,317",
-    "Structures Destroyed": "6,833",
-    "Civilian Injuries": "3",
-    "Civilian Fatalities": "12",
-    "Structures Damaged": "973",
-    "Firefighter Injuries": "1"
-};
-
+const output = {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -0.1257,
+      51.5085,
+      25
+    ]
+  },
+  "properties": {
+    "meta": {
+      "updated_at": "2025-04-06T01:15:35Z",
+      "units": {
+        "air_pressure_at_sea_level": "hPa",
+        "air_temperature": "celsius",
+        "cloud_area_fraction": "%",
+        "precipitation_amount": "mm",
+        "relative_humidity": "%",
+        "wind_from_direction": "degrees",
+        "wind_speed": "m/s"
+      }
+    },
+    "timeseries": []
+  }
+}
 
 inputData.forEach((entry, index) => {
     
+    /*
     const dateString = entry.Date + ' ' + entry.Time;  //"2025-01-06 01:53";
     const momentDate = moment(dateString, "YYYY-MM-DD HH:mm");
     const roundedSpecificTime = roundToNearest15Minutes( momentDate.clone() ); // Use .clone() to avoid modifying the original
@@ -44,43 +47,34 @@ inputData.forEach((entry, index) => {
             inputData[index] = Object.assign({}, inputData[index - 1], entry);
         }
     }
+    */
 
 });
 
 
-var paddedData = [];
+
 inputData.forEach((entry, index) => {
 
-    var includeData = true;
-    if (index > 0) {
-        if (inputData[index - 1]["Rounded Date"] == entry["Rounded Date"]) {
-            includeData = false;
-        } else {
-            //pad by 15 minutes
-            const previousDate  = moment(   inputData[index - 1]["Rounded Date"],  "YYYY-MM-DD HH:mm");
-            const currentDate   = moment(   entry["Rounded Date"],                 "YYYY-MM-DD HH:mm");
-            const differenceInMinutes = currentDate.diff(previousDate, 'minutes');
+    const time = moment(entry["Rounded Date"]);
 
-            //amount to duplicate
-            const duplicateAmount = differenceInMinutes / 15;
-            for (var i=1; i<duplicateAmount; i++) {
-                const entryNew = { ...entry };
-                const incrementedDate = previousDate.add(15, 'minutes');
-                entryNew["Rounded Date"] = incrementedDate.format("YYYY-MM-DD HH:mm");
-                paddedData.push(entryNew);
-            }
+    const entryData = {
+        "time": time.format('YYYY-MM-DDTHH:mm:ss[Z]'),
+        "data": {
+            "air_pressure_at_sea_level": 1022.2,
+            "air_temperature": Number(entry["Temperature"]),
+            "cloud_area_fraction": 1.6,
+            "relative_humidity": 77.4,
+            "wind_from_direction": 54.9,
+            "wind_speed": Number(entry["Wind Speed"]),
+            "wind_gust": Number(entry["Wind Gust"]),
+            "symbol_code": "clearsky_day",
+            "precipitation_amount": 0
         }
-    }
+    };
 
-    if (includeData) {
-        paddedData.push(entry);
-    }
-});
+    output.properties.timeseries.push(entryData);
 
-
-const output = [];
-paddedData.forEach((entry, index) => {
-
+/*
     const dateToCheck = moment(entry.Date);
     const startDate = moment('2025-01-05');
     const endDate = moment('2025-01-11');
@@ -111,7 +105,7 @@ paddedData.forEach((entry, index) => {
     if (isBetweenInclusive) {
         output.push(tempData);
     }
-
+*/
     
     /*
     output.xData.push(entry.Date);
@@ -138,6 +132,10 @@ paddedData.forEach((entry, index) => {
     output.dataTable.columns["Data Source"].push(checkSource(entry["Source Fire CA"], entry["Source Weather"]));
     */
 });
+
+function convertTZ(date, tzString) {
+    return new Date((typeof date === "string" ? new Date(date) : date).toLocaleString("en-US", {timeZone: tzString}));   
+}
 
 function roundToNearest15Minutes(momentDate) {
   const minutes = momentDate.minutes();
@@ -180,8 +178,8 @@ function formatDate(date, time) {
     return date;
 }
 
-const outputFilePath = path.join('data/deploy', 'times.json');
+const outputFilePath = path.join('data/meteogram', 'data.json');
 fs.writeFileSync(outputFilePath, JSON.stringify(output, null, 2));
 //fs.writeFileSync(outputFilePath, JSON.stringify(output));
 
-console.log('Conversion complete. Output saved to times.json');
+console.log('Conversion complete. Output saved to data.json');
