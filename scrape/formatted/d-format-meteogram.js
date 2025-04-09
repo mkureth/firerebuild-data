@@ -56,19 +56,23 @@ inputData.forEach((entry, index) => {
 inputData.forEach((entry, index) => {
 
     const time = moment(entry["Rounded Date"]);
+    var wind_speed = Number(entry["Wind Speed"]);
+    var wind_gust = Number(entry["Wind Gust"]);
+    if (wind_gust < wind_speed) {
+        wind_gust = wind_speed;
+    }
+    const wind_direction = Number(entry["Wind"]);
+
+    //
 
     const entryData = {
         "time": time.format('YYYY-MM-DDTHH:mm:ss[Z]'),
         "data": {
-            "air_pressure_at_sea_level": 1022.2,
-            "air_temperature": Number(entry["Temperature"]),
-            "cloud_area_fraction": 1.6,
-            "relative_humidity": 77.4,
+            "temperature": Number(entry["Temperature"]),
             "wind_from_direction": 54.9,
-            "wind_speed": Number(entry["Wind Speed"]),
-            "wind_gust": Number(entry["Wind Gust"]),
+            "wind_speed": wind_speed,
+            "wind_gust": wind_gust,
             "symbol_code": "clearsky_day",
-            "precipitation_amount": 0,
             "fire_size": parseNumber(entry["Size"])
         }
     };
