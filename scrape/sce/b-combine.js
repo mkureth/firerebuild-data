@@ -4,9 +4,9 @@ const moment = require('moment');
 const Papa = require('papaparse');
 
 // File paths
-const inputPath = path.join(__dirname, 'data/json/sce.json');
-const outputJsonPath = path.join(__dirname, 'data/json/dates.json');
-const outputCsvPath = path.join(__dirname, 'data/json/dates.csv');
+const inputPath = path.join(__dirname, 'data/json/sce-extract.json');
+const outputJsonPath = path.join(__dirname, 'data/combined/sce-data.json');
+const outputCsvPath = path.join(__dirname, 'data/combined/sce-data.csv');
 
 // Load input JSON
 const results = JSON.parse(fs.readFileSync(inputPath, 'utf8'));

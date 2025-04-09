@@ -7,29 +7,9 @@ const inputFilePath = path.join('data/prep', 'prep.json');
 const rawData = fs.readFileSync(inputFilePath);
 const inputData = JSON.parse(rawData);
 
-const templateData = {
-    "Date": "2025-02-11",
-    "Time": "00:53",
-    "Temperature": "53",
-    "Dew Point": "44",
-    "Humidity": "71",
-    "Wind": "E",
-    "Wind Speed": "9",
-    "Wind Gust": "0",
-    "Pressure": "29.87",
-    "Condition": "Mostly Cloudy",
-    "Source Weather": "2025-2-10",
-    "Precipitation": "0.0",
-    "Display Date": "Feb 11 - 12:53AM",
-    "Size": "23,448",
-    "Containment": "95%",
-    "Structures Threatened": "12,317",
-    "Structures Destroyed": "6,833",
-    "Civilian Injuries": "3",
-    "Civilian Fatalities": "12",
-    "Structures Damaged": "973",
-    "Firefighter Injuries": "1"
-};
+const inputFilePathSCE = path.join('data/raw', 'sce-data.json');
+const rawDataSCE = fs.readFileSync(inputFilePathSCE);
+const inputDataSCE = JSON.parse(rawDataSCE);
 
 
 inputData.forEach((entry, index) => {
@@ -46,6 +26,19 @@ inputData.forEach((entry, index) => {
     }
 
 });
+
+//merge SCE date data
+var sceData = {};
+inputDataSCE.forEach((entry, index) => {
+    const momentDate = moment(entry.date, "YYYY-MM-DD HH:mm");
+    const sceDate = momentDate.format("YYYY-MM-DD HH:mm");
+
+    sceData[sceDate] = sceData[sceDate] || {};
+    sceData[sceDate].PGE = sceData[sceDate].PGE || entry.PGE;
+    sceData[sceDate].SDGE = sceData[sceDate].SDGE || entry.SDGE;
+    sceData[sceDate].SCE = sceData[sceDate].SCE || entry.SCE;
+});
+
 
 
 var paddedData = [];
@@ -86,6 +79,17 @@ paddedData.forEach((entry, index) => {
     const endDate = moment('2025-01-11');
     const isBetweenInclusive = dateToCheck.isBetween(startDate, endDate, null, '[]');
 
+    const roundedDate = entry["Rounded Date"];
+    var sce_PGE = 0;
+    var sce_SDGE = 0;
+    var sce_SCE = 0;
+
+    if ( sceData[roundedDate] ) {
+        sce_PGE = sceData[roundedDate].PGE || 0;
+        sce_SDGE = sceData[roundedDate].SDGE || 0;
+        sce_SCE = sceData[roundedDate].SCE || 0;
+    }
+
     const tempData = {
         "Rounded Date":             entry["Rounded Date"] || null,
         "Temperature":              entry["Temperature"] || null,
@@ -106,6 +110,9 @@ paddedData.forEach((entry, index) => {
         "Civilian Fatalities":      entry["Civilian Fatalities"] || 0,
         "Structures Damaged":       entry["Structures Damaged"] || 0,
         "Firefighter Injuries":     entry["Firefighter Injuries"] || 0,
+        "SCE PGE":                  sce_PGE,
+        "SCE SDGE":                 sce_SDGE,
+        "SCE SCE":                  sce_SCE,
     };
 
     if (isBetweenInclusive) {
