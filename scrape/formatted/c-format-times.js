@@ -113,11 +113,13 @@ paddedData.forEach((entry, index) => {
         "SCE PGE":                  sce_PGE,
         "SCE SDGE":                 sce_SDGE,
         "SCE SCE":                  sce_SCE,
+        "Source Weather":           entry["Source Weather"],
+        "Source Fire CA":           entry["Source Fire CA"]
     };
 
-    if (isBetweenInclusive) {
+    //if (isBetweenInclusive) {
         output.push(tempData);
-    }
+    //}
 
     
     /*

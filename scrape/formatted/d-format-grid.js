@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const moment = require('moment');
 
-const inputFilePath = path.join('data/prep', 'prep.json');
+const inputFilePath = path.join('data/prep', 'times.json');
 const rawData = fs.readFileSync(inputFilePath);
 const inputData = JSON.parse(rawData);
 
@@ -10,15 +10,22 @@ const output = {
     dataTable: {
         columns: {
             "Date": [],
+
             Temperature: [],
             Wind: [],
             "Wind Speed": [],
             "Wind Gust": [],
+
             "Fire Size": [],
             Containment: [],
             "Structures Threatened": [],
             "Structures Destroyed": [],
             "Structures Damaged": [],
+
+            "SCE PGE": [],
+            "SCE SDGE": [],
+            "SCE SCE": [],
+
             "Data Source": []
         }
 
@@ -63,6 +70,19 @@ const output = {
             }, {
                 columnId: 'Structures Damaged',
                 format: 'Structures Damaged'
+            }]
+
+        }, {
+            format: 'SCE Data',
+            columns: [{
+                columnId: 'SCE PGE',
+                format: 'SCE PGE'
+            }, {
+                columnId: 'SCE SDGE',
+                format: 'SCE SDGE'
+            }, {
+                columnId: 'SCE SCE',
+                format: 'SCE SCE'
             }]
 
         },
@@ -116,9 +136,9 @@ const output = {
 };
 
 inputData.forEach(entry => {
-    //output.dataTable.columns["Display Date"].push(entry["Display Date"] || null);
 
-    output.dataTable.columns["Date"].push(formatDate(entry.Date, entry.Time));
+    //output.dataTable.columns["Date"].push(formatDate(entry.Date, entry.Time));
+    output.dataTable.columns["Date"].push(entry["Rounded Date"]);
 
     output.dataTable.columns.Temperature.push(Number(entry.Temperature) || 0);
     output.dataTable.columns.Wind.push(entry.Wind) || '';
@@ -130,6 +150,10 @@ inputData.forEach(entry => {
     output.dataTable.columns["Structures Threatened"].push(parseNumber(entry["Structures Threatened"]));
     output.dataTable.columns["Structures Destroyed"].push(parseNumber(entry["Structures Destroyed"]));
     output.dataTable.columns["Structures Damaged"].push(parseNumber(entry["Structures Damaged"]));
+
+    output.dataTable.columns["SCE PGE"].push(parseNumber(entry["SCE PGE"]));
+    output.dataTable.columns["SCE SDGE"].push(parseNumber(entry["SCE SDGE"]));
+    output.dataTable.columns["SCE SCE"].push(parseNumber(entry["SCE SCE"]));
 
     output.dataTable.columns["Data Source"].push(checkSource(entry["Source Fire CA"], entry["Source Weather"]));
 });
