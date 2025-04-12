@@ -22,9 +22,7 @@ const output = {
             "Structures Destroyed": [],
             "Structures Damaged": [],
 
-            "SCE PGE": [],
-            "SCE SDGE": [],
-            "SCE SCE": [],
+            "SCE": [],
 
             "Data Source": []
         }
@@ -39,7 +37,7 @@ const output = {
     header: [
         'Date',
         {
-            format: 'Weather Data',
+            format: 'Weather Data from api.weather.com',
             columns: [{
                 columnId: 'Temperature',
                 format: 'Temperature'
@@ -54,7 +52,7 @@ const output = {
                 format: 'Wind Gust'
             }]
         }, {
-            format: 'Fire Data',
+            format: 'Fire Data from fire.ca.gov',
             columns: [{
                 columnId: 'Fire Size',
                 format: 'Fire Size'
@@ -73,16 +71,10 @@ const output = {
             }]
 
         }, {
-            format: 'SCE Data',
+            format: 'SCE Customers De-Energized',
             columns: [{
-                columnId: 'SCE PGE',
-                format: 'SCE PGE'
-            }, {
-                columnId: 'SCE SDGE',
-                format: 'SCE SDGE'
-            }, {
-                columnId: 'SCE SCE',
-                format: 'SCE SCE'
+                columnId: 'SCE',
+                format: 'SCE Power Outage'
             }]
 
         },
@@ -151,9 +143,7 @@ inputData.forEach(entry => {
     output.dataTable.columns["Structures Destroyed"].push(parseNumber(entry["Structures Destroyed"]));
     output.dataTable.columns["Structures Damaged"].push(parseNumber(entry["Structures Damaged"]));
 
-    output.dataTable.columns["SCE PGE"].push(parseNumber(entry["SCE PGE"]));
-    output.dataTable.columns["SCE SDGE"].push(parseNumber(entry["SCE SDGE"]));
-    output.dataTable.columns["SCE SCE"].push(parseNumber(entry["SCE SCE"]));
+    output.dataTable.columns["SCE"].push(parseNumber(entry["SCE SCE"]));
 
     output.dataTable.columns["Data Source"].push(checkSource(entry["Source Fire CA"], entry["Source Weather"]));
 });

@@ -21,7 +21,8 @@ function extractCellText(cell) {
 // Function to extract table data
 function extractTableData(html) {
     const $ = cheerio.load(html);
-    const table = $('div.observation-table.ng-star-inserted');
+    //const table = $('div.observation-table.ng-star-inserted');
+    const table = $('div.observation-table');
 
     if (!table.length) {
         console.log('No table found in the file.');

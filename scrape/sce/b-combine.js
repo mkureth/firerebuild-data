@@ -19,6 +19,7 @@ results.forEach(entry => {
   const end = moment(entry.end).startOf('minute');
 
   const current = start.clone();
+  current.subtract({ hours: 8 });
 
   while (current.diff(end, 'minutes') <= 0) {
     const timestamp = current.toISOString();
