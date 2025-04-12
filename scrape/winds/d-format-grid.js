@@ -98,12 +98,14 @@ const output = {
         }
     }],
     caption: {
-        text: 'Weather and Fire Data from the 2025 Palisades Fire'
+        text: 'Historical Wind Events Meeting or Exceeding January 7, 2025 Wind Speeds (Before Palisades Fire)'
     },
     description: {
-        text: 'Weather and Fire Data is provided by https://weather.com and https://www.fire.ca.gov'
+        text: 'Weather Data is provided by https://weather.com'
     }
 };
+
+inputData.reverse();
 
 inputData.forEach(entry => {
 
