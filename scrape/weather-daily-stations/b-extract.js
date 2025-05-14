@@ -3,8 +3,8 @@ const path = require('path');
 const cheerio = require('cheerio'); // Need to install this package: npm install cheerio
 
 // --- Configuration ---
-const inputFolder = './data/html/KCAMALIB62'; // Folder containing your HTML files
-const outputFolder = './data/json-raw/KCAMALIB62'; // Folder where JSON files will be saved
+const inputFolder = './data/html/KCALOSAN958'; // Folder containing your HTML files
+const outputFolder = './data/json-raw/KCALOSAN958'; // Folder where JSON files will be saved
 const scriptTagId = 'app-root-state'; // The ID of the script tag containing the JSON
 
 // --- Ensure output folder exists ---

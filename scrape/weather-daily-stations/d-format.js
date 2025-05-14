@@ -4,8 +4,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Define input and output directories
-const inputDir = path.join(__dirname, 'data/json-clean/KCAPACIF320');
-const outputDir = path.join(__dirname, 'data/json-formatted/KCAPACIF320');
+const inputDir = path.join(__dirname, 'data/json-clean/KCALOSAN958');
+const outputDir = path.join(__dirname, 'data/json-formatted/KCALOSAN958');
 
 // Ensure the output directory exists
 if (!fs.existsSync(outputDir)) {

@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const rawDataDir = './data/json-raw/KCAPACIF320';
-const cleanDataDir = './data/json-clean/KCAPACIF320';
+const rawDataDir = './data/json-raw/KCALOSAN958';
+const cleanDataDir = './data/json-clean/KCALOSAN958';
 
 // Ensure the clean data directory exists
 if (!fs.existsSync(cleanDataDir)) {

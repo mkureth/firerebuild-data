@@ -88,11 +88,16 @@ https://www.wunderground.com/dashboard/pws/KCAPACIF208/table/2025-01-7/2025-01-7
 https://www.wunderground.com/weather/us/ca/pacific-palisades/KCAPACIF320
 https://www.wunderground.com/dashboard/pws/KCAPACIF320/table/2025-01-7/2025-01-7/daily
 
+
+https://www.wunderground.com/dashboard/pws/KCALOSAN958/table/2025-01-7/2025-01-7/daily
+
+node a-download.js KCALOSAN958 2018-11-07
+
 */
 
 
 
 /*
 COMMANDS
-node a-download.js KCAMALIB62 2015-01-01
+node a-download.js KCALOSAN958 2024-01-01
 */

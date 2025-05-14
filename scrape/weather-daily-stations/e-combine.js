@@ -10,7 +10,8 @@ const inputDirs = [
   './data/json-formatted/KCAPACIF208',
   './data/json-formatted/KCAPACIF227',
   './data/json-formatted/KCAPACIF287',
-  './data/json-formatted/KCAPACIF320'
+  './data/json-formatted/KCAPACIF320',
+  './data/json-formatted/KCALOSAN958'
 ];
 
 // Output directory
@@ -70,83 +71,3 @@ for (const filename of allFilenames) {
     console.error(`Error writing to ${outputPath}:`, err.message);
   }
 }
-
-
-/*
-const fs = require('fs').promises; // Use the promise version of fs for async/await
-const path = require('path');
-
-const inputDir = './data/json-formatted/KCAPACIF287';
-const outputDir = './data/json-combined';
-const outputFileName = 'KCAPACIF287.json';
-const outputPath = path.join(outputDir, outputFileName);
-
-async function combineJsonFiles() {
-    let combinedData = [];
-
-    try {
-        // 1. Ensure the output directory exists
-        // { recursive: true } prevents errors if the directory already exists
-        await fs.mkdir(outputDir, { recursive: true });
-        console.log(`Ensured output directory exists: ${outputDir}`);
-
-        // 2. Read the list of files in the input directory
-        const files = await fs.readdir(inputDir);
-        console.log(`Found ${files.length} items in ${inputDir}`); // items could be files or directories
-
-        // 3. Process each file
-        for (const file of files) {
-            const filePath = path.join(inputDir, file);
-            const stat = await fs.stat(filePath); // Get file stats to check if it's a file
-
-            // Only process actual files ending with .json
-            if (stat.isFile() && path.extname(file).toLowerCase() === '.json') {
-                console.log(`Processing file: ${filePath}`);
-
-                try {
-                    // Read the file content
-                    const fileContent = await fs.readFile(filePath, 'utf8');
-
-                    // Parse the JSON content
-                    const jsonData = JSON.parse(fileContent);
-
-                    // Check if the parsed data is an array and combine
-                    if (Array.isArray(jsonData)) {
-                        combinedData = combinedData.concat(jsonData);
-                        console.log(`Successfully added data from ${file}. Total items so far: ${combinedData.length}`);
-                    } else {
-                        console.warn(`Skipping file ${file}: Content is not a JSON array.`);
-                    }
-
-                } catch (readParseError) {
-                    console.error(`Error reading or parsing file ${file}:`, readParseError);
-                    // Continue to the next file even if one fails
-                }
-            } else if (!stat.isFile()) {
-                 console.log(`Skipping directory/non-file item: ${file}`);
-            } else { // not .json and not a directory
-                 console.log(`Skipping non-json file: ${file}`);
-            }
-        }
-
-        // 4. Write the combined data to the output file
-        console.log(`Finished processing files. Writing combined data (${combinedData.length} items) to ${outputPath}`);
-        // Use JSON.stringify with null, 2 for pretty-printing the output
-        await fs.writeFile(outputPath, JSON.stringify(combinedData), 'utf8');
-
-        console.log('JSON files combined successfully!');
-        console.log(`Output file saved at: ${outputPath}`);
-        console.log(`Total items combined: ${combinedData.length}`);
-
-
-    } catch (mainError) {
-        console.error('An error occurred during the combination process:', mainError);
-        if (mainError.code === 'ENOENT') {
-            console.error(`Error: Input directory not found: ${inputDir}`);
-        }
-    }
-}
-
-// Execute the function
-combineJsonFiles();
-*/
