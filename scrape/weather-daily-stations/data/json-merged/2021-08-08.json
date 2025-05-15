@@ -1,0 +1,778 @@
+{
+  "2021-08-08 00:00:00": {
+    "KCAMALIB62_s": 0,
+    "KCAMALIB62_g": 0,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 0,
+    "KCALOSAN958_g": 1.1
+  },
+  "2021-08-08 00:15:00": {
+    "KCAMALIB62_s": 0,
+    "KCAMALIB62_g": 0,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 2.5,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 00:30:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 0.9,
+    "KCALOSAN958_g": 1.1
+  },
+  "2021-08-08 00:45:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 0,
+    "KCALOSAN958_g": 0
+  },
+  "2021-08-08 01:00:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 5,
+    "KCALOSAN958_s": 0,
+    "KCALOSAN958_g": 0
+  },
+  "2021-08-08 01:15:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 0,
+    "KCALOSAN958_g": 0
+  },
+  "2021-08-08 01:30:00": {
+    "KCAMALIB62_s": 1.3,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 2,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 01:45:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 2.5,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 02:00:00": {
+    "KCAMALIB62_s": 1.3,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 5,
+    "KCALOSAN958_s": 2.2,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 02:15:00": {
+    "KCAMALIB62_s": 0.2,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 1.8,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 02:30:00": {
+    "KCAMALIB62_s": 0.7,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 1,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 1.6,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 02:45:00": {
+    "KCAMALIB62_s": 0.2,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 1,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 2.2,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 03:00:00": {
+    "KCAMALIB62_s": 0.2,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 2.2,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 03:15:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 0,
+    "KCAMALIB87_g": 5,
+    "KCALOSAN958_s": 0.9,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 03:30:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 6,
+    "KCALOSAN958_s": 2,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 03:45:00": {
+    "KCAMALIB62_s": 1.3,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 4,
+    "KCAMALIB87_g": 5,
+    "KCALOSAN958_s": 1.1,
+    "KCALOSAN958_g": 1.1
+  },
+  "2021-08-08 04:00:00": {
+    "KCAMALIB62_s": 1.3,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 1.6,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 04:15:00": {
+    "KCAMALIB62_s": 1.3,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 6,
+    "KCALOSAN958_s": 2,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 04:30:00": {
+    "KCAMALIB62_s": 0.2,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 5,
+    "KCALOSAN958_s": 1.1,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 04:45:00": {
+    "KCAMALIB62_s": 0.7,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 4,
+    "KCAMALIB87_g": 8,
+    "KCALOSAN958_s": 1.1,
+    "KCALOSAN958_g": 1.1
+  },
+  "2021-08-08 05:00:00": {
+    "KCAMALIB62_s": 0,
+    "KCAMALIB62_g": 0,
+    "KCAMALIB87_s": 6,
+    "KCAMALIB87_g": 9,
+    "KCALOSAN958_s": 2.2,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 05:15:00": {
+    "KCAMALIB62_s": 0,
+    "KCAMALIB62_g": 0,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 6,
+    "KCALOSAN958_s": 1.6,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 05:30:00": {
+    "KCAMALIB62_s": 0.2,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 6,
+    "KCALOSAN958_s": 1.3,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 05:45:00": {
+    "KCAMALIB62_s": 0,
+    "KCAMALIB62_g": 0,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 6,
+    "KCALOSAN958_s": 0.4,
+    "KCALOSAN958_g": 1.1
+  },
+  "2021-08-08 06:00:00": {
+    "KCAMALIB62_s": 0,
+    "KCAMALIB62_g": 0,
+    "KCAMALIB87_s": 4,
+    "KCAMALIB87_g": 5,
+    "KCALOSAN958_s": 0.2,
+    "KCALOSAN958_g": 1.1
+  },
+  "2021-08-08 06:15:00": {
+    "KCAMALIB62_s": 0.4,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 4,
+    "KCAMALIB87_g": 5,
+    "KCALOSAN958_s": 0.7,
+    "KCALOSAN958_g": 1.1
+  },
+  "2021-08-08 06:30:00": {
+    "KCAMALIB62_s": 0,
+    "KCAMALIB62_g": 0,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 0.7,
+    "KCALOSAN958_g": 1.1
+  },
+  "2021-08-08 06:45:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 1,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 2.5,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 07:00:00": {
+    "KCAMALIB62_s": 0,
+    "KCAMALIB62_g": 0,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 2.2,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 07:15:00": {
+    "KCAMALIB62_s": 0.7,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 1,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 2.9,
+    "KCALOSAN958_g": 4.5
+  },
+  "2021-08-08 07:30:00": {
+    "KCAMALIB62_s": 1.1,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 1.8,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 07:45:00": {
+    "KCAMALIB62_s": 0.2,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 2.5,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 08:00:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 2.5,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 08:15:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 2.5,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 08:30:00": {
+    "KCAMALIB62_s": 2,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 2.5,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 08:45:00": {
+    "KCAMALIB62_s": 1.8,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 3.6,
+    "KCALOSAN958_g": 4.5
+  },
+  "2021-08-08 09:00:00": {
+    "KCAMALIB62_s": 1.3,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 3.8,
+    "KCALOSAN958_g": 4.5
+  },
+  "2021-08-08 09:15:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 2,
+    "KCALOSAN958_s": 2.9,
+    "KCALOSAN958_g": 4.5
+  },
+  "2021-08-08 09:30:00": {
+    "KCAMALIB62_s": 2.2,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 3.4,
+    "KCALOSAN958_g": 4.5
+  },
+  "2021-08-08 09:45:00": {
+    "KCAMALIB62_s": 1.3,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 4,
+    "KCALOSAN958_g": 4.5
+  },
+  "2021-08-08 10:00:00": {
+    "KCAMALIB62_s": 1.1,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 4,
+    "KCALOSAN958_g": 5.8
+  },
+  "2021-08-08 10:15:00": {
+    "KCAMALIB62_s": 1.8,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 3.6,
+    "KCALOSAN958_g": 4.5
+  },
+  "2021-08-08 10:30:00": {
+    "KCAMALIB62_s": 1.8,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 4.9,
+    "KCALOSAN958_g": 6.9
+  },
+  "2021-08-08 10:45:00": {
+    "KCAMALIB62_s": 2.9,
+    "KCAMALIB62_g": 3.4,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 3.8,
+    "KCALOSAN958_g": 4.5
+  },
+  "2021-08-08 11:00:00": {
+    "KCAMALIB62_s": 2.2,
+    "KCAMALIB62_g": 3.4,
+    "KCAMALIB87_s": 4,
+    "KCAMALIB87_g": 5,
+    "KCALOSAN958_s": 5.4,
+    "KCALOSAN958_g": 6.9
+  },
+  "2021-08-08 11:15:00": {
+    "KCAMALIB62_s": 2.5,
+    "KCAMALIB62_g": 3.4,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 7,
+    "KCALOSAN958_s": 5.4,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 11:30:00": {
+    "KCAMALIB62_s": 1.8,
+    "KCAMALIB62_g": 3.4,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 7,
+    "KCALOSAN958_s": 5.4,
+    "KCALOSAN958_g": 6.9
+  },
+  "2021-08-08 11:45:00": {
+    "KCAMALIB62_s": 2.5,
+    "KCAMALIB62_g": 3.4,
+    "KCAMALIB87_s": 4,
+    "KCAMALIB87_g": 7,
+    "KCALOSAN958_s": 5.4,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 12:00:00": {
+    "KCAMALIB62_s": 2.5,
+    "KCAMALIB62_g": 3.4,
+    "KCAMALIB87_s": 8,
+    "KCAMALIB87_g": 8,
+    "KCALOSAN958_s": 5.1,
+    "KCALOSAN958_g": 6.9
+  },
+  "2021-08-08 12:15:00": {
+    "KCAMALIB62_s": 2.9,
+    "KCAMALIB62_g": 4.5,
+    "KCAMALIB87_s": 7,
+    "KCAMALIB87_g": 8,
+    "KCALOSAN958_s": 7.4,
+    "KCALOSAN958_g": 9.2
+  },
+  "2021-08-08 12:30:00": {
+    "KCAMALIB62_s": 2.5,
+    "KCAMALIB62_g": 3.4,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 8,
+    "KCALOSAN958_s": 6.3,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 12:45:00": {
+    "KCAMALIB62_s": 2.5,
+    "KCAMALIB62_g": 3.4,
+    "KCAMALIB87_s": 6,
+    "KCAMALIB87_g": 7,
+    "KCALOSAN958_s": 5.4,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 13:00:00": {
+    "KCAMALIB62_s": 3.4,
+    "KCAMALIB62_g": 4.5,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 8,
+    "KCALOSAN958_s": 5.4,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 13:15:00": {
+    "KCAMALIB62_s": 2.9,
+    "KCAMALIB62_g": 4.5,
+    "KCAMALIB87_s": 6,
+    "KCAMALIB87_g": 7,
+    "KCALOSAN958_s": 7.4,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 13:30:00": {
+    "KCAMALIB62_s": 3.4,
+    "KCAMALIB62_g": 5.8,
+    "KCAMALIB87_s": 6,
+    "KCAMALIB87_g": 7,
+    "KCALOSAN958_s": 6.5,
+    "KCALOSAN958_g": 10.3
+  },
+  "2021-08-08 13:45:00": {
+    "KCAMALIB62_s": 3.8,
+    "KCAMALIB62_g": 5.8,
+    "KCAMALIB87_s": 6,
+    "KCAMALIB87_g": 9,
+    "KCALOSAN958_s": 6.5,
+    "KCALOSAN958_g": 9.2
+  },
+  "2021-08-08 14:00:00": {
+    "KCAMALIB62_s": 3.4,
+    "KCAMALIB62_g": 5.8,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 9,
+    "KCALOSAN958_s": 6.3,
+    "KCALOSAN958_g": 6.9
+  },
+  "2021-08-08 14:15:00": {
+    "KCAMALIB62_s": 3.6,
+    "KCAMALIB62_g": 4.5,
+    "KCAMALIB87_s": 8,
+    "KCAMALIB87_g": 9,
+    "KCALOSAN958_s": 5.8,
+    "KCALOSAN958_g": 6.9
+  },
+  "2021-08-08 14:30:00": {
+    "KCAMALIB62_s": 3.8,
+    "KCAMALIB62_g": 6.9,
+    "KCAMALIB87_s": 7,
+    "KCAMALIB87_g": 9,
+    "KCALOSAN958_s": 6.3,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 14:45:00": {
+    "KCAMALIB62_s": 4,
+    "KCAMALIB62_g": 5.8,
+    "KCAMALIB87_s": 7,
+    "KCAMALIB87_g": 11,
+    "KCALOSAN958_s": 5.6,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 15:00:00": {
+    "KCAMALIB62_s": 4.9,
+    "KCAMALIB62_g": 6.9,
+    "KCAMALIB87_s": 10,
+    "KCAMALIB87_g": 11,
+    "KCALOSAN958_s": 6,
+    "KCALOSAN958_g": 9.2
+  },
+  "2021-08-08 15:15:00": {
+    "KCAMALIB62_s": 4.3,
+    "KCAMALIB62_g": 5.8,
+    "KCAMALIB87_s": 9,
+    "KCAMALIB87_g": 12,
+    "KCALOSAN958_s": 6.9,
+    "KCALOSAN958_g": 9.2
+  },
+  "2021-08-08 15:30:00": {
+    "KCAMALIB62_s": 3.4,
+    "KCAMALIB62_g": 4.5,
+    "KCAMALIB87_s": 11,
+    "KCAMALIB87_g": 13,
+    "KCALOSAN958_s": 7.4,
+    "KCALOSAN958_g": 9.2
+  },
+  "2021-08-08 15:45:00": {
+    "KCAMALIB62_s": 6.5,
+    "KCAMALIB62_g": 8.1,
+    "KCAMALIB87_s": 11,
+    "KCAMALIB87_g": 13,
+    "KCALOSAN958_s": 6.5,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 16:00:00": {
+    "KCAMALIB62_s": 4.9,
+    "KCAMALIB62_g": 6.9,
+    "KCAMALIB87_s": 10,
+    "KCAMALIB87_g": 12,
+    "KCALOSAN958_s": 6.5,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 16:15:00": {
+    "KCAMALIB62_s": 4.5,
+    "KCAMALIB62_g": 5.8,
+    "KCAMALIB87_s": 6,
+    "KCAMALIB87_g": 11,
+    "KCALOSAN958_s": 5.4,
+    "KCALOSAN958_g": 6.9
+  },
+  "2021-08-08 16:30:00": {
+    "KCAMALIB62_s": 6.5,
+    "KCAMALIB62_g": 6.9,
+    "KCAMALIB87_s": 10,
+    "KCAMALIB87_g": 13,
+    "KCALOSAN958_s": 6.5,
+    "KCALOSAN958_g": 9.2
+  },
+  "2021-08-08 16:45:00": {
+    "KCAMALIB62_s": 5.4,
+    "KCAMALIB62_g": 8.1,
+    "KCAMALIB87_s": 11,
+    "KCAMALIB87_g": 13,
+    "KCALOSAN958_s": 6,
+    "KCALOSAN958_g": 9.2
+  },
+  "2021-08-08 17:00:00": {
+    "KCAMALIB62_s": 6,
+    "KCAMALIB62_g": 8.1,
+    "KCAMALIB87_s": 9,
+    "KCAMALIB87_g": 14,
+    "KCALOSAN958_s": 5.8,
+    "KCALOSAN958_g": 9.2
+  },
+  "2021-08-08 17:15:00": {
+    "KCAMALIB62_s": 7.4,
+    "KCAMALIB62_g": 9.2,
+    "KCAMALIB87_s": 11,
+    "KCAMALIB87_g": 16,
+    "KCALOSAN958_s": 6,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 17:30:00": {
+    "KCAMALIB62_s": 5.8,
+    "KCAMALIB62_g": 6.9,
+    "KCAMALIB87_s": 11,
+    "KCAMALIB87_g": 16,
+    "KCALOSAN958_s": 8.1,
+    "KCALOSAN958_g": 10.3
+  },
+  "2021-08-08 17:45:00": {
+    "KCAMALIB62_s": 4.7,
+    "KCAMALIB62_g": 8.1,
+    "KCAMALIB87_s": 10,
+    "KCAMALIB87_g": 14,
+    "KCALOSAN958_s": 6,
+    "KCALOSAN958_g": 9.2
+  },
+  "2021-08-08 18:00:00": {
+    "KCAMALIB62_s": 4.9,
+    "KCAMALIB62_g": 5.8,
+    "KCAMALIB87_s": 7,
+    "KCAMALIB87_g": 13,
+    "KCALOSAN958_s": 5.8,
+    "KCALOSAN958_g": 10.3
+  },
+  "2021-08-08 18:15:00": {
+    "KCAMALIB62_s": 4.5,
+    "KCAMALIB62_g": 5.8,
+    "KCAMALIB87_s": 10,
+    "KCAMALIB87_g": 13,
+    "KCALOSAN958_s": 4.9,
+    "KCALOSAN958_g": 9.2
+  },
+  "2021-08-08 18:30:00": {
+    "KCAMALIB62_s": 4.5,
+    "KCAMALIB62_g": 5.8,
+    "KCAMALIB87_s": 10,
+    "KCAMALIB87_g": 12,
+    "KCALOSAN958_s": 5.4,
+    "KCALOSAN958_g": 6.9
+  },
+  "2021-08-08 18:45:00": {
+    "KCAMALIB62_s": 5.4,
+    "KCAMALIB62_g": 6.9,
+    "KCAMALIB87_s": 9,
+    "KCAMALIB87_g": 11,
+    "KCALOSAN958_s": 6.7,
+    "KCALOSAN958_g": 9.2
+  },
+  "2021-08-08 19:00:00": {
+    "KCAMALIB62_s": 3.8,
+    "KCAMALIB62_g": 5.8,
+    "KCAMALIB87_s": 6,
+    "KCAMALIB87_g": 12,
+    "KCALOSAN958_s": 6,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 19:15:00": {
+    "KCAMALIB62_s": 4,
+    "KCAMALIB62_g": 5.8,
+    "KCAMALIB87_s": 9,
+    "KCAMALIB87_g": 12,
+    "KCALOSAN958_s": 6,
+    "KCALOSAN958_g": 10.3
+  },
+  "2021-08-08 19:30:00": {
+    "KCAMALIB62_s": 2.9,
+    "KCAMALIB62_g": 3.4,
+    "KCAMALIB87_s": 10,
+    "KCAMALIB87_g": 11,
+    "KCALOSAN958_s": 5.6,
+    "KCALOSAN958_g": 6.9
+  },
+  "2021-08-08 19:45:00": {
+    "KCAMALIB62_s": 2.5,
+    "KCAMALIB62_g": 3.4,
+    "KCAMALIB87_s": 7,
+    "KCAMALIB87_g": 11,
+    "KCALOSAN958_s": 5.8,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 20:00:00": {
+    "KCAMALIB62_s": 2.9,
+    "KCAMALIB62_g": 4.5,
+    "KCAMALIB87_s": 9,
+    "KCAMALIB87_g": 10,
+    "KCALOSAN958_s": 4.3,
+    "KCALOSAN958_g": 5.8
+  },
+  "2021-08-08 20:15:00": {
+    "KCAMALIB62_s": 1.3,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 6,
+    "KCAMALIB87_g": 10,
+    "KCALOSAN958_s": 5.8,
+    "KCALOSAN958_g": 8.1
+  },
+  "2021-08-08 20:30:00": {
+    "KCAMALIB62_s": 1.6,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 6,
+    "KCAMALIB87_g": 9,
+    "KCALOSAN958_s": 4.5,
+    "KCALOSAN958_g": 6.9
+  },
+  "2021-08-08 20:45:00": {
+    "KCAMALIB62_s": 0.4,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 7,
+    "KCAMALIB87_g": 10,
+    "KCALOSAN958_s": 4.5,
+    "KCALOSAN958_g": 5.8
+  },
+  "2021-08-08 21:00:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 8,
+    "KCAMALIB87_g": 10,
+    "KCALOSAN958_s": 4,
+    "KCALOSAN958_g": 5.8
+  },
+  "2021-08-08 21:15:00": {
+    "KCAMALIB62_s": 1.6,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 6,
+    "KCAMALIB87_g": 10,
+    "KCALOSAN958_s": 3.4,
+    "KCALOSAN958_g": 5.8
+  },
+  "2021-08-08 21:30:00": {
+    "KCAMALIB62_s": 1.1,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 7,
+    "KCAMALIB87_g": 9,
+    "KCALOSAN958_s": 3.8,
+    "KCALOSAN958_g": 5.8
+  },
+  "2021-08-08 21:45:00": {
+    "KCAMALIB62_s": 1.6,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 9,
+    "KCALOSAN958_s": 4,
+    "KCALOSAN958_g": 5.8
+  },
+  "2021-08-08 22:00:00": {
+    "KCAMALIB62_s": 1.3,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 8,
+    "KCALOSAN958_s": 2.5,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 22:15:00": {
+    "KCAMALIB62_s": 0.7,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 6,
+    "KCAMALIB87_g": 8,
+    "KCALOSAN958_s": 2.5,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 22:30:00": {
+    "KCAMALIB62_s": 1.8,
+    "KCAMALIB62_g": 2.2,
+    "KCAMALIB87_s": 4,
+    "KCAMALIB87_g": 8,
+    "KCALOSAN958_s": 2.2,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 22:45:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 5,
+    "KCALOSAN958_s": 1.8,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 23:00:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 1.3,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-08 23:15:00": {
+    "KCAMALIB62_s": 0.2,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 4,
+    "KCALOSAN958_s": 1.1,
+    "KCALOSAN958_g": 1.1
+  },
+  "2021-08-08 23:30:00": {
+    "KCAMALIB62_s": 0.4,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 2,
+    "KCALOSAN958_s": 2.2,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-08-08 23:45:00": {
+    "KCAMALIB62_s": 0.7,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 2,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 1.3,
+    "KCALOSAN958_g": 2.2
+  },
+  "2021-08-09 00:00:00": {
+    "KCAMALIB62_s": 0,
+    "KCAMALIB62_g": 0,
+    "KCAMALIB87_s": 1,
+    "KCAMALIB87_g": 3,
+    "KCALOSAN958_s": 2,
+    "KCALOSAN958_g": 2.2
+  }
+}

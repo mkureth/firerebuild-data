@@ -1,0 +1,90 @@
+{
+  "2021-05-19 22:45:00": {
+    "KCAMALIB62_s": 0,
+    "KCAMALIB62_g": 0,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 8,
+    "KCAPACIF208_s": 0,
+    "KCAPACIF208_g": 0,
+    "KCALOSAN958_s": 2.5,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-05-19 23:00:00": {
+    "KCAMALIB62_s": 0,
+    "KCAMALIB62_g": 0,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 7,
+    "KCAPACIF208_s": 0,
+    "KCAPACIF208_g": 0,
+    "KCALOSAN958_s": 2.9,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-05-19 23:15:00": {
+    "KCAMALIB62_s": 0.7,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 7,
+    "KCAMALIB87_g": 9,
+    "KCAPACIF208_s": 0,
+    "KCAPACIF208_g": 0,
+    "KCALOSAN958_s": 4.3,
+    "KCALOSAN958_g": 6.9
+  },
+  "2021-05-19 23:30:00": {
+    "KCAMALIB62_s": 0.7,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 9,
+    "KCAPACIF208_s": 1,
+    "KCAPACIF208_g": 1,
+    "KCALOSAN958_s": 2.7,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-05-19 23:45:00": {
+    "KCAMALIB62_s": 0.9,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 6,
+    "KCAMALIB87_g": 9,
+    "KCAPACIF208_s": 0,
+    "KCAPACIF208_g": 1,
+    "KCALOSAN958_s": 2.2,
+    "KCALOSAN958_g": 3.4
+  },
+  "2021-05-20 00:00:00": {
+    "KCAMALIB62_s": 0.7,
+    "KCAMALIB62_g": 1.1,
+    "KCAMALIB87_s": 5,
+    "KCAMALIB87_g": 8,
+    "KCAPACIF208_s": 0,
+    "KCAPACIF208_g": 0,
+    "KCALOSAN958_s": 2.9,
+    "KCALOSAN958_g": 4.5
+  },
+  "2021-05-19 22:30:00": {
+    "KCAMALIB87_s": 3,
+    "KCAMALIB87_g": 5,
+    "KCAPACIF208_s": 2,
+    "KCAPACIF208_g": 2,
+    "KCALOSAN958_s": 3.8,
+    "KCALOSAN958_g": 4.5
+  },
+  "2021-05-19 22:00:00": {
+    "KCAPACIF208_s": 0,
+    "KCAPACIF208_g": 0,
+    "KCALOSAN958_s": 4,
+    "KCALOSAN958_g": 5.8
+  },
+  "2021-05-19 22:15:00": {
+    "KCAPACIF208_s": 0,
+    "KCAPACIF208_g": 0,
+    "KCALOSAN958_s": 4,
+    "KCALOSAN958_g": 5.8
+  },
+  "2021-05-19 21:30:00": {
+    "KCALOSAN958_s": 5.8,
+    "KCALOSAN958_g": 9.2
+  },
+  "2021-05-19 21:45:00": {
+    "KCALOSAN958_s": 4.9,
+    "KCALOSAN958_g": 6.9
+  }
+}
