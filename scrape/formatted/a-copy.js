@@ -6,6 +6,8 @@ const filesToCopy = [
     { source: '../fire-ca-gov/data/combined/combined.csv', destination: './data/raw/fire-ca-gov.csv' },
     { source: '../weather-daily/data/combined/combined.csv', destination: './data/raw/weather-daily.csv' },
     { source: '../weather-monthly/data/combined/combined.csv', destination: './data/raw/weather-monthly.csv' },
+    { source: '../weather-daily-stations/data/combined/combined.json', destination: './data/raw/weather-daily-stations.json' },
+    { source: '../weather-daily-stations/data/combined/combined.csv', destination: './data/raw/weather-daily-stations.csv' },
     { source: '../sce/data/combined/sce-data.csv', destination: './data/raw/sce-data.csv' },
     { source: '../sce/data/combined/sce-data.json', destination: './data/raw/sce-data.json' }
 ];
