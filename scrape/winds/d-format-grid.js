@@ -116,7 +116,7 @@ inputData.forEach(entry => {
     output.dataTable.columns["Wind Speed Max"].push(entry.wind_speed_max);
     output.dataTable.columns["Wind Speed Avg"].push(entry.wind_speed_avg);
     output.dataTable.columns["Wind Speed Min"].push(entry.wind_speed_min);
-    output.dataTable.columns["Data Source"].push( checkSource(entry.source) );
+    output.dataTable.columns["Data Source"].push( checkSource(entry.date) );
     //output.dataTable.columns["Data Source"].push(entry.source);
 
 /*
@@ -147,7 +147,9 @@ function parsePercentage(str) {
 }
 
 function checkSource(weather) {
-    var displayFormat = '<a href="https://www.wunderground.com/history/monthly/us/ca/los-angeles/KLAX/date/' + weather + '" target="_blank">Weather Source</a>';
+    console.log(weather);
+    //var displayFormat = '<a href="https://www.wunderground.com/history/monthly/us/ca/los-angeles/KLAX/date/' + weather + '" target="_blank">Weather Source</a>';
+    var displayFormat = '<a href="https://www.wunderground.com/history/daily/us/ca/los-angeles/KLAX/date/' + weather + '" target="_blank">Weather Source</a>';
     return displayFormat;
 }
 

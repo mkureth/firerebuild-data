@@ -35,6 +35,54 @@ function formatDate(dateString, timeString) {
     return isoDateTime;
 };
 
+function formatData(inputString) {
+    var outputString = inputString.split(' °')[0];
+    return outputString;
+};
+
+function fillMissingIntervals(data) {
+  const filled = [];
+  const byDateHour = {};
+
+  data.forEach(entry => {
+    const dt = moment.parseZone(entry.DateTime);
+    const dateKey = dt.format('YYYY-MM-DD');
+    const hourKey = dt.format('YYYY-MM-DDTHH');
+
+    if (!byDateHour[hourKey]) {
+      byDateHour[hourKey] = {};
+    }
+
+    const minuteKey = dt.format('mm');
+    byDateHour[hourKey][minuteKey] = entry;
+  });
+
+  Object.keys(byDateHour).sort().forEach(hourKey => {
+    const baseTime = moment.parseZone(hourKey + ':00:00Z'); // e.g. 2024-01-01T13
+    const minutesToCheck = ['00', '15', '30', '45'];
+
+    minutesToCheck.forEach(minute => {
+      const dt = baseTime.clone().minutes(Number(minute)).seconds(0).milliseconds(0);
+      //const isoTime = dt.format('YYYY-MM-DDTHH:mm:ssZ');
+      const isoTime = dt.format('YYYY-MM-DDTHH:mm');
+      const existing = byDateHour[hourKey][minute];
+
+      if (existing) {
+        filled.push({ ...existing, DateTime: isoTime });
+      } else {
+        // Fallback to any available record from this hour (use 00 if available)
+        const fallback = byDateHour[hourKey]['00'] || Object.values(byDateHour[hourKey])[0];
+        if (fallback) {
+          filled.push({ ...fallback, DateTime: isoTime });
+        }
+      }
+    });
+  });
+
+  return filled.sort((a, b) => new Date(a.DateTime) - new Date(b.DateTime));
+}
+
+
 fs.readdir(sourceFolder, (err, files) => {
     if (err) {
         console.error('Error reading source directory:', err);
@@ -45,6 +93,7 @@ fs.readdir(sourceFolder, (err, files) => {
         const inputFilePath = path.join(sourceFolder, file);
         const outputFilePath = path.join(destinationFolder, file); // Save to the destination folder
         const newRows = [];
+        var filledData = [];
         const filePrefix = path.basename(file, '.csv');
 
         fs.createReadStream(inputFilePath) // Read from the source folder
@@ -54,19 +103,21 @@ fs.readdir(sourceFolder, (err, files) => {
                 var newRow = {
                     Station: filePrefix.split('|')[0],
                     DateTime: formatDate (filePrefix.split('|')[1], row.Time),
-                    "Temperature High": row.Temperature,
-                    "Wind Speed High": row['Wind Speed'],
-                    "Wind Gust High": row['Wind Gust'],
-                    "Temperature Low": row.Temperature,
-                    "Wind Speed Low": row['Wind Speed'],
-                    "Wind Gust Low": row['Wind Gust'],
+                    "Temperature High": formatData(row.Temperature),
+                    "Wind Speed High": formatData(row['Wind Speed']),
+                    "Wind Gust High": formatData(row['Wind Gust']),
+                    "Temperature Low": formatData(row.Temperature),
+                    "Wind Speed Low": formatData(row['Wind Speed']),
+                    "Wind Gust Low": formatData(row['Wind Gust']),
                 };
                 newRows.push(newRow);
+                const sortedData = Object.values(newRows).sort((a, b) => new Date(a.DateTime) - new Date(b.DateTime));
+                filledData = fillMissingIntervals(sortedData);
             })
             .on('end', () => {
-                if (newRows.length > 0) {
+                if (filledData.length > 0) {
                     try {
-                        const csvData = parse(newRows);
+                        const csvData = parse(filledData);
                         fs.writeFile(outputFilePath, csvData, (err) => { // Write to the destination folder
                             if (err) {
                                 console.error(`Error writing file ${file}:`, err);

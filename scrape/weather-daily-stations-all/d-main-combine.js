@@ -26,6 +26,8 @@ fs.readdir(inputFolder, (err, files) => {
         fs.createReadStream(filePath)
             .pipe(csv())
             .on('data', (row) => {
+
+                /*
                 if ('Time' in row) {
                     let station = row['Time'].split('|')[0];
                     let date = row['Time'].split('|')[1];
@@ -47,44 +49,21 @@ fs.readdir(inputFolder, (err, files) => {
                     row['Time'] = time || '';
                     row['Station'] = station || '';
                 }
+                */
 
-                if ('Temperature' in row) {
-                    row['Temperature'] = row['Temperature'].split(' ')[0];
-                }
 
-                if ('Dew Point' in row) {
-                    row['Dew Point'] = row['Dew Point'].split(' ')[0];
-                }
-
-                if ('Humidity' in row) {
-                    row['Humidity'] = row['Humidity'].split(' ')[0];
-                }
-
-                if ('Wind Speed' in row) {
-                    row['Wind Speed'] = row['Wind Speed'].split(' ')[0];
-                }
-
-                if ('Wind Gust' in row) {
-                    row['Wind Gust'] = row['Wind Gust'].split(' ')[0];
-                }
-
-                if ('Pressure' in row) {
-                    row['Pressure'] = row['Pressure'].split(' ')[0];
-                }
-
-                if ('Precip.' in row) {
-                    row['Precipitation'] = row['Precip.'].split(' ')[0];
-                    delete row['Precip.'];
-                }
 
                 let newRow = {};
                 Object.keys(row).forEach(header => {
+                    newRow[header] = row[header];
+                    /*
                     if (header === 'Time') {
                         newRow['Date'] = row['Date'];
                         newRow['Time'] = row['Time'];
                     } else if (header !== 'Date') {
-                        newRow[header] = row[header];
+                        
                     }
+                    */
                     headersSet.add(header);
                 });
 
