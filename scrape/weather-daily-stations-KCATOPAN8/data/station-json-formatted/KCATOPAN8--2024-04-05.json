@@ -1,0 +1,122 @@
+[
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2024-04-05T22:00",
+    "Temperature High": 39.7,
+    "Wind Speed High": 17,
+    "Wind Gust High": 20,
+    "Temperature Low": 39.7,
+    "Wind Speed Low": 14.1,
+    "Wind Gust Low": 17
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2024-04-05T22:15",
+    "Temperature High": 39.7,
+    "Wind Speed High": 17,
+    "Wind Gust High": 20,
+    "Temperature Low": 39.7,
+    "Wind Speed Low": 14.1,
+    "Wind Gust Low": 17
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2024-04-05T22:30",
+    "Temperature High": 39.7,
+    "Wind Speed High": 17,
+    "Wind Gust High": 20,
+    "Temperature Low": 39.7,
+    "Wind Speed Low": 14.1,
+    "Wind Gust Low": 17
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2024-04-05T22:45",
+    "Temperature High": 39.7,
+    "Wind Speed High": 17,
+    "Wind Gust High": 20,
+    "Temperature Low": 39.7,
+    "Wind Speed Low": 14.1,
+    "Wind Gust Low": 17
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2024-04-05T23:00",
+    "Temperature High": 40.1,
+    "Wind Speed High": 19.9,
+    "Wind Gust High": 20,
+    "Temperature Low": 39.7,
+    "Wind Speed Low": 15,
+    "Wind Gust Low": 17
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2024-04-05T23:15",
+    "Temperature High": 40.3,
+    "Wind Speed High": 21,
+    "Wind Gust High": 25,
+    "Temperature Low": 39.9,
+    "Wind Speed Low": 14.1,
+    "Wind Gust Low": 18
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2024-04-05T23:30",
+    "Temperature High": 40.3,
+    "Wind Speed High": 23,
+    "Wind Gust High": 25,
+    "Temperature Low": 39.9,
+    "Wind Speed Low": 12.1,
+    "Wind Gust Low": 19
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2024-04-05T23:45",
+    "Temperature High": 40.1,
+    "Wind Speed High": 19.9,
+    "Wind Gust High": 24,
+    "Temperature Low": 39.9,
+    "Wind Speed Low": 12.1,
+    "Wind Gust Low": 19
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2024-04-06T00:00",
+    "Temperature High": 39.9,
+    "Wind Speed High": 19,
+    "Wind Gust High": 22,
+    "Temperature Low": 39.7,
+    "Wind Speed Low": 13,
+    "Wind Gust Low": 18
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2024-04-06T00:15",
+    "Temperature High": 39.9,
+    "Wind Speed High": 19,
+    "Wind Gust High": 22,
+    "Temperature Low": 39.7,
+    "Wind Speed Low": 13,
+    "Wind Gust Low": 18
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2024-04-06T00:30",
+    "Temperature High": 39.9,
+    "Wind Speed High": 19,
+    "Wind Gust High": 22,
+    "Temperature Low": 39.7,
+    "Wind Speed Low": 13,
+    "Wind Gust Low": 18
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2024-04-06T00:45",
+    "Temperature High": 39.9,
+    "Wind Speed High": 19,
+    "Wind Gust High": 22,
+    "Temperature Low": 39.7,
+    "Wind Speed Low": 13,
+    "Wind Gust Low": 18
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T00:00",
+    "Temperature High": null,
+    "Wind Speed High": null,
+    "Wind Gust High": null,
+    "Temperature Low": null,
+    "Wind Speed Low": null,
+    "Wind Gust Low": null
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T00:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T00:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T00:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T01:00",
+    "Temperature High": 56.7,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T01:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T01:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T01:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T02:00",
+    "Temperature High": 57.2,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T02:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T02:30",
+    "Temperature High": 56.7,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T02:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T03:00",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T03:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T03:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T03:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T04:00",
+    "Temperature High": 55.9,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T04:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T04:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T04:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T05:00",
+    "Temperature High": null,
+    "Wind Speed High": null,
+    "Wind Gust High": null,
+    "Temperature Low": null,
+    "Wind Speed Low": null,
+    "Wind Gust Low": null
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T05:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T05:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T05:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T06:00",
+    "Temperature High": 55.8,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T06:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T06:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T06:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T07:00",
+    "Temperature High": 55.2,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T07:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T07:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T07:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T08:00",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T08:15",
+    "Temperature High": 56.5,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T08:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T08:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T09:00",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T09:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T09:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T09:45",
+    "Temperature High": 59.4,
+    "Wind Speed High": null,
+    "Wind Gust High": null,
+    "Temperature Low": 59.4,
+    "Wind Speed Low": null,
+    "Wind Gust Low": null
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T15:00",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T15:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T15:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T15:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T16:00",
+    "Temperature High": null,
+    "Wind Speed High": null,
+    "Wind Gust High": null,
+    "Temperature Low": null,
+    "Wind Speed Low": null,
+    "Wind Gust Low": null
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T16:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T16:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T16:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T17:00",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T17:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T17:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T17:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T18:00",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T18:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T18:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T18:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T19:00",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T19:15",
+    "Temperature High": 61.3,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T19:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T19:45",
+    "Temperature High": 60.4,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T20:00",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T20:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T20:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T20:45",
+    "Temperature High": 59.4,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T21:00",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T21:15",
+    "Temperature High": 59.4,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T21:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T21:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T22:00",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T22:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T22:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T22:45",
+    "Temperature High": 58.3,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T23:00",
+    "Temperature High": 57.7,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T23:15",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T23:30",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-04T23:45",
+    "Temperature High": 0,
+    "Wind Speed High": 0,
+    "Wind Gust High": 0,
+    "Temperature Low": 0,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 0
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-05T00:00",
+    "Temperature High": null,
+    "Wind Speed High": null,
+    "Wind Gust High": null,
+    "Temperature Low": null,
+    "Wind Speed Low": null,
+    "Wind Gust Low": null
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-05T00:15",
+    "Temperature High": null,
+    "Wind Speed High": null,
+    "Wind Gust High": null,
+    "Temperature Low": null,
+    "Wind Speed Low": null,
+    "Wind Gust Low": null
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-05T00:30",
+    "Temperature High": null,
+    "Wind Speed High": null,
+    "Wind Gust High": null,
+    "Temperature Low": null,
+    "Wind Speed Low": null,
+    "Wind Gust Low": null
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2016-01-05T00:45",
+    "Temperature High": null,
+    "Wind Speed High": null,
+    "Wind Gust High": null,
+    "Temperature Low": null,
+    "Wind Speed Low": null,
+    "Wind Gust Low": null
+  }
+]

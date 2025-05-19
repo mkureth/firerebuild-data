@@ -1,0 +1,1002 @@
+[
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T00:00",
+    "Temperature High": 45.7,
+    "Wind Speed High": 16.1,
+    "Wind Gust High": 18,
+    "Temperature Low": 45.7,
+    "Wind Speed Low": 13,
+    "Wind Gust Low": 17
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T00:15",
+    "Temperature High": 45.7,
+    "Wind Speed High": 17.9,
+    "Wind Gust High": 20,
+    "Temperature Low": 45.5,
+    "Wind Speed Low": 11,
+    "Wind Gust Low": 16
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T00:30",
+    "Temperature High": 45.5,
+    "Wind Speed High": 17.9,
+    "Wind Gust High": 20,
+    "Temperature Low": 45.3,
+    "Wind Speed Low": 13,
+    "Wind Gust Low": 17
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T00:45",
+    "Temperature High": 45.3,
+    "Wind Speed High": 17.9,
+    "Wind Gust High": 20,
+    "Temperature Low": 45.1,
+    "Wind Speed Low": 12.1,
+    "Wind Gust Low": 17
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T01:00",
+    "Temperature High": 45.1,
+    "Wind Speed High": 21,
+    "Wind Gust High": 22,
+    "Temperature Low": 45,
+    "Wind Speed Low": 14.1,
+    "Wind Gust Low": 18
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T01:15",
+    "Temperature High": 45,
+    "Wind Speed High": 19.9,
+    "Wind Gust High": 21,
+    "Temperature Low": 44.4,
+    "Wind Speed Low": 15,
+    "Wind Gust Low": 18
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T01:30",
+    "Temperature High": 44.8,
+    "Wind Speed High": 17.9,
+    "Wind Gust High": 22,
+    "Temperature Low": 44.4,
+    "Wind Speed Low": 14.1,
+    "Wind Gust Low": 19
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T01:45",
+    "Temperature High": 45,
+    "Wind Speed High": 19.9,
+    "Wind Gust High": 21,
+    "Temperature Low": 44.8,
+    "Wind Speed Low": 15,
+    "Wind Gust Low": 17
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T02:00",
+    "Temperature High": 45,
+    "Wind Speed High": 17.9,
+    "Wind Gust High": 21,
+    "Temperature Low": 45,
+    "Wind Speed Low": 13,
+    "Wind Gust Low": 17
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T02:15",
+    "Temperature High": 45,
+    "Wind Speed High": 16.1,
+    "Wind Gust High": 20,
+    "Temperature Low": 44.8,
+    "Wind Speed Low": 11,
+    "Wind Gust Low": 16
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T02:30",
+    "Temperature High": 45,
+    "Wind Speed High": 17,
+    "Wind Gust High": 18,
+    "Temperature Low": 44.8,
+    "Wind Speed Low": 13,
+    "Wind Gust Low": 17
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T02:45",
+    "Temperature High": 45.1,
+    "Wind Speed High": 17,
+    "Wind Gust High": 18,
+    "Temperature Low": 45,
+    "Wind Speed Low": 12.1,
+    "Wind Gust Low": 15
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T03:00",
+    "Temperature High": 45.1,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 17,
+    "Temperature Low": 45,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T03:15",
+    "Temperature High": 45.1,
+    "Wind Speed High": 13,
+    "Wind Gust High": 15,
+    "Temperature Low": 45,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T03:30",
+    "Temperature High": 45.5,
+    "Wind Speed High": 15,
+    "Wind Gust High": 18,
+    "Temperature Low": 45.1,
+    "Wind Speed Low": 11,
+    "Wind Gust Low": 13
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T03:45",
+    "Temperature High": 45.7,
+    "Wind Speed High": 16.1,
+    "Wind Gust High": 17,
+    "Temperature Low": 45.5,
+    "Wind Speed Low": 11,
+    "Wind Gust Low": 15
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T04:00",
+    "Temperature High": 45.7,
+    "Wind Speed High": 17,
+    "Wind Gust High": 18,
+    "Temperature Low": 45.3,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 14
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T04:15",
+    "Temperature High": 45.7,
+    "Wind Speed High": 17,
+    "Wind Gust High": 17,
+    "Temperature Low": 45.3,
+    "Wind Speed Low": 12.1,
+    "Wind Gust Low": 15
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T04:30",
+    "Temperature High": 45.7,
+    "Wind Speed High": 15,
+    "Wind Gust High": 17,
+    "Temperature Low": 45,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 13
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T04:45",
+    "Temperature High": 45,
+    "Wind Speed High": 15,
+    "Wind Gust High": 16,
+    "Temperature Low": 44.8,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 14
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T05:00",
+    "Temperature High": 44.8,
+    "Wind Speed High": 15,
+    "Wind Gust High": 16,
+    "Temperature Low": 44.4,
+    "Wind Speed Low": 11,
+    "Wind Gust Low": 14
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T05:15",
+    "Temperature High": 45,
+    "Wind Speed High": 17,
+    "Wind Gust High": 18,
+    "Temperature Low": 44.8,
+    "Wind Speed Low": 13,
+    "Wind Gust Low": 15
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T05:30",
+    "Temperature High": 45,
+    "Wind Speed High": 16.1,
+    "Wind Gust High": 18,
+    "Temperature Low": 44.8,
+    "Wind Speed Low": 12.1,
+    "Wind Gust Low": 15
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T05:45",
+    "Temperature High": 45.3,
+    "Wind Speed High": 19,
+    "Wind Gust High": 19,
+    "Temperature Low": 45,
+    "Wind Speed Low": 12.1,
+    "Wind Gust Low": 14
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T06:00",
+    "Temperature High": 45.9,
+    "Wind Speed High": 17,
+    "Wind Gust High": 19,
+    "Temperature Low": 45.5,
+    "Wind Speed Low": 13,
+    "Wind Gust Low": 15
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T06:15",
+    "Temperature High": 46.2,
+    "Wind Speed High": 15,
+    "Wind Gust High": 18,
+    "Temperature Low": 45.9,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 14
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T06:30",
+    "Temperature High": 46.6,
+    "Wind Speed High": 13,
+    "Wind Gust High": 17,
+    "Temperature Low": 46.2,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 13
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T06:45",
+    "Temperature High": 46.8,
+    "Wind Speed High": 16.1,
+    "Wind Gust High": 16,
+    "Temperature Low": 46.6,
+    "Wind Speed Low": 6.9,
+    "Wind Gust Low": 13
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T07:00",
+    "Temperature High": 46.8,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 18,
+    "Temperature Low": 46.6,
+    "Wind Speed Low": 8.1,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T07:15",
+    "Temperature High": 47.1,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 16,
+    "Temperature Low": 46.8,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T07:30",
+    "Temperature High": 47.5,
+    "Wind Speed High": 15,
+    "Wind Gust High": 16,
+    "Temperature Low": 47.1,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T07:45",
+    "Temperature High": 48,
+    "Wind Speed High": 13,
+    "Wind Gust High": 15,
+    "Temperature Low": 47.5,
+    "Wind Speed Low": 6,
+    "Wind Gust Low": 11
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T08:00",
+    "Temperature High": 48.4,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 48,
+    "Wind Speed Low": 8.1,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T08:15",
+    "Temperature High": 48.7,
+    "Wind Speed High": 13,
+    "Wind Gust High": 15,
+    "Temperature Low": 48.6,
+    "Wind Speed Low": 6,
+    "Wind Gust Low": 11
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T08:30",
+    "Temperature High": 48.7,
+    "Wind Speed High": 15,
+    "Wind Gust High": 17,
+    "Temperature Low": 48.7,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 13
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T08:45",
+    "Temperature High": 48.7,
+    "Wind Speed High": 15,
+    "Wind Gust High": 17,
+    "Temperature Low": 48.7,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 15
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T09:00",
+    "Temperature High": 48.9,
+    "Wind Speed High": 16.1,
+    "Wind Gust High": 17,
+    "Temperature Low": 48.7,
+    "Wind Speed Low": 12.1,
+    "Wind Gust Low": 14
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T09:15",
+    "Temperature High": 49.5,
+    "Wind Speed High": 16.1,
+    "Wind Gust High": 17,
+    "Temperature Low": 48.9,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 13
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T09:30",
+    "Temperature High": 49.5,
+    "Wind Speed High": 15,
+    "Wind Gust High": 17,
+    "Temperature Low": 49.5,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 14
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T09:45",
+    "Temperature High": 50,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 49.5,
+    "Wind Speed Low": 8.1,
+    "Wind Gust Low": 11
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T10:00",
+    "Temperature High": 51.1,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 13,
+    "Temperature Low": 50.2,
+    "Wind Speed Low": 2.9,
+    "Wind Gust Low": 9
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T10:15",
+    "Temperature High": 51.4,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 13,
+    "Temperature Low": 51.1,
+    "Wind Speed Low": 6,
+    "Wind Gust Low": 10
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T10:30",
+    "Temperature High": 52,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 51.4,
+    "Wind Speed Low": 4.9,
+    "Wind Gust Low": 9
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T10:45",
+    "Temperature High": 53.1,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 52,
+    "Wind Speed Low": 6.9,
+    "Wind Gust Low": 10
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T11:00",
+    "Temperature High": 54.3,
+    "Wind Speed High": 8.1,
+    "Wind Gust High": 13,
+    "Temperature Low": 53.2,
+    "Wind Speed Low": 4,
+    "Wind Gust Low": 7
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T11:15",
+    "Temperature High": 54.3,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 14,
+    "Temperature Low": 54,
+    "Wind Speed Low": 2.9,
+    "Wind Gust Low": 9
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T11:30",
+    "Temperature High": 54.3,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 14,
+    "Temperature Low": 54,
+    "Wind Speed Low": 4.9,
+    "Wind Gust Low": 8
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T11:45",
+    "Temperature High": 55,
+    "Wind Speed High": 13,
+    "Wind Gust High": 14,
+    "Temperature Low": 54.3,
+    "Wind Speed Low": 0,
+    "Wind Gust Low": 8
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T12:00",
+    "Temperature High": 55.9,
+    "Wind Speed High": 10.1,
+    "Wind Gust High": 14,
+    "Temperature Low": 55.2,
+    "Wind Speed Low": 0.9,
+    "Wind Gust Low": 8
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T12:15",
+    "Temperature High": 55,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 54.5,
+    "Wind Speed Low": 8.1,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T12:30",
+    "Temperature High": 55,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 13,
+    "Temperature Low": 54.7,
+    "Wind Speed Low": 2.9,
+    "Wind Gust Low": 10
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T12:45",
+    "Temperature High": 54.7,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 14,
+    "Temperature Low": 53.6,
+    "Wind Speed Low": 6,
+    "Wind Gust Low": 9
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T13:00",
+    "Temperature High": 53.8,
+    "Wind Speed High": 10.1,
+    "Wind Gust High": 13,
+    "Temperature Low": 53.4,
+    "Wind Speed Low": 4,
+    "Wind Gust Low": 9
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T13:15",
+    "Temperature High": 53.8,
+    "Wind Speed High": 10.1,
+    "Wind Gust High": 12,
+    "Temperature Low": 53.4,
+    "Wind Speed Low": 4,
+    "Wind Gust Low": 8
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T13:30",
+    "Temperature High": 53.8,
+    "Wind Speed High": 10.1,
+    "Wind Gust High": 12,
+    "Temperature Low": 53.4,
+    "Wind Speed Low": 6,
+    "Wind Gust Low": 10
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T13:45",
+    "Temperature High": 53.8,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 14,
+    "Temperature Low": 53.4,
+    "Wind Speed Low": 4.9,
+    "Wind Gust Low": 8
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T14:00",
+    "Temperature High": 53.4,
+    "Wind Speed High": 11,
+    "Wind Gust High": 14,
+    "Temperature Low": 53.2,
+    "Wind Speed Low": 8.1,
+    "Wind Gust Low": 11
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T14:15",
+    "Temperature High": 53.2,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 13,
+    "Temperature Low": 53.2,
+    "Wind Speed Low": 8.1,
+    "Wind Gust Low": 11
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T14:30",
+    "Temperature High": 53.4,
+    "Wind Speed High": 11,
+    "Wind Gust High": 12,
+    "Temperature Low": 53.2,
+    "Wind Speed Low": 4,
+    "Wind Gust Low": 8
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T14:45",
+    "Temperature High": 53.4,
+    "Wind Speed High": 11,
+    "Wind Gust High": 12,
+    "Temperature Low": 53.4,
+    "Wind Speed Low": 6.9,
+    "Wind Gust Low": 10
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T15:00",
+    "Temperature High": 53.4,
+    "Wind Speed High": 8.9,
+    "Wind Gust High": 11,
+    "Temperature Low": 53.4,
+    "Wind Speed Low": 2.9,
+    "Wind Gust Low": 7
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T15:15",
+    "Temperature High": 53.4,
+    "Wind Speed High": 11,
+    "Wind Gust High": 13,
+    "Temperature Low": 53.4,
+    "Wind Speed Low": 6,
+    "Wind Gust Low": 9
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T15:30",
+    "Temperature High": 53.4,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 12,
+    "Temperature Low": 53.4,
+    "Wind Speed Low": 6,
+    "Wind Gust Low": 9
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T15:45",
+    "Temperature High": 53.4,
+    "Wind Speed High": 13,
+    "Wind Gust High": 13,
+    "Temperature Low": 53.4,
+    "Wind Speed Low": 6.9,
+    "Wind Gust Low": 9
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T16:00",
+    "Temperature High": 53.4,
+    "Wind Speed High": 13,
+    "Wind Gust High": 15,
+    "Temperature Low": 53.2,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 11
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T16:15",
+    "Temperature High": 53.4,
+    "Wind Speed High": 15,
+    "Wind Gust High": 15,
+    "Temperature Low": 53.4,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T16:30",
+    "Temperature High": 53.4,
+    "Wind Speed High": 13,
+    "Wind Gust High": 15,
+    "Temperature Low": 53.4,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 13
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T16:45",
+    "Temperature High": 53.4,
+    "Wind Speed High": 15,
+    "Wind Gust High": 15,
+    "Temperature Low": 53.2,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T17:00",
+    "Temperature High": 53.4,
+    "Wind Speed High": 15,
+    "Wind Gust High": 16,
+    "Temperature Low": 53.2,
+    "Wind Speed Low": 13,
+    "Wind Gust Low": 14
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T17:15",
+    "Temperature High": 53.2,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 53.1,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T17:30",
+    "Temperature High": 52.9,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 13,
+    "Temperature Low": 52.9,
+    "Wind Speed Low": 8.1,
+    "Wind Gust Low": 11
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T17:45",
+    "Temperature High": 53.1,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 52.7,
+    "Wind Speed Low": 8.1,
+    "Wind Gust Low": 11
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T18:00",
+    "Temperature High": 52.7,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 52.5,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T18:15",
+    "Temperature High": 52.7,
+    "Wind Speed High": 13,
+    "Wind Gust High": 14,
+    "Temperature Low": 52.5,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T18:30",
+    "Temperature High": 53.1,
+    "Wind Speed High": 16.1,
+    "Wind Gust High": 17,
+    "Temperature Low": 52.7,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 13
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T18:45",
+    "Temperature High": 52.9,
+    "Wind Speed High": 15,
+    "Wind Gust High": 15,
+    "Temperature Low": 52.5,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T19:00",
+    "Temperature High": 52.5,
+    "Wind Speed High": 13,
+    "Wind Gust High": 15,
+    "Temperature Low": 52.2,
+    "Wind Speed Low": 8.1,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T19:15",
+    "Temperature High": 52.2,
+    "Wind Speed High": 13,
+    "Wind Gust High": 15,
+    "Temperature Low": 52,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T19:30",
+    "Temperature High": 52.2,
+    "Wind Speed High": 15,
+    "Wind Gust High": 17,
+    "Temperature Low": 52,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 13
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T19:45",
+    "Temperature High": 52.3,
+    "Wind Speed High": 17.9,
+    "Wind Gust High": 18,
+    "Temperature Low": 52.2,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 14
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T20:00",
+    "Temperature High": 52.3,
+    "Wind Speed High": 17,
+    "Wind Gust High": 20,
+    "Temperature Low": 52.2,
+    "Wind Speed Low": 8.9,
+    "Wind Gust Low": 14
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T20:15",
+    "Temperature High": 52.2,
+    "Wind Speed High": 16.1,
+    "Wind Gust High": 17,
+    "Temperature Low": 52,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 14
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T20:30",
+    "Temperature High": 52,
+    "Wind Speed High": 15,
+    "Wind Gust High": 17,
+    "Temperature Low": 51.4,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 13
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T20:45",
+    "Temperature High": 51.4,
+    "Wind Speed High": 15,
+    "Wind Gust High": 17,
+    "Temperature Low": 51.4,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 14
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T21:00",
+    "Temperature High": 51.4,
+    "Wind Speed High": 17.9,
+    "Wind Gust High": 19,
+    "Temperature Low": 51.3,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 15
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T21:15",
+    "Temperature High": 51.4,
+    "Wind Speed High": 17.9,
+    "Wind Gust High": 18,
+    "Temperature Low": 51.3,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 15
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T21:30",
+    "Temperature High": 51.6,
+    "Wind Speed High": 18,
+    "Wind Gust High": 19,
+    "Temperature Low": 51.4,
+    "Wind Speed Low": 11,
+    "Wind Gust Low": 15
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T21:45",
+    "Temperature High": 51.4,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 16,
+    "Temperature Low": 51.3,
+    "Wind Speed Low": 6,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T22:00",
+    "Temperature High": 51.3,
+    "Wind Speed High": 11,
+    "Wind Gust High": 14,
+    "Temperature Low": 51.1,
+    "Wind Speed Low": 4.9,
+    "Wind Gust Low": 10
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T22:15",
+    "Temperature High": 51.3,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 14,
+    "Temperature Low": 51.1,
+    "Wind Speed Low": 4,
+    "Wind Gust Low": 10
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T22:30",
+    "Temperature High": 51.8,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 51.4,
+    "Wind Speed Low": 6,
+    "Wind Gust Low": 10
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T22:45",
+    "Temperature High": 52,
+    "Wind Speed High": 13,
+    "Wind Gust High": 14,
+    "Temperature Low": 51.8,
+    "Wind Speed Low": 4.9,
+    "Wind Gust Low": 10
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T23:00",
+    "Temperature High": 52,
+    "Wind Speed High": 8.9,
+    "Wind Gust High": 11,
+    "Temperature Low": 51.6,
+    "Wind Speed Low": 2.9,
+    "Wind Gust Low": 7
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T23:15",
+    "Temperature High": 51.8,
+    "Wind Speed High": 11,
+    "Wind Gust High": 11,
+    "Temperature Low": 51.4,
+    "Wind Speed Low": 8.1,
+    "Wind Gust Low": 9
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T23:30",
+    "Temperature High": 52.2,
+    "Wind Speed High": 12.1,
+    "Wind Gust High": 13,
+    "Temperature Low": 51.4,
+    "Wind Speed Low": 8.1,
+    "Wind Gust Low": 9
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-12T23:45",
+    "Temperature High": 52,
+    "Wind Speed High": 11,
+    "Wind Gust High": 12,
+    "Temperature Low": 51.8,
+    "Wind Speed Low": 6.9,
+    "Wind Gust Low": 10
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-13T00:00",
+    "Temperature High": 52,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 52,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-13T00:15",
+    "Temperature High": 52,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 52,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-13T00:30",
+    "Temperature High": 52,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 52,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 12
+  },
+  {
+    "Station": "KCATOPAN8",
+    "DateTime": "2019-02-13T00:45",
+    "Temperature High": 52,
+    "Wind Speed High": 14.1,
+    "Wind Gust High": 15,
+    "Temperature Low": 52,
+    "Wind Speed Low": 10.1,
+    "Wind Gust Low": 12
+  }
+]
