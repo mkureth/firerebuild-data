@@ -5,7 +5,7 @@ const { parse } = require('json2csv');
 
 // Define input and output directories
 const inputDir = path.join(__dirname, '../data/SOURCE/day/station-json-clean');
-const outputDir = path.join(__dirname, '../data/SOURCE/day/station-json-formatted');
+const outputDir = path.join(__dirname, '../data/SOURCE/day/station-processed');
 
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
