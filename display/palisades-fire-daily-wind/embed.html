@@ -1,0 +1,17 @@
+<script src="https://cdn.jsdelivr.net/npm/@highcharts/grid-lite/grid-lite.js"></script>
+<link href="css/main.css" rel="stylesheet">
+
+<div id="container"></div>
+<p class="highcharts-description">
+</p>
+
+<script>
+    var params = new URLSearchParams(window.location.search);
+    var urlParam = params.get("env");
+    var dataURL = 'https://firerebuild.com/assets/content/embed/palisades-fire-daily-wind/data/grid-wind-stations.json';
+    if (urlParam == 'local') {
+        dataURL = 'http://localhost:3000/assets/content/embed/palisades-fire-daily-wind/data/grid-wind-stations.json';
+    }
+</script>
+
+<script type="text/javascript" src="js/main.js"></script>

@@ -1,0 +1,38 @@
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/datagrouping.js"></script>
+<script src="https://code.highcharts.com/modules/windbarb.js"></script>
+<script src="https://code.highcharts.com/modules/pattern-fill.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://code.highcharts.com/modules/annotations.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+
+<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<link href="css/main.css" rel="stylesheet">
+
+
+<script>
+    var params = new URLSearchParams(window.location.search);
+    var urlParam = params.get("env");
+    var dataURL = 'https://firerebuild.com/assets/content/embed/chart/data/meteogram.json';
+    if (urlParam == 'local') {
+        dataURL = 'http://localhost:3000/assets/content/embed/chart/data/meteogram.json';
+    }
+</script>
+
+<script src="js/main.js"></script>
+
+<figure class="highcharts-figure">
+    <div id="container">
+        <div id="loading">
+            <i class="fa fa-spinner fa-spin"></i> Loading data from external source
+        </div>
+    </div>
+    <p class="highcharts-description">
+        Chart showing meteorological data.
+    </p>
+</figure>
