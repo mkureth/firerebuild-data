@@ -4,8 +4,8 @@ const csv = require('csv-parser');
 const { createObjectCsvWriter } = require('csv-writer');
 const moment = require('moment');
 
-const inputDir = path.resolve(__dirname, '../data/SOURCE/monthly/main-csv');
-const outputDir = path.resolve(__dirname, '../data/SOURCE/monthly/main-processed');
+const inputDir = path.resolve(__dirname, '../../data/SOURCE/weather/monthly/main-csv');
+const outputDir = path.resolve(__dirname, '../../data/SOURCE/weather/monthly/main-processed');
 
 // Ensure the output directory exists
 if (!fs.existsSync(outputDir)) {

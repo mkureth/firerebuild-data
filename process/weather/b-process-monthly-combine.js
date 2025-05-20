@@ -4,9 +4,9 @@ const csv = require('csv-parser');
 const { createObjectCsvWriter } = require('csv-writer');
 
 const inputDirs = [
-  '../data/SOURCE/monthly/main-processed'
+  '../../data/SOURCE/weather/monthly/main-processed'
 ];
-const outputFilePath = '../data/PROCESSED/monthly/combined.csv';
+const outputFilePath = '../../data/PROCESSED/weather/monthly/combined.csv';
 
 async function readCSVFile(filePath) {
   return new Promise((resolve, reject) => {

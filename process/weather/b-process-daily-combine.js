@@ -4,10 +4,10 @@ const csv = require('csv-parser');
 const { createObjectCsvWriter } = require('csv-writer');
 
 const inputDirs = [
-  '../data/SOURCE/daily/station-processed/KCAPACIF320',
-  //'../data/SOURCE/daily/main-processed'
+  '../../data/SOURCE/weather/daily/station-processed/KCAPACIF320',
+  //'../../data/SOURCE/weather/daily/main-processed'
 ];
-const outputFilePath = '../data/PROCESSED/daily/stations/combined-KCAPACIF320.csv';
+const outputFilePath = '../../data/PROCESSED/weather/daily/stations/combined-KCAPACIF320.csv';
 
 async function readCSVFile(filePath) {
   return new Promise((resolve, reject) => {

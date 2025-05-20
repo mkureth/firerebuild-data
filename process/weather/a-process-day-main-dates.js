@@ -4,8 +4,8 @@ const csv = require('csv-parser');
 const { parse } = require('json2csv');
 const moment = require('moment');
 
-const sourceFolder = path.join(__dirname, '../data/SOURCE/daily/main-csv');
-const destinationFolder = path.join(__dirname, '../data/SOURCE/daily/main-processed');
+const sourceFolder = path.join(__dirname, '../../data/SOURCE/weather/day/main-csv');
+const destinationFolder = path.join(__dirname, '../../data/SOURCE/weather/day/main-processed');
 
 // Ensure the destination folder exists
 if (!fs.existsSync(destinationFolder)){

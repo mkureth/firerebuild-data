@@ -4,8 +4,8 @@ const moment = require('moment');
 const { parse } = require('json2csv');
 
 // Define input and output directories
-const inputDir = path.join(__dirname, '../data/SOURCE/day/station-json-clean');
-const outputDir = path.join(__dirname, '../data/SOURCE/day/station-processed');
+const inputDir = path.join(__dirname, '../../data/SOURCE/weather/day/station-json-clean');
+const outputDir = path.join(__dirname, '../../data/SOURCE/weather/day/station-processed');
 
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
