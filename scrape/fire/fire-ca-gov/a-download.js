@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const BASE_URL = 'https://www.fire.ca.gov/incidents/2025/1/7/palisades-fire/updates/';
-const OUTPUT_DIR = './data/html';
+const OUTPUT_DIR = '../../data/SOURCE/fire/fire-ca-gov/html';
 
 async function scrapeUpdates() {
     const browser = await puppeteer.launch({ headless: true });

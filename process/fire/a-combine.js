@@ -3,8 +3,8 @@ const path = require("path");
 const { parse } = require("json2csv");
 
 // Directories
-const inputDir = path.join(__dirname, "data/json");
-const outputDir = path.join(__dirname, "data/combined");
+const inputDir = path.join(__dirname, '../../data/SOURCE/fire/fire-ca-gov/json');
+const outputDir = path.join(__dirname, '../../data/PROCESSED/fire/fire-ca-gov');
 
 // Ensure output directory exists
 if (!fs.existsSync(outputDir)) {

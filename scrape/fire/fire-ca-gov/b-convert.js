@@ -3,8 +3,8 @@ const path = require('path');
 const cheerio = require('cheerio');
 const moment = require('moment');
 
-const PAGES_DIR = './data/html';
-const OUTPUT_DIR = './data/json';
+const PAGES_DIR = '../../data/SOURCE/fire/fire-ca-gov/html';
+const OUTPUT_DIR = '../../data/SOURCE/fire/fire-ca-gov/json';
 
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) {
