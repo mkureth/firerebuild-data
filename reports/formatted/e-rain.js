@@ -3,7 +3,7 @@ const path = require('path');
 const csv = require('csv-parser');
 const moment = require('moment');
 
-const weatherFilePath = path.join(__dirname, 'data', 'raw', 'weather-monthly.csv');
+const weatherFilePath = '../../data/PROCESSED/weather/monthly/combined.csv';
 
 function loadWeatherData(filePath) {
   return new Promise((resolve, reject) => {
@@ -13,14 +13,14 @@ function loadWeatherData(filePath) {
       .pipe(csv())
       .on('data', (row) => {
 
-        var dateToCheck = moment(row['Date']);
+        var dateToCheck = moment(row['DateTime']);
         var targetDate = moment('2014-03-26');
         var isGreater = dateToCheck.isAfter(targetDate);
 
         if (isGreater) {
             results.push({
-                date: row['Date'],
-                precipitation: parseFloat(row['Total Precipitation Inches']) || 0
+                date: row['DateTime'],
+                precipitation: parseFloat(row['Precipitation']) || 0
             });
         }
 

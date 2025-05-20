@@ -3,11 +3,11 @@ const path = require('path');
 const moment = require('moment');
 //const moment = require('moment-timezone');
 
-const inputFilePath = path.join('data/prep', 'prep.json');
+const inputFilePath = '../../data/REPORTS/formatted/reports/prep.json';
 const rawData = fs.readFileSync(inputFilePath);
 const inputData = JSON.parse(rawData);
 
-const inputFilePathSCE = path.join('data/raw', 'sce-data.json');
+const inputFilePathSCE = '../../data/PROCESSED/sce/sce/sce-data.json';
 const rawDataSCE = fs.readFileSync(inputFilePathSCE);
 const inputDataSCE = JSON.parse(rawDataSCE);
 
@@ -189,7 +189,7 @@ function formatDate(date, time) {
     return date;
 }
 
-const outputFilePath = path.join('data/prep', 'times.json');
+const outputFilePath = '../../data/REPORTS/formatted/reports/times.json';
 fs.writeFileSync(outputFilePath, JSON.stringify(output, null, 2));
 //fs.writeFileSync(outputFilePath, JSON.stringify(output));
 

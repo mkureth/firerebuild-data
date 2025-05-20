@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const moment = require('moment');
 
-const inputFilePath = path.join('data/prep', 'times.json');
+const inputFilePath = '../../data/REPORTS/formatted/reports/times.json';
 const rawData = fs.readFileSync(inputFilePath);
 const inputData = JSON.parse(rawData);
 
@@ -173,7 +173,7 @@ function formatDate(date, time) {
     return  momentDate.format('YYYY-MM-DDTHH:mm:ss[Z]');
 }
 
-const outputFilePath = path.join('data/deploy', 'grid.json');
+const outputFilePath = '../../data/REPORTS/formatted/deploy/grid-daily.json';
 fs.writeFileSync(outputFilePath, JSON.stringify(output));
 
-console.log('Conversion complete. Output saved to grid.json');
+console.log('Conversion complete. Output saved to grid-daily.json');

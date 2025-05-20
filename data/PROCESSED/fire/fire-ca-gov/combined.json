@@ -11,8 +11,7 @@
     "Administration Unit": "Los Angeles County Fire Department",
     "Size": "10",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "11:06 AM"
+    "DateTime": "2025-01-07T11:06"
   },
   {
     "guid": "c7282357-507f-417b-8781-d5c331b4804b",
@@ -26,8 +25,7 @@
     "Administration Unit": "Los Angeles County Fire Department",
     "Size": "10",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "11:11 AM"
+    "DateTime": "2025-01-07T11:11"
   },
   {
     "guid": "852ab978-22d5-480c-94e4-08b30c562d5c",
@@ -41,8 +39,7 @@
     "Administration Unit": "Los Angeles Fire Department",
     "Size": "10",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "11:18 AM"
+    "DateTime": "2025-01-07T11:18"
   },
   {
     "guid": "c9fde7f3-4311-4430-b7b2-fa79ccb07070",
@@ -56,8 +53,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "10",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "11:26 AM"
+    "DateTime": "2025-01-07T11:26"
   },
   {
     "guid": "7dd7c781-1339-4706-952f-428364b721a9",
@@ -71,8 +67,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "11:31 AM"
+    "DateTime": "2025-01-07T11:31"
   },
   {
     "guid": "c5603b20-88d1-4e41-aaa8-a5fc6e7440d0",
@@ -86,8 +81,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "11:44 AM"
+    "DateTime": "2025-01-07T11:44"
   },
   {
     "guid": "05b68c83-2b8b-4148-9331-15a474e4dc6c",
@@ -101,8 +95,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "11:49 AM"
+    "DateTime": "2025-01-07T11:49"
   },
   {
     "guid": "1f0beda0-aa77-441b-8733-c45f57173cb3",
@@ -116,8 +109,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "12:00 PM"
+    "DateTime": "2025-01-07T12:00"
   },
   {
     "guid": "bb097874-e194-4ea5-bb4a-964105068a7f",
@@ -131,8 +123,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "12:03 PM"
+    "DateTime": "2025-01-07T12:03"
   },
   {
     "guid": "1053edbc-3fa5-4f8e-b4a0-0734475ff981",
@@ -146,8 +137,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "12:19 PM"
+    "DateTime": "2025-01-07T12:19"
   },
   {
     "guid": "f1f627ee-609d-4927-b5b7-af0219f5f9dc",
@@ -161,8 +151,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "12:20 PM"
+    "DateTime": "2025-01-07T12:20"
   },
   {
     "guid": "e18d9f64-3b8d-4cf3-8170-8327b21a121b",
@@ -176,8 +165,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "12:31 PM"
+    "DateTime": "2025-01-07T12:31"
   },
   {
     "guid": "8d58d083-9aca-41e8-a972-9c7ef61744c2",
@@ -191,8 +179,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "12:37 PM"
+    "DateTime": "2025-01-07T12:37"
   },
   {
     "guid": "51d5995e-b2b6-4933-a735-c3e3b795524a",
@@ -206,8 +193,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "1:24 PM"
+    "DateTime": "2025-01-07T13:24"
   },
   {
     "guid": "5ac980bb-ca91-46e1-bdcf-aa519ac66d1b",
@@ -221,8 +207,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "1:33 PM"
+    "DateTime": "2025-01-07T13:33"
   },
   {
     "guid": "48eda7ff-06a1-4b68-b6e3-985038ffe9f6",
@@ -236,8 +221,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "1:34 PM"
+    "DateTime": "2025-01-07T13:34"
   },
   {
     "guid": "82a05e51-4d6e-4e0d-980c-575e8c7a8a43",
@@ -251,8 +235,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "2:27 PM"
+    "DateTime": "2025-01-07T14:27"
   },
   {
     "guid": "18c0bcea-e812-4d2f-bbdc-c6829123385a",
@@ -266,8 +249,7 @@
     "Administration Unit": "Los Angeles City Fire Department",
     "Size": "200",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "2:31 PM"
+    "DateTime": "2025-01-07T14:31"
   },
   {
     "guid": "e95fc628-b1db-44ed-9b52-dbb4ee0e2dec",
@@ -281,8 +263,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "3:34 PM"
+    "DateTime": "2025-01-07T15:34"
   },
   {
     "guid": "5606554e-5f7b-4674-8cb0-99b4e58ee82f",
@@ -296,8 +277,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "3:38 PM"
+    "DateTime": "2025-01-07T15:38"
   },
   {
     "guid": "b5ee529b-be05-4c4a-8892-5463128f2c1d",
@@ -311,8 +291,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "4:06 PM"
+    "DateTime": "2025-01-07T16:06"
   },
   {
     "guid": "327dd411-c7e4-42af-b722-835b4d447e72",
@@ -326,8 +305,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "4:07 PM"
+    "DateTime": "2025-01-07T16:07"
   },
   {
     "guid": "35d197f7-e5db-4b63-a2fe-f0fe49b0a9f7",
@@ -341,8 +319,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "4:09 PM"
+    "DateTime": "2025-01-07T16:09"
   },
   {
     "guid": "baea4c8f-a5de-4131-a158-ceba96aab9b3",
@@ -356,8 +333,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "4:14 PM"
+    "DateTime": "2025-01-07T16:14"
   },
   {
     "guid": "7beb45b4-707f-43a3-b963-0430fff85c65",
@@ -371,8 +347,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "4:28 PM"
+    "DateTime": "2025-01-07T16:28"
   },
   {
     "guid": "0c00d094-84c8-41dc-a873-a3a84f2cf6be",
@@ -386,8 +361,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "4:37 PM"
+    "DateTime": "2025-01-07T16:37"
   },
   {
     "guid": "08b2802d-4220-492c-8639-84aaddd57d57",
@@ -401,8 +375,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "4:56 PM"
+    "DateTime": "2025-01-07T16:56"
   },
   {
     "guid": "e3f71846-157f-4236-84bf-561e492d982b",
@@ -416,8 +389,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "5:15 PM"
+    "DateTime": "2025-01-07T17:15"
   },
   {
     "guid": "32e4c07f-7293-446e-be59-5e951cc1693d",
@@ -431,8 +403,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "5:48 PM"
+    "DateTime": "2025-01-07T17:48"
   },
   {
     "guid": "e95f0e9a-946c-4b9b-9f98-5c1686025f74",
@@ -446,8 +417,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "5:59 PM"
+    "DateTime": "2025-01-07T17:59"
   },
   {
     "guid": "ce38a22f-2142-46ff-9857-06945ac3ad5c",
@@ -461,8 +431,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "6:25 PM"
+    "DateTime": "2025-01-07T18:25"
   },
   {
     "guid": "99aa37ff-b963-4243-b69b-bfcd56e15866",
@@ -476,8 +445,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "8:19 PM"
+    "DateTime": "2025-01-07T20:19"
   },
   {
     "guid": "72c54098-4ba9-4773-a8c2-0fab288a80e1",
@@ -491,8 +459,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "8:26 PM"
+    "DateTime": "2025-01-07T20:26"
   },
   {
     "guid": "85b5aaa4-68d2-4203-b1ec-1e38ef03b4e3",
@@ -506,8 +473,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "8:35 PM"
+    "DateTime": "2025-01-07T20:35"
   },
   {
     "guid": "bc8554dd-7a6a-4895-9113-ca2dcaae9b5f",
@@ -521,8 +487,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "8:57 PM"
+    "DateTime": "2025-01-07T20:57"
   },
   {
     "guid": "763d3907-8a9d-41b5-b636-2f7a9743fb0b",
@@ -536,8 +501,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "9:23 PM"
+    "DateTime": "2025-01-07T21:23"
   },
   {
     "guid": "27f886d7-d291-4d4f-8354-41ff1af68a0a",
@@ -551,8 +515,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "9:57 PM"
+    "DateTime": "2025-01-07T21:57"
   },
   {
     "guid": "edda6a19-bb87-4248-969f-83b8faf7f4c1",
@@ -566,8 +529,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "1,262",
     "Containment": "0%",
-    "Date": "01/07/2025",
-    "Time": "10:20 PM"
+    "DateTime": "2025-01-07T22:20"
   },
   {
     "guid": "32251c3b-8f86-4885-ba17-eb043f1a3b01",
@@ -581,8 +543,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "2,921",
     "Containment": "0%",
-    "Date": "01/08/2025",
-    "Time": "12:29 AM"
+    "DateTime": "2025-01-08T00:29"
   },
   {
     "guid": "a776384b-8da3-47c8-b870-37471e97fc9d",
@@ -596,8 +557,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "2,921",
     "Containment": "0%",
-    "Date": "01/08/2025",
-    "Time": "12:40 AM"
+    "DateTime": "2025-01-08T00:40"
   },
   {
     "guid": "ad9cf40f-79d4-4c7d-9153-800b20d093cd",
@@ -611,8 +571,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "2,921",
     "Containment": "0%",
-    "Date": "01/08/2025",
-    "Time": "5:16 AM"
+    "DateTime": "2025-01-08T05:16"
   },
   {
     "guid": "608f6503-3b2a-4035-b9ea-b33ef4d1e8a3",
@@ -626,8 +585,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "2,921",
     "Containment": "0%",
-    "Date": "01/08/2025",
-    "Time": "8:19 AM"
+    "DateTime": "2025-01-08T08:19"
   },
   {
     "guid": "6d3ad89e-e226-411e-9ef3-ee9e964f312d",
@@ -641,8 +599,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "2,921",
     "Containment": "0%",
-    "Date": "01/08/2025",
-    "Time": "8:24 AM"
+    "DateTime": "2025-01-08T08:24"
   },
   {
     "guid": "6d6dcb24-bdd7-4a16-ae25-39d6d4834ee7",
@@ -656,8 +613,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "2,921",
     "Containment": "0%",
-    "Date": "01/08/2025",
-    "Time": "8:54 AM"
+    "DateTime": "2025-01-08T08:54"
   },
   {
     "guid": "10d9b552-464e-41f7-af90-4be75dfec3d1",
@@ -671,8 +627,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "2,921",
     "Containment": "0%",
-    "Date": "01/08/2025",
-    "Time": "9:43 AM"
+    "DateTime": "2025-01-08T09:43"
   },
   {
     "guid": "a4cd7bc9-6231-4540-a913-ddb8eb394ba8",
@@ -686,8 +641,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "2,921",
     "Containment": "0%",
-    "Date": "01/08/2025",
-    "Time": "11:11 AM"
+    "DateTime": "2025-01-08T11:11"
   },
   {
     "guid": "6508d8bf-8842-4f55-9219-92857af743b1",
@@ -701,8 +655,7 @@
     "Administration Unit": "Unified Command: CAL FIRE San Bernardino-Inyo-Mono Unit, Los Angeles County Fire Department, Los Angeles City Fire Department and Los Angeles Police Department",
     "Size": "11,802",
     "Containment": "0%",
-    "Date": "01/08/2025",
-    "Time": "11:45 AM"
+    "DateTime": "2025-01-08T11:45"
   },
   {
     "guid": "e036276d-0216-48db-ac57-2f9a212b7ad3",
@@ -718,8 +671,7 @@
     "Containment": "0%",
     "Structures Threatened": "13,306",
     "Structures Destroyed": "300",
-    "Date": "01/08/2025",
-    "Time": "1:20 PM"
+    "DateTime": "2025-01-08T13:20"
   },
   {
     "guid": "90c83ec8-f0db-4675-9078-47476f3800d0",
@@ -735,8 +687,7 @@
     "Containment": "0%",
     "Structures Threatened": "13,306",
     "Structures Destroyed": "300",
-    "Date": "01/08/2025",
-    "Time": "1:23 PM"
+    "DateTime": "2025-01-08T13:23"
   },
   {
     "guid": "2c4564f8-6b0d-4c0d-bd4e-88fcdda9e6fd",
@@ -752,8 +703,7 @@
     "Containment": "0%",
     "Structures Threatened": "13,306",
     "Structures Destroyed": "300",
-    "Date": "01/08/2025",
-    "Time": "2:54 PM"
+    "DateTime": "2025-01-08T14:54"
   },
   {
     "guid": "2e239e3e-84b1-4848-b433-4cd424331d82",
@@ -769,8 +719,7 @@
     "Containment": "0%",
     "Structures Threatened": "13,306",
     "Structures Destroyed": "300",
-    "Date": "01/08/2025",
-    "Time": "3:04 PM"
+    "DateTime": "2025-01-08T15:04"
   },
   {
     "guid": "6891f1de-8ac6-47e1-bbdc-203bd71b4506",
@@ -786,8 +735,7 @@
     "Containment": "0%",
     "Structures Threatened": "13,306",
     "Structures Destroyed": "300",
-    "Date": "01/08/2025",
-    "Time": "5:07 PM"
+    "DateTime": "2025-01-08T17:07"
   },
   {
     "guid": "0541eb43-d6c5-47dc-929a-a7f61ee8cb77",
@@ -803,8 +751,7 @@
     "Containment": "0%",
     "Structures Threatened": "13,306",
     "Structures Destroyed": "300",
-    "Date": "01/08/2025",
-    "Time": "9:19 PM"
+    "DateTime": "2025-01-08T21:19"
   },
   {
     "guid": "5cf2f45e-0be0-4402-8ef6-af787fee0a5c",
@@ -820,8 +767,7 @@
     "Containment": "0%",
     "Structures Threatened": "13,306",
     "Structures Destroyed": "300",
-    "Date": "01/08/2025",
-    "Time": "9:23 PM"
+    "DateTime": "2025-01-08T21:23"
   },
   {
     "guid": "fb42ddab-8486-4dc5-be48-c6f1144a1647",
@@ -837,8 +783,7 @@
     "Containment": "0%",
     "Structures Threatened": "13,306",
     "Structures Destroyed": "300",
-    "Date": "01/08/2025",
-    "Time": "11:10 PM"
+    "DateTime": "2025-01-08T23:10"
   },
   {
     "guid": "f71ac2cc-5e0b-4c27-937c-370d7d195aa7",
@@ -854,8 +799,7 @@
     "Containment": "0%",
     "Structures Threatened": "13,306",
     "Structures Destroyed": "300",
-    "Date": "01/09/2025",
-    "Time": "4:38 AM"
+    "DateTime": "2025-01-09T04:38"
   },
   {
     "guid": "a41c83ae-6c49-4676-b872-29537bb59d4e",
@@ -871,8 +815,7 @@
     "Containment": "0%",
     "Structures Threatened": "13,306",
     "Structures Destroyed": "300",
-    "Date": "01/09/2025",
-    "Time": "4:39 AM"
+    "DateTime": "2025-01-09T04:39"
   },
   {
     "guid": "da7ed5a9-2a18-4627-a3a9-a8bd9dfaaddc",
@@ -888,8 +831,7 @@
     "Containment": "0%",
     "Structures Threatened": "13,306",
     "Structures Destroyed": "300",
-    "Date": "01/09/2025",
-    "Time": "8:11 AM"
+    "DateTime": "2025-01-09T08:11"
   },
   {
     "guid": "167c614e-0fec-466b-8c9b-47296d9c1ee2",
@@ -905,8 +847,7 @@
     "Containment": "0%",
     "Structures Threatened": "13,306",
     "Structures Destroyed": "34",
-    "Date": "01/09/2025",
-    "Time": "9:58 AM"
+    "DateTime": "2025-01-09T09:58"
   },
   {
     "guid": "8ef63fb2-aca0-424a-bf5a-78f4a61f3b8a",
@@ -921,8 +862,7 @@
     "Size": "17,234",
     "Containment": "0%",
     "Structures Threatened": "13,306",
-    "Date": "01/09/2025",
-    "Time": "11:18 AM"
+    "DateTime": "2025-01-09T11:18"
   },
   {
     "guid": "6aa3cfa3-a65e-4c22-8410-d16f372ffed7",
@@ -937,8 +877,7 @@
     "Size": "17,234",
     "Containment": "0%",
     "Structures Threatened": "13,306",
-    "Date": "01/09/2025",
-    "Time": "11:53 AM"
+    "DateTime": "2025-01-09T11:53"
   },
   {
     "guid": "942cb060-2ee0-47e8-83fe-96e13b9d82e9",
@@ -953,8 +892,7 @@
     "Size": "17,234",
     "Containment": "0%",
     "Structures Threatened": "13,306",
-    "Date": "01/09/2025",
-    "Time": "12:29 PM"
+    "DateTime": "2025-01-09T12:29"
   },
   {
     "guid": "8e363ba8-5acb-42a8-91cd-da2a4c52981a",
@@ -969,8 +907,7 @@
     "Size": "17,234",
     "Containment": "0%",
     "Structures Threatened": "13,306",
-    "Date": "01/09/2025",
-    "Time": "1:34 PM"
+    "DateTime": "2025-01-09T13:34"
   },
   {
     "guid": "dc201f6d-be59-48ab-b284-8e971c8ffb5f",
@@ -985,8 +922,7 @@
     "Size": "17,234",
     "Containment": "0%",
     "Structures Threatened": "13,306",
-    "Date": "01/09/2025",
-    "Time": "2:20 PM"
+    "DateTime": "2025-01-09T14:20"
   },
   {
     "guid": "dcb282ff-c790-45f2-a00c-b348e0c5afac",
@@ -1001,8 +937,7 @@
     "Size": "17,234",
     "Containment": "0%",
     "Structures Threatened": "13,306",
-    "Date": "01/09/2025",
-    "Time": "5:37 PM"
+    "DateTime": "2025-01-09T17:37"
   },
   {
     "guid": "fa3b85a7-14b9-4e01-ae37-8f6ee4e5fb27",
@@ -1017,8 +952,7 @@
     "Size": "19,978",
     "Containment": "6%",
     "Structures Threatened": "13,306",
-    "Date": "01/09/2025",
-    "Time": "6:45 PM"
+    "DateTime": "2025-01-09T18:45"
   },
   {
     "guid": "25f0e468-5bab-42b1-a280-ae08dd5fcec9",
@@ -1033,8 +967,7 @@
     "Size": "19,978",
     "Containment": "6%",
     "Structures Threatened": "13,306",
-    "Date": "01/09/2025",
-    "Time": "8:27 PM"
+    "DateTime": "2025-01-09T20:27"
   },
   {
     "guid": "7f14d43d-44b8-4e13-b86f-71970f7b1915",
@@ -1049,8 +982,7 @@
     "Size": "19,978",
     "Containment": "6%",
     "Structures Threatened": "13,306",
-    "Date": "01/09/2025",
-    "Time": "8:39 PM"
+    "DateTime": "2025-01-09T20:39"
   },
   {
     "guid": "7d05a66a-27c0-46d2-84d3-261870f8bd0c",
@@ -1065,8 +997,7 @@
     "Size": "19,978",
     "Containment": "6%",
     "Structures Threatened": "13,306",
-    "Date": "01/09/2025",
-    "Time": "11:19 PM"
+    "DateTime": "2025-01-09T23:19"
   },
   {
     "guid": "d489bc47-25db-404a-a2e6-c5cc65814029",
@@ -1081,8 +1012,7 @@
     "Size": "19,978",
     "Containment": "6%",
     "Structures Threatened": "13,306",
-    "Date": "01/10/2025",
-    "Time": "1:57 AM"
+    "DateTime": "2025-01-10T01:57"
   },
   {
     "guid": "4ddc5a13-e1e2-417d-b72d-3fa0912402c0",
@@ -1097,8 +1027,7 @@
     "Size": "19,978",
     "Containment": "6%",
     "Structures Threatened": "13,306",
-    "Date": "01/10/2025",
-    "Time": "5:24 AM"
+    "DateTime": "2025-01-10T05:24"
   },
   {
     "guid": "9bf9fe16-bdc3-45f1-90b6-50d2b3d53067",
@@ -1113,8 +1042,7 @@
     "Size": "19,978",
     "Containment": "8%",
     "Structures Threatened": "13,306",
-    "Date": "01/10/2025",
-    "Time": "7:34 AM"
+    "DateTime": "2025-01-10T07:34"
   },
   {
     "guid": "0a5c3dac-a9d8-46ce-b1f8-00dd8f344242",
@@ -1129,8 +1057,7 @@
     "Size": "20,438",
     "Containment": "8%",
     "Structures Threatened": "13,306",
-    "Date": "01/10/2025",
-    "Time": "7:39 AM"
+    "DateTime": "2025-01-10T07:39"
   },
   {
     "guid": "644644fe-44c0-4e49-863e-557cc5a3ef10",
@@ -1145,8 +1072,7 @@
     "Size": "19,978",
     "Containment": "8%",
     "Structures Threatened": "13,306",
-    "Date": "01/10/2025",
-    "Time": "7:49 AM"
+    "DateTime": "2025-01-10T07:49"
   },
   {
     "guid": "a4d73f35-df69-4b8f-abb3-571c3f1ec26c",
@@ -1161,8 +1087,7 @@
     "Size": "20,438",
     "Containment": "8%",
     "Structures Threatened": "13,306",
-    "Date": "01/10/2025",
-    "Time": "7:59 AM"
+    "DateTime": "2025-01-10T07:59"
   },
   {
     "guid": "9842ff58-2480-4b98-8627-7a2ddb2cbd4e",
@@ -1177,8 +1102,7 @@
     "Size": "20,438",
     "Containment": "8%",
     "Structures Threatened": "13,306",
-    "Date": "01/10/2025",
-    "Time": "8:00 AM"
+    "DateTime": "2025-01-10T08:00"
   },
   {
     "guid": "02c02084-d2e0-452e-a722-cab3e2c246db",
@@ -1193,8 +1117,7 @@
     "Size": "20,438",
     "Containment": "8%",
     "Structures Threatened": "13,306",
-    "Date": "01/10/2025",
-    "Time": "8:18 AM"
+    "DateTime": "2025-01-10T08:18"
   },
   {
     "guid": "87fececc-b997-476d-8ec5-d15c5aaea879",
@@ -1209,8 +1132,7 @@
     "Size": "20,438",
     "Containment": "8%",
     "Structures Threatened": "13,306",
-    "Date": "01/10/2025",
-    "Time": "8:33 AM"
+    "DateTime": "2025-01-10T08:33"
   },
   {
     "guid": "f575d0b4-3364-4d8e-9d9a-c225bff3b0a0",
@@ -1225,8 +1147,7 @@
     "Size": "20,438",
     "Containment": "8%",
     "Structures Threatened": "13,306",
-    "Date": "01/10/2025",
-    "Time": "9:03 AM"
+    "DateTime": "2025-01-10T09:03"
   },
   {
     "guid": "db338829-c569-4773-85d9-7130491fe288",
@@ -1241,8 +1162,7 @@
     "Size": "20,438",
     "Containment": "8%",
     "Structures Threatened": "13,306",
-    "Date": "01/10/2025",
-    "Time": "9:09 AM"
+    "DateTime": "2025-01-10T09:09"
   },
   {
     "guid": "7729fa4d-aa30-476b-9190-f5ca977199eb",
@@ -1259,8 +1179,7 @@
     "Structures Threatened": "13,306",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "9:20 AM"
+    "DateTime": "2025-01-10T09:20"
   },
   {
     "guid": "c9040285-0ce4-4c2d-9aa0-a01ed903f16d",
@@ -1279,8 +1198,7 @@
     "Structures Damaged": "12",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "9:36 AM"
+    "DateTime": "2025-01-10T09:36"
   },
   {
     "guid": "fcc87447-662c-4cdd-a35b-76de743b04fe",
@@ -1297,8 +1215,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "10:26 AM"
+    "DateTime": "2025-01-10T10:26"
   },
   {
     "guid": "8eb5d58b-7eaf-4614-82f2-cbfe7f618631",
@@ -1315,8 +1232,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "10:43 AM"
+    "DateTime": "2025-01-10T10:43"
   },
   {
     "guid": "f9f8ab8c-c828-4aa8-a69d-0ea5c1267487",
@@ -1333,8 +1249,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "11:26 AM"
+    "DateTime": "2025-01-10T11:26"
   },
   {
     "guid": "7fe75226-8766-45a1-bdcf-066fa457185c",
@@ -1351,8 +1266,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "11:47 AM"
+    "DateTime": "2025-01-10T11:47"
   },
   {
     "guid": "5e742794-b116-4c4a-8c27-7d3de040d046",
@@ -1369,8 +1283,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "3",
-    "Date": "01/10/2025",
-    "Time": "12:08 PM"
+    "DateTime": "2025-01-10T12:08"
   },
   {
     "guid": "bd3b6b35-0b27-4d60-99f7-e710c863fa23",
@@ -1387,8 +1300,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "3",
-    "Date": "01/10/2025",
-    "Time": "1:08 PM"
+    "DateTime": "2025-01-10T13:08"
   },
   {
     "guid": "da81f4d8-3e2e-4c97-a29a-afb34f11bea5",
@@ -1405,8 +1317,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "3",
-    "Date": "01/10/2025",
-    "Time": "1:16 PM"
+    "DateTime": "2025-01-10T13:16"
   },
   {
     "guid": "d5da79bf-29f0-41e4-9dbc-564542de86ac",
@@ -1423,8 +1334,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "3",
-    "Date": "01/10/2025",
-    "Time": "2:33 PM"
+    "DateTime": "2025-01-10T14:33"
   },
   {
     "guid": "1c43e9e6-b138-42f3-8b9b-cde143c61fe5",
@@ -1441,8 +1351,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "3",
-    "Date": "01/10/2025",
-    "Time": "3:37 PM"
+    "DateTime": "2025-01-10T15:37"
   },
   {
     "guid": "aa58f54a-25c3-4944-b5ef-69e3fec02ac8",
@@ -1459,8 +1368,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "3",
-    "Date": "01/10/2025",
-    "Time": "5:22 PM"
+    "DateTime": "2025-01-10T17:22"
   },
   {
     "guid": "70760279-096e-4b0f-8a33-6eb0d759a430",
@@ -1477,8 +1385,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "3",
-    "Date": "01/10/2025",
-    "Time": "5:24 PM"
+    "DateTime": "2025-01-10T17:24"
   },
   {
     "guid": "ba90fbd0-d0d1-4665-9719-00c8436acb3b",
@@ -1495,8 +1402,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "3",
-    "Date": "01/10/2025",
-    "Time": "5:34 PM"
+    "DateTime": "2025-01-10T17:34"
   },
   {
     "guid": "b9e77dfb-a2e8-4637-8009-95d1c5d4176b",
@@ -1513,8 +1419,7 @@
     "Structures Threatened": "11,471",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "3",
-    "Date": "01/10/2025",
-    "Time": "5:38 PM"
+    "DateTime": "2025-01-10T17:38"
   },
   {
     "guid": "6c78e8df-669e-4a25-b609-b6ec2748db98",
@@ -1531,8 +1436,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "3",
-    "Date": "01/10/2025",
-    "Time": "6:42 PM"
+    "DateTime": "2025-01-10T18:42"
   },
   {
     "guid": "a32adbdb-42fb-4c58-8d95-c53b8b36d39d",
@@ -1549,8 +1453,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "3",
-    "Date": "01/10/2025",
-    "Time": "6:47 PM"
+    "DateTime": "2025-01-10T18:47"
   },
   {
     "guid": "40e61f50-9dc5-4887-9ad3-58712a00b140",
@@ -1567,8 +1470,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "3",
-    "Date": "01/10/2025",
-    "Time": "7:23 PM"
+    "DateTime": "2025-01-10T19:23"
   },
   {
     "guid": "87c9519f-dbb7-4066-81ba-566cd11fa60b",
@@ -1585,8 +1487,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "7:35 PM"
+    "DateTime": "2025-01-10T19:35"
   },
   {
     "guid": "08443a75-b979-47c5-8ba2-29ffb10c3e35",
@@ -1603,8 +1504,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "7:37 PM"
+    "DateTime": "2025-01-10T19:37"
   },
   {
     "guid": "bce96034-2215-4f43-8b39-a468a6e86490",
@@ -1621,8 +1521,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "7:42 PM"
+    "DateTime": "2025-01-10T19:42"
   },
   {
     "guid": "b951e48c-1f2b-4031-82d1-a041e626ae08",
@@ -1639,8 +1538,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "8:14 PM"
+    "DateTime": "2025-01-10T20:14"
   },
   {
     "guid": "6ae0d671-0026-4a79-9e3f-a6e5d9a281f5",
@@ -1657,8 +1555,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "8:29 PM"
+    "DateTime": "2025-01-10T20:29"
   },
   {
     "guid": "5866a8bf-7bc6-4dc6-8602-306a788b9a4f",
@@ -1675,8 +1572,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "9:58 PM"
+    "DateTime": "2025-01-10T21:58"
   },
   {
     "guid": "30608d23-736b-48f9-b0f5-4055e212abf3",
@@ -1693,8 +1589,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "10:18 PM"
+    "DateTime": "2025-01-10T22:18"
   },
   {
     "guid": "c1a8570d-45de-4e14-aa62-1e43bede8c43",
@@ -1711,8 +1606,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "10:20 PM"
+    "DateTime": "2025-01-10T22:20"
   },
   {
     "guid": "c6792ec2-2041-4e7d-a0e4-18764a60406f",
@@ -1729,8 +1623,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/10/2025",
-    "Time": "10:31 PM"
+    "DateTime": "2025-01-10T22:31"
   },
   {
     "guid": "4090a1de-5459-4725-ab9d-f24c07a80de0",
@@ -1747,8 +1640,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "12:38 AM"
+    "DateTime": "2025-01-11T00:38"
   },
   {
     "guid": "84555f70-08b6-45c5-a526-ed0f86980d25",
@@ -1765,8 +1657,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "12:53 AM"
+    "DateTime": "2025-01-11T00:53"
   },
   {
     "guid": "ea14c0a7-9f79-47dc-9068-3eed41767c44",
@@ -1783,8 +1674,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "1:02 AM"
+    "DateTime": "2025-01-11T01:02"
   },
   {
     "guid": "69175528-2705-48d8-9488-781bcc65060a",
@@ -1801,8 +1691,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "1:04 AM"
+    "DateTime": "2025-01-11T01:04"
   },
   {
     "guid": "692632f1-d814-466c-924c-5d4dd447a3b5",
@@ -1819,8 +1708,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "6:24 AM"
+    "DateTime": "2025-01-11T06:24"
   },
   {
     "guid": "6e456fba-ff53-4e1c-9d4d-401a165b1a02",
@@ -1837,8 +1725,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "6:28 AM"
+    "DateTime": "2025-01-11T06:28"
   },
   {
     "guid": "048a8159-ff34-4947-9d2a-ecbda25cc735",
@@ -1855,8 +1742,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "7:20 AM"
+    "DateTime": "2025-01-11T07:20"
   },
   {
     "guid": "cb2bc9cc-901b-4d41-80c7-57386c7b2ce8",
@@ -1873,8 +1759,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "7:22 AM"
+    "DateTime": "2025-01-11T07:22"
   },
   {
     "guid": "a6ed2094-9286-48d2-8a53-16b19a6d564f",
@@ -1891,8 +1776,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "7:52 AM"
+    "DateTime": "2025-01-11T07:52"
   },
   {
     "guid": "3445b48a-6d3e-4985-81a4-493130258b7b",
@@ -1909,8 +1793,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "8:46 AM"
+    "DateTime": "2025-01-11T08:46"
   },
   {
     "guid": "c9204d54-4a92-4906-b18a-c97e1ede62f4",
@@ -1927,8 +1810,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "9:21 AM"
+    "DateTime": "2025-01-11T09:21"
   },
   {
     "guid": "cda3def5-b280-4190-af9f-fccc43374087",
@@ -1945,8 +1827,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "9:39 AM"
+    "DateTime": "2025-01-11T09:39"
   },
   {
     "guid": "6c651b59-d0c0-4b7f-ac2e-8640be948498",
@@ -1963,8 +1844,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "11:04 AM"
+    "DateTime": "2025-01-11T11:04"
   },
   {
     "guid": "f23c37f7-d392-4ae5-9360-20bc9a27fb7d",
@@ -1981,8 +1861,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "12:50 PM"
+    "DateTime": "2025-01-11T12:50"
   },
   {
     "guid": "57893ac3-f7d7-4dbd-9692-191c319d17d6",
@@ -1999,8 +1878,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "1:02 PM"
+    "DateTime": "2025-01-11T13:02"
   },
   {
     "guid": "08ef131e-878c-42b7-ba90-0aaa0bb78249",
@@ -2017,8 +1895,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "1:20 PM"
+    "DateTime": "2025-01-11T13:20"
   },
   {
     "guid": "89098978-66a9-452b-b20c-5f186a255a45",
@@ -2035,8 +1912,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "3:38 PM"
+    "DateTime": "2025-01-11T15:38"
   },
   {
     "guid": "dce9178c-9419-4005-a61e-49281b54c945",
@@ -2053,8 +1929,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "4:37 PM"
+    "DateTime": "2025-01-11T16:37"
   },
   {
     "guid": "ff576db0-cac7-44e9-9472-0a27ab8c25de",
@@ -2071,8 +1946,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "6:16 PM"
+    "DateTime": "2025-01-11T18:16"
   },
   {
     "guid": "1612754d-8d87-43b7-a4af-17a45b4b0600",
@@ -2089,8 +1963,7 @@
     "Structures Threatened": "12,250",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "8:13 PM"
+    "DateTime": "2025-01-11T20:13"
   },
   {
     "guid": "585ace89-d4d7-4815-9e63-bfd1e61a88d8",
@@ -2109,8 +1982,7 @@
     "Structures Damaged": "63",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "9:25 PM"
+    "DateTime": "2025-01-11T21:25"
   },
   {
     "guid": "ebb217f4-f113-4bd0-b46e-5425acd480fd",
@@ -2129,8 +2001,7 @@
     "Structures Damaged": "63",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "9:27 PM"
+    "DateTime": "2025-01-11T21:27"
   },
   {
     "guid": "d28cf1c7-0b27-4f2a-a8b7-e675fabd8974",
@@ -2149,8 +2020,7 @@
     "Structures Damaged": "63",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "9:28 PM"
+    "DateTime": "2025-01-11T21:28"
   },
   {
     "guid": "922f96bf-0351-4446-aa6d-4176d0f568fb",
@@ -2169,8 +2039,7 @@
     "Structures Damaged": "63",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "9:31 PM"
+    "DateTime": "2025-01-11T21:31"
   },
   {
     "guid": "42d66ab9-f0a3-44bc-9f7f-aaa496ef5c54",
@@ -2189,8 +2058,7 @@
     "Structures Damaged": "63",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "9:40 PM"
+    "DateTime": "2025-01-11T21:40"
   },
   {
     "guid": "62ef4e6a-7ce6-4abf-a3a3-e5e7a1f52e31",
@@ -2209,8 +2077,7 @@
     "Structures Damaged": "63",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "9:46 PM"
+    "DateTime": "2025-01-11T21:46"
   },
   {
     "guid": "6b2d55ee-73ce-4803-87e8-70af983c3b12",
@@ -2229,8 +2096,7 @@
     "Structures Damaged": "63",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "9:56 PM"
+    "DateTime": "2025-01-11T21:56"
   },
   {
     "guid": "815728b3-4e11-4006-bbf5-b2748080cf81",
@@ -2249,8 +2115,7 @@
     "Structures Damaged": "63",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/11/2025",
-    "Time": "9:57 PM"
+    "DateTime": "2025-01-11T21:57"
   },
   {
     "guid": "45e9972b-471f-4db3-9b5a-0f18ab72ffd3",
@@ -2269,8 +2134,7 @@
     "Structures Damaged": "63",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "6:02 AM"
+    "DateTime": "2025-01-12T06:02"
   },
   {
     "guid": "67c8bdca-dea7-451d-95a7-36c265110f4d",
@@ -2289,8 +2153,7 @@
     "Structures Damaged": "83",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "6:33 AM"
+    "DateTime": "2025-01-12T06:33"
   },
   {
     "guid": "7860cebf-e7cf-4b75-a3f3-917f09a9df78",
@@ -2309,8 +2172,7 @@
     "Structures Damaged": "83",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "10:01 AM"
+    "DateTime": "2025-01-12T10:01"
   },
   {
     "guid": "7dd51bc9-f5e2-4a93-a09d-e1e5b9067200",
@@ -2329,8 +2191,7 @@
     "Structures Damaged": "83",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "10:04 AM"
+    "DateTime": "2025-01-12T10:04"
   },
   {
     "guid": "fa6fedad-06ea-4e2d-adf9-dfd7f3817c4d",
@@ -2349,8 +2210,7 @@
     "Structures Damaged": "83",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "10:05 AM"
+    "DateTime": "2025-01-12T10:05"
   },
   {
     "guid": "beefaf08-d02b-40d5-be0f-5585f8fe0cda",
@@ -2369,8 +2229,7 @@
     "Structures Damaged": "83",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "10:54 AM"
+    "DateTime": "2025-01-12T10:54"
   },
   {
     "guid": "6bf0fdb2-90bb-4b7a-88ca-e5db5fee9c02",
@@ -2389,8 +2248,7 @@
     "Structures Damaged": "83",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "5",
-    "Date": "01/12/2025",
-    "Time": "11:07 AM"
+    "DateTime": "2025-01-12T11:07"
   },
   {
     "guid": "fcb41c24-7af7-493d-bd40-45bd23fb5f11",
@@ -2409,8 +2267,7 @@
     "Structures Damaged": "83",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "5",
-    "Date": "01/12/2025",
-    "Time": "11:13 AM"
+    "DateTime": "2025-01-12T11:13"
   },
   {
     "guid": "0df76d0f-10a4-4169-8c75-23ec116020fd",
@@ -2429,8 +2286,7 @@
     "Structures Damaged": "83",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "11:54 AM"
+    "DateTime": "2025-01-12T11:54"
   },
   {
     "guid": "f206eb3d-1707-41d3-878d-1ae10715e5b1",
@@ -2449,8 +2305,7 @@
     "Structures Damaged": "83",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "2:44 PM"
+    "DateTime": "2025-01-12T14:44"
   },
   {
     "guid": "614f18d0-1396-49e8-a5b5-712f92a0059e",
@@ -2469,8 +2324,7 @@
     "Structures Damaged": "83",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "4:29 PM"
+    "DateTime": "2025-01-12T16:29"
   },
   {
     "guid": "bff72032-3d46-4f22-8180-b620f9ca082a",
@@ -2489,8 +2343,7 @@
     "Structures Damaged": "83",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "4:31 PM"
+    "DateTime": "2025-01-12T16:31"
   },
   {
     "guid": "bdbdd695-fd01-433f-ae52-ba31298ced34",
@@ -2509,8 +2362,7 @@
     "Structures Damaged": "179",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "6:54 PM"
+    "DateTime": "2025-01-12T18:54"
   },
   {
     "guid": "d70372a8-a99b-47a2-ac58-ef5bea001eca",
@@ -2529,8 +2381,7 @@
     "Structures Damaged": "179",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "6:55 PM"
+    "DateTime": "2025-01-12T18:55"
   },
   {
     "guid": "411721a4-f1d0-48ed-975a-229898c77ae9",
@@ -2549,8 +2400,7 @@
     "Structures Damaged": "179",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/12/2025",
-    "Time": "6:57 PM"
+    "DateTime": "2025-01-12T18:57"
   },
   {
     "guid": "16ac1355-a544-4af2-b197-631b50ed3149",
@@ -2569,8 +2419,7 @@
     "Structures Damaged": "179",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/13/2025",
-    "Time": "6:00 AM"
+    "DateTime": "2025-01-13T06:00"
   },
   {
     "guid": "7bdd5679-cecf-4090-b392-f911ff768ac0",
@@ -2589,8 +2438,7 @@
     "Structures Damaged": "179",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/13/2025",
-    "Time": "6:35 AM"
+    "DateTime": "2025-01-13T06:35"
   },
   {
     "guid": "d426f279-239d-4151-967c-0342fa13912e",
@@ -2609,8 +2457,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/13/2025",
-    "Time": "7:05 AM"
+    "DateTime": "2025-01-13T07:05"
   },
   {
     "guid": "e05a52b1-3bcf-4244-b391-80d139859a60",
@@ -2629,8 +2476,7 @@
     "Structures Damaged": "63",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/13/2025",
-    "Time": "8:20 AM"
+    "DateTime": "2025-01-13T08:20"
   },
   {
     "guid": "05506337-cc26-4a1c-9b58-f000cea06408",
@@ -2649,8 +2495,7 @@
     "Structures Damaged": "63",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/13/2025",
-    "Time": "8:28 AM"
+    "DateTime": "2025-01-13T08:28"
   },
   {
     "guid": "4910f1b0-2aa9-44f9-8a7f-39ea1b957745",
@@ -2669,8 +2514,7 @@
     "Structures Damaged": "63",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/13/2025",
-    "Time": "8:30 AM"
+    "DateTime": "2025-01-13T08:30"
   },
   {
     "guid": "25abbe52-f080-442a-8001-e83b5fd435f0",
@@ -2689,8 +2533,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "2",
-    "Date": "01/13/2025",
-    "Time": "8:43 AM"
+    "DateTime": "2025-01-13T08:43"
   },
   {
     "guid": "ec336b91-9127-4f3a-b6d1-672a7d04168f",
@@ -2709,8 +2552,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "9:34 AM"
+    "DateTime": "2025-01-13T09:34"
   },
   {
     "guid": "ee7af1fe-bb3a-4a4c-b2e2-7db47f133761",
@@ -2729,8 +2571,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "11:10 AM"
+    "DateTime": "2025-01-13T11:10"
   },
   {
     "guid": "37a6873b-06f3-416a-8519-23af2f9fc0dd",
@@ -2749,8 +2590,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "1:37 PM"
+    "DateTime": "2025-01-13T13:37"
   },
   {
     "guid": "46999bcb-2571-4045-aaf9-655f7de863d9",
@@ -2769,8 +2609,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "1:59 PM"
+    "DateTime": "2025-01-13T13:59"
   },
   {
     "guid": "04b57d53-ced2-4ef3-966a-bcf6b6228d4e",
@@ -2789,8 +2628,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "2:00 PM"
+    "DateTime": "2025-01-13T14:00"
   },
   {
     "guid": "f5e08f80-3cad-46e8-b493-21180bd79d95",
@@ -2809,8 +2647,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "4:31 PM"
+    "DateTime": "2025-01-13T16:31"
   },
   {
     "guid": "5e2cbdc7-3590-4170-8afb-3661f7f71334",
@@ -2829,8 +2666,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "5:00 PM"
+    "DateTime": "2025-01-13T17:00"
   },
   {
     "guid": "be828b8f-9bdf-41c1-af7b-800a71f2e33a",
@@ -2849,8 +2685,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "5:03 PM"
+    "DateTime": "2025-01-13T17:03"
   },
   {
     "guid": "38452f51-58ec-4391-ac7b-49fac39b9501",
@@ -2869,8 +2704,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "5:21 PM"
+    "DateTime": "2025-01-13T17:21"
   },
   {
     "guid": "346c9a1f-fe7c-4b8a-a96d-acae730a2e08",
@@ -2889,8 +2723,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "6:20 PM"
+    "DateTime": "2025-01-13T18:20"
   },
   {
     "guid": "7cb90058-b367-4285-8549-bebda703b281",
@@ -2909,8 +2742,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "9:03 PM"
+    "DateTime": "2025-01-13T21:03"
   },
   {
     "guid": "28182fe1-290d-48ba-bb09-0551b1bbddad",
@@ -2929,8 +2761,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "9:06 PM"
+    "DateTime": "2025-01-13T21:06"
   },
   {
     "guid": "6edda1f2-efa2-4a6a-a82e-f54a77c6e9b8",
@@ -2949,8 +2780,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/13/2025",
-    "Time": "9:07 PM"
+    "DateTime": "2025-01-13T21:07"
   },
   {
     "guid": "a606f970-71fe-4638-b469-643e6b67e9e3",
@@ -2969,8 +2799,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "5:51 AM"
+    "DateTime": "2025-01-14T05:51"
   },
   {
     "guid": "1f9c6c5d-d6b1-412e-b536-c4ae34d66e4a",
@@ -2989,8 +2818,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "5:56 AM"
+    "DateTime": "2025-01-14T05:56"
   },
   {
     "guid": "bbea4421-bbb1-4ffa-b22d-183dd498306c",
@@ -3009,8 +2837,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "6:26 AM"
+    "DateTime": "2025-01-14T06:26"
   },
   {
     "guid": "b1883d29-78ec-48ee-b6e5-8f8433a19aa1",
@@ -3029,8 +2856,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "6:30 AM"
+    "DateTime": "2025-01-14T06:30"
   },
   {
     "guid": "62c2133f-0afa-451b-a4e1-f903a63c0da3",
@@ -3049,8 +2875,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "7:39 AM"
+    "DateTime": "2025-01-14T07:39"
   },
   {
     "guid": "023f758c-1426-4bc1-b9e8-0132fc857daa",
@@ -3069,8 +2894,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "7:42 AM"
+    "DateTime": "2025-01-14T07:42"
   },
   {
     "guid": "e9d82979-1d8b-4e18-83d7-f838152857dd",
@@ -3089,8 +2913,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "8:52 AM"
+    "DateTime": "2025-01-14T08:52"
   },
   {
     "guid": "970f1352-a3ad-4e26-bc17-0d3b5a674335",
@@ -3109,8 +2932,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "8:55 AM"
+    "DateTime": "2025-01-14T08:55"
   },
   {
     "guid": "5dbe3539-d78b-4697-a5d5-2359b141b205",
@@ -3129,8 +2951,7 @@
     "Structures Damaged": "204",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "6:03 PM"
+    "DateTime": "2025-01-14T18:03"
   },
   {
     "guid": "86f786a4-8ecd-46af-a46f-b9133599b70e",
@@ -3149,8 +2970,7 @@
     "Structures Damaged": "382",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "6:05 PM"
+    "DateTime": "2025-01-14T18:05"
   },
   {
     "guid": "3be803c1-5464-4c71-acad-e46165ed36a0",
@@ -3169,8 +2989,7 @@
     "Structures Damaged": "382",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "6:29 PM"
+    "DateTime": "2025-01-14T18:29"
   },
   {
     "guid": "cc9bf43f-45ec-4595-a4f3-bd4029992f38",
@@ -3189,8 +3008,7 @@
     "Structures Damaged": "382",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "6:51 PM"
+    "DateTime": "2025-01-14T18:51"
   },
   {
     "guid": "22ab05f2-335e-402f-8ae8-72e49d7adb3b",
@@ -3209,8 +3027,7 @@
     "Structures Damaged": "382",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "8:53 PM"
+    "DateTime": "2025-01-14T20:53"
   },
   {
     "guid": "d776faec-6f7c-423a-823c-c17c5ad9c9a4",
@@ -3229,8 +3046,7 @@
     "Structures Damaged": "382",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/14/2025",
-    "Time": "8:58 PM"
+    "DateTime": "2025-01-14T20:58"
   },
   {
     "guid": "01cbbe95-b3cd-4789-a1d1-71e72f72d158",
@@ -3249,8 +3065,7 @@
     "Structures Damaged": "397",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "6:30 AM"
+    "DateTime": "2025-01-15T06:30"
   },
   {
     "guid": "e1ff7c82-a523-40fa-97b3-c74489c1cdef",
@@ -3269,8 +3084,7 @@
     "Structures Damaged": "397",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "8:36 AM"
+    "DateTime": "2025-01-15T08:36"
   },
   {
     "guid": "199abd70-bd57-4884-a187-1cfa2552a0c8",
@@ -3289,8 +3103,7 @@
     "Structures Damaged": "397",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "11:16 AM"
+    "DateTime": "2025-01-15T11:16"
   },
   {
     "guid": "f2bd7cf2-e80c-41b4-bdd8-90cd66a95bb1",
@@ -3309,8 +3122,7 @@
     "Structures Damaged": "397",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "11:48 AM"
+    "DateTime": "2025-01-15T11:48"
   },
   {
     "guid": "49c4c871-c63b-44c2-9b82-b5b9a4fc0119",
@@ -3329,8 +3141,7 @@
     "Structures Damaged": "397",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "12:29 PM"
+    "DateTime": "2025-01-15T12:29"
   },
   {
     "guid": "591b8be0-f9af-4d15-bd78-639bcc0ed215",
@@ -3349,8 +3160,7 @@
     "Structures Damaged": "397",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "2:45 PM"
+    "DateTime": "2025-01-15T14:45"
   },
   {
     "guid": "f63dead1-62bf-48bb-996e-6646b4e70642",
@@ -3369,8 +3179,7 @@
     "Structures Damaged": "397",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "3:58 PM"
+    "DateTime": "2025-01-15T15:58"
   },
   {
     "guid": "b7d6b230-b7bf-4c50-b568-ed3f42971dde",
@@ -3389,8 +3198,7 @@
     "Structures Damaged": "397",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "4:12 PM"
+    "DateTime": "2025-01-15T16:12"
   },
   {
     "guid": "b4d59eac-ebae-4b65-8e37-137e6d6b14c1",
@@ -3409,8 +3217,7 @@
     "Structures Damaged": "397",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "5:20 PM"
+    "DateTime": "2025-01-15T17:20"
   },
   {
     "guid": "a598fa1d-ee50-4c28-b89c-234cfcf85efe",
@@ -3429,8 +3236,7 @@
     "Structures Damaged": "397",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "5:25 PM"
+    "DateTime": "2025-01-15T17:25"
   },
   {
     "guid": "70800a55-b114-4f30-bd85-476b67138012",
@@ -3449,8 +3255,7 @@
     "Structures Damaged": "397",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "5:54 PM"
+    "DateTime": "2025-01-15T17:54"
   },
   {
     "guid": "e2e41649-789b-4771-9a35-96ef04c94878",
@@ -3469,8 +3274,7 @@
     "Structures Damaged": "484",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "6:33 PM"
+    "DateTime": "2025-01-15T18:33"
   },
   {
     "guid": "26e42c96-f4ac-4c14-b459-9586030eb6a2",
@@ -3489,8 +3293,7 @@
     "Structures Damaged": "484",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "7:03 PM"
+    "DateTime": "2025-01-15T19:03"
   },
   {
     "guid": "20dea2a3-cc6d-472b-92c6-ef14004d21d4",
@@ -3509,8 +3312,7 @@
     "Structures Damaged": "484",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "7:54 PM"
+    "DateTime": "2025-01-15T19:54"
   },
   {
     "guid": "15006938-37cb-4890-bff0-e2d185207f96",
@@ -3529,8 +3331,7 @@
     "Structures Damaged": "484",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "8:03 PM"
+    "DateTime": "2025-01-15T20:03"
   },
   {
     "guid": "9688bff5-16fa-4905-bacb-167f82392dd5",
@@ -3549,8 +3350,7 @@
     "Structures Damaged": "484",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/15/2025",
-    "Time": "8:05 PM"
+    "DateTime": "2025-01-15T20:05"
   },
   {
     "guid": "a7ceb7a9-d5a9-4fef-84bb-4f1e6332e22d",
@@ -3569,8 +3369,7 @@
     "Structures Damaged": "484",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "5:36 AM"
+    "DateTime": "2025-01-16T05:36"
   },
   {
     "guid": "31c99fd0-d371-44e1-9f67-93454a558315",
@@ -3589,8 +3388,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "6:39 AM"
+    "DateTime": "2025-01-16T06:39"
   },
   {
     "guid": "be37e05f-f8d6-4d2b-9e29-9d408070d7e2",
@@ -3609,8 +3407,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "6:42 AM"
+    "DateTime": "2025-01-16T06:42"
   },
   {
     "guid": "c7c6c6dd-6865-44bb-9229-f14091d441f8",
@@ -3629,8 +3426,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "8:07 AM"
+    "DateTime": "2025-01-16T08:07"
   },
   {
     "guid": "7b52213f-8ad2-4a57-a468-bc48ac820524",
@@ -3649,8 +3445,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "10:27 AM"
+    "DateTime": "2025-01-16T10:27"
   },
   {
     "guid": "c06f2976-0e35-4140-9373-65734d7f450c",
@@ -3669,8 +3464,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "11:16 AM"
+    "DateTime": "2025-01-16T11:16"
   },
   {
     "guid": "52218a91-2f4d-45a5-84e1-df8cdf60d9ca",
@@ -3689,8 +3483,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "2:02 PM"
+    "DateTime": "2025-01-16T14:02"
   },
   {
     "guid": "e2f79f66-ff72-48e5-994f-66c3d454b3e8",
@@ -3709,8 +3502,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "2:08 PM"
+    "DateTime": "2025-01-16T14:08"
   },
   {
     "guid": "11f7bcb9-4b1a-4e70-925d-def8cd35586d",
@@ -3729,8 +3521,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "2:09 PM"
+    "DateTime": "2025-01-16T14:09"
   },
   {
     "guid": "1b9fcdad-07d5-4c12-8a69-5d6a74f42eb8",
@@ -3749,8 +3540,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "2:13 PM"
+    "DateTime": "2025-01-16T14:13"
   },
   {
     "guid": "5827c810-6f3b-4b06-8c04-aeb72a2efc84",
@@ -3769,8 +3559,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "2:19 PM"
+    "DateTime": "2025-01-16T14:19"
   },
   {
     "guid": "a88f80a3-69d5-4e93-9751-18ce907d2865",
@@ -3789,8 +3578,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "2:29 PM"
+    "DateTime": "2025-01-16T14:29"
   },
   {
     "guid": "ea3195f1-f5eb-4db1-aa26-569a4f60e393",
@@ -3809,8 +3597,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "5:21 PM"
+    "DateTime": "2025-01-16T17:21"
   },
   {
     "guid": "68c12d6b-de0a-445b-801d-5be65dcc68de",
@@ -3829,8 +3616,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "5:23 PM"
+    "DateTime": "2025-01-16T17:23"
   },
   {
     "guid": "1a9d5252-4aa6-47a7-9f72-894a13b10a46",
@@ -3849,8 +3635,7 @@
     "Structures Damaged": "508",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "5:52 PM"
+    "DateTime": "2025-01-16T17:52"
   },
   {
     "guid": "72b2da7a-8de3-410a-951b-bbd7ae8cac3e",
@@ -3869,8 +3654,7 @@
     "Structures Damaged": "591",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/16/2025",
-    "Time": "6:23 PM"
+    "DateTime": "2025-01-16T18:23"
   },
   {
     "guid": "1bde4e63-471d-484c-bbb8-9ed5aa150ffe",
@@ -3889,8 +3673,7 @@
     "Structures Damaged": "591",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "6:36 AM"
+    "DateTime": "2025-01-17T06:36"
   },
   {
     "guid": "866b33d4-b7de-4ba5-8778-7e051400bb47",
@@ -3909,8 +3692,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "6:43 AM"
+    "DateTime": "2025-01-17T06:43"
   },
   {
     "guid": "00f781ae-71a6-4f92-8e02-9cdc5f0cd78c",
@@ -3929,8 +3711,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "8:08 AM"
+    "DateTime": "2025-01-17T08:08"
   },
   {
     "guid": "08731dfa-2edb-4f3c-846c-2ff58907269f",
@@ -3949,8 +3730,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "8:10 AM"
+    "DateTime": "2025-01-17T08:10"
   },
   {
     "guid": "e99e8f94-021d-4e28-9308-c4574893755f",
@@ -3969,8 +3749,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "8:21 AM"
+    "DateTime": "2025-01-17T08:21"
   },
   {
     "guid": "cfd1c88a-ef55-49a3-9394-019282635c35",
@@ -3989,8 +3768,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "11:23 AM"
+    "DateTime": "2025-01-17T11:23"
   },
   {
     "guid": "30b12e9f-201f-4db7-ab43-3612ce31a587",
@@ -4009,8 +3787,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "11:26 AM"
+    "DateTime": "2025-01-17T11:26"
   },
   {
     "guid": "70133027-1de1-417e-9d63-c72ffa5341ca",
@@ -4029,8 +3806,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "11:28 AM"
+    "DateTime": "2025-01-17T11:28"
   },
   {
     "guid": "9d305568-6165-4a3a-90b3-418ae802e974",
@@ -4049,8 +3825,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "11:31 AM"
+    "DateTime": "2025-01-17T11:31"
   },
   {
     "guid": "f33d5142-e7f4-4af6-8226-70a95a5c3472",
@@ -4069,8 +3844,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "11:49 AM"
+    "DateTime": "2025-01-17T11:49"
   },
   {
     "guid": "7a4a17a2-6985-44d3-a7ba-b6e98afde1b4",
@@ -4089,8 +3863,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "11:50 AM"
+    "DateTime": "2025-01-17T11:50"
   },
   {
     "guid": "b204df2b-fb46-4281-a6de-5a4309ab2a4e",
@@ -4109,8 +3882,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "11:53 AM"
+    "DateTime": "2025-01-17T11:53"
   },
   {
     "guid": "600d16e3-d402-4fae-a555-61536d26b2a9",
@@ -4129,8 +3901,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "12:04 PM"
+    "DateTime": "2025-01-17T12:04"
   },
   {
     "guid": "30844795-c687-4533-acf8-0f9d0b11911f",
@@ -4149,8 +3920,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "12:26 PM"
+    "DateTime": "2025-01-17T12:26"
   },
   {
     "guid": "6b156a1d-e527-4107-be45-66aac385ff33",
@@ -4169,8 +3939,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "12:29 PM"
+    "DateTime": "2025-01-17T12:29"
   },
   {
     "guid": "5dacfa52-08a2-444b-96f6-e273dcabc96f",
@@ -4189,8 +3958,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "12:31 PM"
+    "DateTime": "2025-01-17T12:31"
   },
   {
     "guid": "aa93856b-74e7-4c51-a1da-6a42f8caf7e8",
@@ -4209,8 +3977,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "12:47 PM"
+    "DateTime": "2025-01-17T12:47"
   },
   {
     "guid": "2b9d880c-6a76-44d2-8fd6-36d3ccd10f09",
@@ -4229,8 +3996,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "1:00 PM"
+    "DateTime": "2025-01-17T13:00"
   },
   {
     "guid": "ed093c90-3886-46c5-9eb2-84b3a61584ee",
@@ -4249,8 +4015,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "1:01 PM"
+    "DateTime": "2025-01-17T13:01"
   },
   {
     "guid": "3f38d302-1546-4f75-a804-381e859cd42b",
@@ -4269,8 +4034,7 @@
     "Structures Damaged": "603",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "2:50 PM"
+    "DateTime": "2025-01-17T14:50"
   },
   {
     "guid": "50d31ef7-77b1-42aa-9fd7-3318277ffe25",
@@ -4289,8 +4053,7 @@
     "Structures Damaged": "606",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "8",
-    "Date": "01/17/2025",
-    "Time": "5:32 PM"
+    "DateTime": "2025-01-17T17:32"
   },
   {
     "guid": "0d3d782d-c3cb-4318-8af2-b3653db2f14f",
@@ -4309,8 +4072,7 @@
     "Structures Damaged": "617",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "10",
-    "Date": "01/17/2025",
-    "Time": "6:55 PM"
+    "DateTime": "2025-01-17T18:55"
   },
   {
     "guid": "100a2a20-c46e-40d8-9db2-b6edcf88f0bd",
@@ -4329,8 +4091,7 @@
     "Structures Damaged": "617",
     "Civilian Injuries": "3",
     "Civilian Fatalities": "10",
-    "Date": "01/17/2025",
-    "Time": "6:57 PM"
+    "DateTime": "2025-01-17T18:57"
   },
   {
     "guid": "30adb241-973f-4e61-81a6-813f2777b91c",
@@ -4350,8 +4111,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "6:34 AM"
+    "DateTime": "2025-01-18T06:34"
   },
   {
     "guid": "bca5551a-2df9-4639-8a20-508c6c1b627f",
@@ -4371,8 +4131,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "6:37 AM"
+    "DateTime": "2025-01-18T06:37"
   },
   {
     "guid": "3bf16f84-0ccc-446f-ba6a-1684cc7e925d",
@@ -4392,8 +4151,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "8:49 AM"
+    "DateTime": "2025-01-18T08:49"
   },
   {
     "guid": "a4f8d44d-bf9f-429d-b25d-ef83912f68de",
@@ -4413,8 +4171,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "9:51 AM"
+    "DateTime": "2025-01-18T09:51"
   },
   {
     "guid": "4f385207-da28-4899-8c19-aa4a7d5d0138",
@@ -4434,8 +4191,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "10:00 AM"
+    "DateTime": "2025-01-18T10:00"
   },
   {
     "guid": "57cb7f20-5869-4b82-8bb2-858ff2bc87c6",
@@ -4455,8 +4211,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "10:08 AM"
+    "DateTime": "2025-01-18T10:08"
   },
   {
     "guid": "047e8550-b275-43bf-9486-0da1b0f9c6d6",
@@ -4476,8 +4231,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "11:12 AM"
+    "DateTime": "2025-01-18T11:12"
   },
   {
     "guid": "b1349f1e-5c23-4013-a43e-8374d8fb2048",
@@ -4497,8 +4251,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "11:19 AM"
+    "DateTime": "2025-01-18T11:19"
   },
   {
     "guid": "ec674e59-f5ec-410c-bebb-8382372d488f",
@@ -4518,8 +4271,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "11:23 AM"
+    "DateTime": "2025-01-18T11:23"
   },
   {
     "guid": "a1c8dbc1-8f1d-4ec7-8f58-c336e728009b",
@@ -4539,8 +4291,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "11:25 AM"
+    "DateTime": "2025-01-18T11:25"
   },
   {
     "guid": "c557d857-d86f-42c2-8eba-0fc640caf6d3",
@@ -4560,8 +4311,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "11:39 AM"
+    "DateTime": "2025-01-18T11:39"
   },
   {
     "guid": "0ad34e3f-5b33-4614-9ebc-ebfb254eba8d",
@@ -4581,8 +4331,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "1:28 PM"
+    "DateTime": "2025-01-18T13:28"
   },
   {
     "guid": "55b85cc1-4753-44a8-a9c4-1ebf548d8222",
@@ -4602,8 +4351,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "2:47 PM"
+    "DateTime": "2025-01-18T14:47"
   },
   {
     "guid": "d10ab484-de35-4abc-97a6-b34242a8a089",
@@ -4623,8 +4371,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "3:42 PM"
+    "DateTime": "2025-01-18T15:42"
   },
   {
     "guid": "74203a74-9e84-4028-8b85-9010e1952373",
@@ -4644,8 +4391,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/18/2025",
-    "Time": "6:32 PM"
+    "DateTime": "2025-01-18T18:32"
   },
   {
     "guid": "771945de-7714-40d2-8c73-8eddabe3f84c",
@@ -4665,8 +4411,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "6:22 AM"
+    "DateTime": "2025-01-19T06:22"
   },
   {
     "guid": "287d8cc3-bfe9-4876-9cf7-262cc113cdb9",
@@ -4686,8 +4431,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "6:35 AM"
+    "DateTime": "2025-01-19T06:35"
   },
   {
     "guid": "d8af76fb-5bf1-4577-8eea-e49e09b8ab59",
@@ -4707,8 +4451,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "7:45 AM"
+    "DateTime": "2025-01-19T07:45"
   },
   {
     "guid": "c26f2700-a1c1-40f0-9c96-59a6bc90dd11",
@@ -4728,8 +4471,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "12:12 PM"
+    "DateTime": "2025-01-19T12:12"
   },
   {
     "guid": "8f904e60-90f2-42c7-9250-a74c5cca0a2e",
@@ -4749,8 +4491,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "12:14 PM"
+    "DateTime": "2025-01-19T12:14"
   },
   {
     "guid": "5d50917f-62c9-4abb-acdb-5c8cf2e0bb43",
@@ -4770,8 +4511,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "12:15 PM"
+    "DateTime": "2025-01-19T12:15"
   },
   {
     "guid": "634785d6-3678-4d96-ba8b-e1cbdc67ea4f",
@@ -4791,8 +4531,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "1:32 PM"
+    "DateTime": "2025-01-19T13:32"
   },
   {
     "guid": "16d4ebf2-87ed-434e-b853-5e94f23459ec",
@@ -4812,8 +4551,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "1:35 PM"
+    "DateTime": "2025-01-19T13:35"
   },
   {
     "guid": "a8469dc0-4975-41d9-acba-b62f35f4dbdf",
@@ -4833,8 +4571,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "3:26 PM"
+    "DateTime": "2025-01-19T15:26"
   },
   {
     "guid": "3c145420-5ce2-47e4-a90b-18ca58838366",
@@ -4854,8 +4591,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "3:30 PM"
+    "DateTime": "2025-01-19T15:30"
   },
   {
     "guid": "ccaeae46-ebec-40dd-9a0f-d8ca548e6e14",
@@ -4875,8 +4611,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "6:16 PM"
+    "DateTime": "2025-01-19T18:16"
   },
   {
     "guid": "6d35ff8f-a456-479b-ac2a-0b7acee88f79",
@@ -4896,8 +4631,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "6:17 PM"
+    "DateTime": "2025-01-19T18:17"
   },
   {
     "guid": "02a94ce1-915b-4116-9ff4-ffeae696172a",
@@ -4917,8 +4651,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "6:21 PM"
+    "DateTime": "2025-01-19T18:21"
   },
   {
     "guid": "eaa5dd60-372a-4e7a-99e4-5ce5a860f853",
@@ -4938,8 +4671,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/19/2025",
-    "Time": "6:38 PM"
+    "DateTime": "2025-01-19T18:38"
   },
   {
     "guid": "17788fea-b93a-48b6-9d47-fc43e07e6430",
@@ -4959,8 +4691,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "6:30 AM"
+    "DateTime": "2025-01-20T06:30"
   },
   {
     "guid": "96c4057b-8ae9-4d9a-b79e-57480eb1714e",
@@ -4980,8 +4711,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "6:32 AM"
+    "DateTime": "2025-01-20T06:32"
   },
   {
     "guid": "6af29f4e-ae34-421e-bebd-784fdb5c4e6c",
@@ -5001,8 +4731,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "9:34 AM"
+    "DateTime": "2025-01-20T09:34"
   },
   {
     "guid": "d0a8093a-86d4-488e-8638-224f4f08485e",
@@ -5022,8 +4751,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "10:37 AM"
+    "DateTime": "2025-01-20T10:37"
   },
   {
     "guid": "295205bb-df62-4a27-a823-541207208e3f",
@@ -5043,8 +4771,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "10:40 AM"
+    "DateTime": "2025-01-20T10:40"
   },
   {
     "guid": "a8a439e7-0825-4540-ab25-795eb8205e89",
@@ -5064,8 +4791,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "10:44 AM"
+    "DateTime": "2025-01-20T10:44"
   },
   {
     "guid": "cdd161fc-d87d-42a0-ba85-faf034940300",
@@ -5085,8 +4811,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "10:45 AM"
+    "DateTime": "2025-01-20T10:45"
   },
   {
     "guid": "7fe094b2-41eb-4c39-86d7-8e975f9ec108",
@@ -5106,8 +4831,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "10:49 AM"
+    "DateTime": "2025-01-20T10:49"
   },
   {
     "guid": "26edb6c0-2c39-45ac-967e-c783922aa31f",
@@ -5127,8 +4851,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "10:59 AM"
+    "DateTime": "2025-01-20T10:59"
   },
   {
     "guid": "48fafeef-60ce-4552-9a5f-c103ab7f8d23",
@@ -5148,8 +4871,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "11:17 AM"
+    "DateTime": "2025-01-20T11:17"
   },
   {
     "guid": "2ae9f6ce-c4ed-4acf-865b-b09137e0fc7c",
@@ -5169,8 +4891,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "11:22 AM"
+    "DateTime": "2025-01-20T11:22"
   },
   {
     "guid": "ea32cfb4-5580-4893-979f-95f360d57131",
@@ -5190,8 +4911,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "11:28 AM"
+    "DateTime": "2025-01-20T11:28"
   },
   {
     "guid": "d1c8bd9e-ab99-4331-a6e2-b81c28d79933",
@@ -5211,8 +4931,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "11:30 AM"
+    "DateTime": "2025-01-20T11:30"
   },
   {
     "guid": "bcdfb37e-585f-403b-ba41-13bd167ac4b7",
@@ -5232,8 +4951,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "3:35 PM"
+    "DateTime": "2025-01-20T15:35"
   },
   {
     "guid": "04eae1f3-ee56-48ce-a613-7bc0de5a247e",
@@ -5253,8 +4971,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "3:38 PM"
+    "DateTime": "2025-01-20T15:38"
   },
   {
     "guid": "d1a723f2-3354-4058-bd4f-a3ae9278f1f5",
@@ -5274,8 +4991,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "3:39 PM"
+    "DateTime": "2025-01-20T15:39"
   },
   {
     "guid": "ce06cb5a-ba60-4ae1-adbd-251b6328c010",
@@ -5295,8 +5011,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "4:44 PM"
+    "DateTime": "2025-01-20T16:44"
   },
   {
     "guid": "7ee7df3f-034e-4bea-859f-d29bf41b8863",
@@ -5316,8 +5031,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "4:47 PM"
+    "DateTime": "2025-01-20T16:47"
   },
   {
     "guid": "b5d914da-67bc-4e65-9368-998afaedd3a0",
@@ -5337,8 +5051,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "4:50 PM"
+    "DateTime": "2025-01-20T16:50"
   },
   {
     "guid": "01554265-09a4-42b2-86d8-5440a0b5b8dc",
@@ -5358,8 +5071,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "10",
-    "Date": "01/20/2025",
-    "Time": "4:58 PM"
+    "DateTime": "2025-01-20T16:58"
   },
   {
     "guid": "fb9e87f6-0c4f-4032-ada1-e51076846302",
@@ -5379,8 +5091,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/20/2025",
-    "Time": "6:43 PM"
+    "DateTime": "2025-01-20T18:43"
   },
   {
     "guid": "e97c9c8d-1328-49cf-955d-a6376f6cf434",
@@ -5400,8 +5111,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/21/2025",
-    "Time": "6:23 AM"
+    "DateTime": "2025-01-21T06:23"
   },
   {
     "guid": "3dbbd0c6-579a-4cba-bd90-0363e1ce1728",
@@ -5421,8 +5131,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/21/2025",
-    "Time": "6:26 AM"
+    "DateTime": "2025-01-21T06:26"
   },
   {
     "guid": "108f1f21-1810-48cd-84f4-09f28d22fdaa",
@@ -5442,8 +5151,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/21/2025",
-    "Time": "6:47 AM"
+    "DateTime": "2025-01-21T06:47"
   },
   {
     "guid": "ba56b23c-42f6-4a70-aec4-54c11a2c08d1",
@@ -5463,8 +5171,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/21/2025",
-    "Time": "11:15 AM"
+    "DateTime": "2025-01-21T11:15"
   },
   {
     "guid": "18fe2465-fb9b-4ea0-9034-c53a2c50c7d2",
@@ -5484,8 +5191,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/21/2025",
-    "Time": "11:19 AM"
+    "DateTime": "2025-01-21T11:19"
   },
   {
     "guid": "2d73846b-e89e-48d2-a2f7-ee92e47ed8ac",
@@ -5505,8 +5211,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/21/2025",
-    "Time": "12:08 PM"
+    "DateTime": "2025-01-21T12:08"
   },
   {
     "guid": "cacae85c-969d-4f11-a920-4fdac4cba89c",
@@ -5526,8 +5231,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/21/2025",
-    "Time": "12:29 PM"
+    "DateTime": "2025-01-21T12:29"
   },
   {
     "guid": "1b829352-320a-4c7d-ae58-22af25198f65",
@@ -5547,8 +5251,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/21/2025",
-    "Time": "12:50 PM"
+    "DateTime": "2025-01-21T12:50"
   },
   {
     "guid": "eb9e44ea-f48d-416c-a542-b977854d78bf",
@@ -5568,8 +5271,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/21/2025",
-    "Time": "2:13 PM"
+    "DateTime": "2025-01-21T14:13"
   },
   {
     "guid": "5748ab64-45fe-41e1-a39d-5ac8f4a303c1",
@@ -5589,8 +5291,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/21/2025",
-    "Time": "2:18 PM"
+    "DateTime": "2025-01-21T14:18"
   },
   {
     "guid": "6cb6ffe9-3b14-47fd-849a-b3debb163afd",
@@ -5610,8 +5311,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/21/2025",
-    "Time": "6:32 PM"
+    "DateTime": "2025-01-21T18:32"
   },
   {
     "guid": "a9a1dd2c-46c6-4948-a941-c865d6ff9e5d",
@@ -5631,8 +5331,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/22/2025",
-    "Time": "6:23 AM"
+    "DateTime": "2025-01-22T06:23"
   },
   {
     "guid": "9360dbbc-6c6c-4de6-9f5c-368643ce2d04",
@@ -5652,8 +5351,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/22/2025",
-    "Time": "8:51 AM"
+    "DateTime": "2025-01-22T08:51"
   },
   {
     "guid": "d06f8f72-4571-46ba-bf91-93ff32a5a93f",
@@ -5673,8 +5371,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/22/2025",
-    "Time": "2:34 PM"
+    "DateTime": "2025-01-22T14:34"
   },
   {
     "guid": "5910a24b-1af9-4e03-bf7c-dbac9f728d7a",
@@ -5694,8 +5391,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/22/2025",
-    "Time": "4:15 PM"
+    "DateTime": "2025-01-22T16:15"
   },
   {
     "guid": "0fca1576-b342-4377-9fd8-2f662233f57a",
@@ -5715,8 +5411,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/22/2025",
-    "Time": "6:32 PM"
+    "DateTime": "2025-01-22T18:32"
   },
   {
     "guid": "238eb85e-6431-4d98-a800-bb08913541d6",
@@ -5736,8 +5431,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/23/2025",
-    "Time": "6:28 AM"
+    "DateTime": "2025-01-23T06:28"
   },
   {
     "guid": "8171ce52-bfbc-46eb-ba15-9c599e458ced",
@@ -5757,8 +5451,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/23/2025",
-    "Time": "8:32 AM"
+    "DateTime": "2025-01-23T08:32"
   },
   {
     "guid": "557f19fc-3da1-43ba-97ff-23859112a0fa",
@@ -5778,8 +5471,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/23/2025",
-    "Time": "10:50 AM"
+    "DateTime": "2025-01-23T10:50"
   },
   {
     "guid": "0e442186-897c-42da-9399-7791e3dfb6fc",
@@ -5799,8 +5491,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/23/2025",
-    "Time": "2:25 PM"
+    "DateTime": "2025-01-23T14:25"
   },
   {
     "guid": "1f9be207-cd32-4643-9bc4-60bf6dbcd335",
@@ -5820,8 +5511,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/23/2025",
-    "Time": "3:18 PM"
+    "DateTime": "2025-01-23T15:18"
   },
   {
     "guid": "6a47d273-64e5-48dd-ba62-66ead4201fbb",
@@ -5841,8 +5531,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/23/2025",
-    "Time": "7:03 PM"
+    "DateTime": "2025-01-23T19:03"
   },
   {
     "guid": "df350599-91f9-42c0-b10d-96a804fad4a4",
@@ -5862,8 +5551,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/23/2025",
-    "Time": "8:08 PM"
+    "DateTime": "2025-01-23T20:08"
   },
   {
     "guid": "36cabf7c-1843-4bea-bc99-851d9a6296d4",
@@ -5883,8 +5571,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/24/2025",
-    "Time": "6:24 AM"
+    "DateTime": "2025-01-24T06:24"
   },
   {
     "guid": "0707c9b0-4da9-4129-8e42-5c589e3af099",
@@ -5904,8 +5591,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/24/2025",
-    "Time": "12:26 PM"
+    "DateTime": "2025-01-24T12:26"
   },
   {
     "guid": "2f249c61-94cc-40cb-a8cb-7eff0f0d3d83",
@@ -5925,8 +5611,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/24/2025",
-    "Time": "6:13 PM"
+    "DateTime": "2025-01-24T18:13"
   },
   {
     "guid": "151fbca7-58ad-4bba-b327-9e5ed651473a",
@@ -5946,8 +5631,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/25/2025",
-    "Time": "8:38 AM"
+    "DateTime": "2025-01-25T08:38"
   },
   {
     "guid": "dd8fe406-9089-41a4-8bfe-adcf1aaf3957",
@@ -5967,8 +5651,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/25/2025",
-    "Time": "2:30 PM"
+    "DateTime": "2025-01-25T14:30"
   },
   {
     "guid": "68ab11b3-2d6f-41c9-ae99-c6e44a488f2e",
@@ -5988,8 +5671,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/25/2025",
-    "Time": "2:32 PM"
+    "DateTime": "2025-01-25T14:32"
   },
   {
     "guid": "8607a763-c3f3-4157-9f25-4d4053ce9581",
@@ -6009,8 +5691,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/25/2025",
-    "Time": "5:46 PM"
+    "DateTime": "2025-01-25T17:46"
   },
   {
     "guid": "01298765-e538-4574-8b6f-3c5fe1edbc9d",
@@ -6030,8 +5711,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/25/2025",
-    "Time": "6:17 PM"
+    "DateTime": "2025-01-25T18:17"
   },
   {
     "guid": "6a88a628-2ddf-4929-b056-2a4366420ba1",
@@ -6051,8 +5731,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/26/2025",
-    "Time": "9:08 AM"
+    "DateTime": "2025-01-26T09:08"
   },
   {
     "guid": "82e6dcd6-3eaa-45bc-8090-29ceff5e0cce",
@@ -6072,8 +5751,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/26/2025",
-    "Time": "9:28 AM"
+    "DateTime": "2025-01-26T09:28"
   },
   {
     "guid": "900c95b3-b29c-4f1f-88b1-5233a900ce37",
@@ -6093,8 +5771,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/26/2025",
-    "Time": "10:48 AM"
+    "DateTime": "2025-01-26T10:48"
   },
   {
     "guid": "19926031-7b89-4caf-9826-b324d96cfb30",
@@ -6114,8 +5791,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/26/2025",
-    "Time": "1:25 PM"
+    "DateTime": "2025-01-26T13:25"
   },
   {
     "guid": "bb2cc5cd-3a3b-426f-a9ae-97805899f19d",
@@ -6135,8 +5811,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/26/2025",
-    "Time": "3:51 PM"
+    "DateTime": "2025-01-26T15:51"
   },
   {
     "guid": "67dda116-e67c-46a6-948a-a31f7f131b85",
@@ -6156,8 +5831,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/26/2025",
-    "Time": "5:35 PM"
+    "DateTime": "2025-01-26T17:35"
   },
   {
     "guid": "85e44d6b-77c8-4e02-8819-1749991a5c60",
@@ -6177,8 +5851,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/27/2025",
-    "Time": "12:50 PM"
+    "DateTime": "2025-01-27T12:50"
   },
   {
     "guid": "26ae17c3-7807-448e-89c7-7cd54429637b",
@@ -6198,8 +5871,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/27/2025",
-    "Time": "12:55 PM"
+    "DateTime": "2025-01-27T12:55"
   },
   {
     "guid": "1debef71-9145-4e47-b68e-4346b728babb",
@@ -6219,8 +5891,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/27/2025",
-    "Time": "12:56 PM"
+    "DateTime": "2025-01-27T12:56"
   },
   {
     "guid": "425ef556-140c-40ab-ada9-b394434cc0ee",
@@ -6240,8 +5911,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/27/2025",
-    "Time": "1:00 PM"
+    "DateTime": "2025-01-27T13:00"
   },
   {
     "guid": "868d1c5b-140f-4f71-9ed7-f748c787f8aa",
@@ -6261,8 +5931,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "11",
-    "Date": "01/27/2025",
-    "Time": "3:54 PM"
+    "DateTime": "2025-01-27T15:54"
   },
   {
     "guid": "eb17c568-424c-4376-87c9-3e1bd6826d7f",
@@ -6282,8 +5951,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "01/27/2025",
-    "Time": "5:22 PM"
+    "DateTime": "2025-01-27T17:22"
   },
   {
     "guid": "b2c9d228-4857-43a1-aa7a-22b39c852789",
@@ -6303,8 +5971,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "01/28/2025",
-    "Time": "8:22 AM"
+    "DateTime": "2025-01-28T08:22"
   },
   {
     "guid": "632ea637-4d58-4b71-9050-740acceab450",
@@ -6324,8 +5991,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "01/28/2025",
-    "Time": "9:29 AM"
+    "DateTime": "2025-01-28T09:29"
   },
   {
     "guid": "c83d0751-14b3-4587-9043-27cba51d8b29",
@@ -6345,8 +6011,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "01/30/2025",
-    "Time": "5:35 PM"
+    "DateTime": "2025-01-30T17:35"
   },
   {
     "guid": "fd5da177-2bbc-489d-b9eb-f3e7cd493b58",
@@ -6366,8 +6031,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "02/03/2025",
-    "Time": "2:03 PM"
+    "DateTime": "2025-02-03T14:03"
   },
   {
     "guid": "c2f1e8db-30bf-4d18-bad2-cc36d50a1484",
@@ -6387,8 +6051,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "02/04/2025",
-    "Time": "7:40 AM"
+    "DateTime": "2025-02-04T07:40"
   },
   {
     "guid": "46702572-7a54-4147-8984-f972a9182b83",
@@ -6408,8 +6071,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "02/04/2025",
-    "Time": "10:01 AM"
+    "DateTime": "2025-02-04T10:01"
   },
   {
     "guid": "2802fe18-0386-474c-ab33-819e7b616666",
@@ -6429,8 +6091,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "02/04/2025",
-    "Time": "10:05 AM"
+    "DateTime": "2025-02-04T10:05"
   },
   {
     "guid": "7dd9a730-1a70-4a8a-b2a7-9f3971bcd89d",
@@ -6450,8 +6111,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "02/04/2025",
-    "Time": "11:06 AM"
+    "DateTime": "2025-02-04T11:06"
   },
   {
     "guid": "9670318e-d5f5-4c88-93a9-92fda172a80d",
@@ -6471,8 +6131,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "02/05/2025",
-    "Time": "8:00 AM"
+    "DateTime": "2025-02-05T08:00"
   },
   {
     "guid": "dc2c46f5-957a-47b7-ba3e-a903596ed85d",
@@ -6492,8 +6151,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "02/05/2025",
-    "Time": "8:31 AM"
+    "DateTime": "2025-02-05T08:31"
   },
   {
     "guid": "590a9c92-1a6d-49c1-8ac8-128f33c0a63e",
@@ -6513,8 +6171,7 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "02/07/2025",
-    "Time": "12:57 PM"
+    "DateTime": "2025-02-07T12:57"
   },
   {
     "guid": "fc673f28-0d66-402b-9ebe-2380a9bf3c26",
@@ -6534,7 +6191,6 @@
     "Civilian Injuries": "3",
     "Firefighter Injuries": "1",
     "Civilian Fatalities": "12",
-    "Date": "02/10/2025",
-    "Time": "3:46 PM"
+    "DateTime": "2025-02-10T15:46"
   }
 ]

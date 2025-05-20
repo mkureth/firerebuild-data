@@ -1,9 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const moment = require('moment');
-//const moment = require('moment-timezone');
 
-const inputFilePath = path.join('data/prep', 'times.json');
+const inputFilePath = '../../data/REPORTS/formatted/reports/times.json';
 const rawData = fs.readFileSync(inputFilePath);
 const inputData = JSON.parse(rawData);
 
@@ -183,8 +182,8 @@ function formatDate(date, time) {
     return date;
 }
 
-const outputFilePath = path.join('data/deploy', 'meteogram.json');
+const outputFilePath = '../../data/REPORTS/formatted/deploy/meteogram.json';
 fs.writeFileSync(outputFilePath, JSON.stringify(output, null, 2));
 //fs.writeFileSync(outputFilePath, JSON.stringify(output));
 
-console.log('Conversion complete. Output saved to data.json');
+console.log('Conversion complete. Output saved to meteogram.json');

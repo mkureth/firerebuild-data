@@ -4,7 +4,7 @@ const moment = require('moment');
 
 //http://localhost:3000/assets/content/embed/grid-daily/embed.html?env=local
 
-const inputFilePath = path.join('data/raw', 'weather-daily-stations.json');
+const inputFilePath = '../../data/REPORTS/formatted/reports/prep-stations.json';
 const rawData = fs.readFileSync(inputFilePath);
 const inputData = JSON.parse(rawData);
 
@@ -227,7 +227,7 @@ function formatDate(date, time) {
     return  momentDate.format('YYYY-MM-DDTHH:mm:ss[Z]');
 }
 
-const outputFilePath = path.join('data/deploy', 'grid-daily-stations.json');
+const outputFilePath = '../../data/REPORTS/formatted/deploy/grid-daily-stations.json';
 fs.writeFileSync(outputFilePath, JSON.stringify(output));
 
-console.log('Conversion complete. Output saved to grid.json');
+console.log('Conversion complete. Output saved to grid-daily-stations.json');

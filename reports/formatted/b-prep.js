@@ -2,13 +2,15 @@ const fs = require('fs');
 const path = require('path');
 const csvParser = require('csv-parser');
 const { parse } = require('json2csv');
+const moment = require('moment');
 
 const inputFiles = [
-    './data/raw/weather-daily.csv',
-    './data/raw/fire-ca-gov.csv'
+    '../../data/PROCESSED/weather/daily/stations/combined-KLAX.csv',
+    '../../data/PROCESSED/fire/fire-ca-gov/combined.csv'
 ];
-const outputCsvPath = './data/prep/prep.csv';
-const outputJsonPath = './data/prep/prep.json';
+const outputCsvPath = '../../data/REPORTS/formatted/reports/prep.csv';
+const outputJsonPath = '../../data/REPORTS/formatted/reports/prep.json';
+
 
 let combinedData = [];
 
@@ -60,10 +62,56 @@ const formatDisplayDate = (dateStr, timeStr) => {
     return formattedDate;
 };
 
+const filterDates = (inputData) => {
+    var outputData = [];
+    for (var i = 0; i <inputData.length; i++) {        
+        const dateToCheck = moment(inputData[i].DateTime);
+        const startDate = moment('2025-01-03');
+        const endDate = moment('2025-02-11');
+        const isBetweenInclusive = dateToCheck.isBetween(startDate, endDate, null, '[]');
+        if (isBetweenInclusive) {
+            outputData.push(inputData[i]);    
+        }
+    }
+    return outputData;
+};
+
+/*
+            
+
+
+
+*/
+
+const renameKeys = (inputData) => {
+    //var outputData = [];
+    for (var i = 0; i <inputData.length; i++) {        
+        inputData[i]['Temperature'] = inputData[i]['Temperature High'];
+        delete inputData[i]['Temperature High'];
+        delete inputData[i]['Temperature Low'];
+
+        inputData[i]['Wind Speed'] = inputData[i]['Wind Speed High'];
+        delete inputData[i]['Wind Speed High'];
+        delete inputData[i]['Wind Speed Low'];
+
+        inputData[i]['Wind Gust'] = inputData[i]['Wind Gust High'];
+        delete inputData[i]['Wind Gust High'];
+        delete inputData[i]['Wind Gust Low'];
+
+        inputData[i]['Wind'] = inputData[i]['Wind Direction'];
+        delete inputData[i]['Wind Direction'];
+
+
+    }
+    return inputData;
+};
+
 // Process all files
 Promise.all(inputFiles.map(readCsv))
     .then(results => {
         combinedData = results.flat();
+        combinedData = filterDates(combinedData);
+        combinedData = renameKeys(combinedData);
 
         combinedData.forEach(function(content, index) {
             delete combinedData[index]['Name'];
@@ -74,9 +122,16 @@ Promise.all(inputFiles.map(readCsv))
             delete combinedData[index]['Type'];
             delete combinedData[index]['Cause'];
             delete combinedData[index]['Counties'];
+            delete combinedData[index]['Station'];
+
+            
+            combinedData[index]['Date'] = combinedData[index]['DateTime'];// 
+
+            //let newDate = new Date(combinedData[index]['DateTime']);
+
 
             let newDate = new Date(combinedData[index]['Date']);
-            combinedData[index]['Date'] = newDate.toISOString().split('T')[0]; // Format as YYYY-MM-DD
+            combinedData[index]['Source Weather'] = newDate.toISOString().split('T')[0]; // Format as YYYY-MM-DD
 
             combinedData[index]['Source Fire CA'] = combinedData[index]['guid'];
             delete combinedData[index]['guid'];
@@ -87,6 +142,8 @@ Promise.all(inputFiles.map(readCsv))
             }
 
             combinedData[index]['Display Date'] = formatDisplayDate(combinedData[index]['Date'], combinedData[index]['Time']);
+
+            delete combinedData[index]['DateTime'];
         });
         
         // Sort combinedData by Date then Time
@@ -149,6 +206,7 @@ Promise.all(inputFiles.map(readCsv))
             if (typeof content['Firefighter Injuries'] === 'undefined' && index > 0) {
                 combinedData[index]['Firefighter Injuries'] = combinedData[index - 1]['Firefighter Injuries'];
             }
+
         });
         
         // Ensure output directory exists
