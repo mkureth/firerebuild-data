@@ -1,0 +1,730 @@
+[
+  {
+    "DateTime": "2025-01-07T00:00",
+    "Wind Speed High": 6.5,
+    "Station Wind Speed High": "KCATOPAN55",
+    "Wind Gust High": 11.4,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T00:15",
+    "Wind Speed High": 5.4,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 11.6,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T00:30",
+    "Wind Speed High": 6.5,
+    "Station Wind Speed High": "KCAMALIB61",
+    "Wind Gust High": 10.3,
+    "Station Wind Gust High": "KCAMALIB61"
+  },
+  {
+    "DateTime": "2025-01-07T00:45",
+    "Wind Speed High": 7.8,
+    "Station Wind Speed High": "KCAMALIB61",
+    "Wind Gust High": 10.3,
+    "Station Wind Gust High": "KCAMALIB61"
+  },
+  {
+    "DateTime": "2025-01-07T01:00",
+    "Wind Speed High": 7.6,
+    "Station Wind Speed High": "KCAMALIB61",
+    "Wind Gust High": 11.4,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T01:15",
+    "Wind Speed High": 5.8,
+    "Station Wind Speed High": "KCATOPAN55",
+    "Wind Gust High": 9.8,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T01:30",
+    "Wind Speed High": 9.2,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 11.9,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T01:45",
+    "Wind Speed High": 8.9,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 13.4,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T02:00",
+    "Wind Speed High": 11,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 17.9,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T02:15",
+    "Wind Speed High": 8.7,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 14.8,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T02:30",
+    "Wind Speed High": 10.3,
+    "Station Wind Speed High": "KCATOPAN55",
+    "Wind Gust High": 15,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T02:45",
+    "Wind Speed High": 11.9,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 16.3,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T03:00",
+    "Wind Speed High": 13,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 19.2,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T03:15",
+    "Wind Speed High": 10.5,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 16.3,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T03:30",
+    "Wind Speed High": 14.5,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 19.5,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T03:45",
+    "Wind Speed High": 16.3,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 22.6,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T04:00",
+    "Wind Speed High": 17.9,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 22.8,
+    "Station Wind Gust High": "KCATOPAN32"
+  },
+  {
+    "DateTime": "2025-01-07T04:15",
+    "Wind Speed High": 22.1,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 25.1,
+    "Station Wind Gust High": "KCATOPAN32"
+  },
+  {
+    "DateTime": "2025-01-07T04:30",
+    "Wind Speed High": 20.1,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 28.2,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T04:45",
+    "Wind Speed High": 28,
+    "Station Wind Speed High": "KCAPACIF287",
+    "Wind Gust High": 28.2,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T05:00",
+    "Wind Speed High": 19.7,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 31.1,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T05:15",
+    "Wind Speed High": 22.1,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 28.2,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T05:30",
+    "Wind Speed High": 26.6,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 26.6,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T05:45",
+    "Wind Speed High": 24,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 28.6,
+    "Station Wind Gust High": "KCAMALIB108"
+  },
+  {
+    "DateTime": "2025-01-07T06:00",
+    "Wind Speed High": 20,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 26.4,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T06:15",
+    "Wind Speed High": 25,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 26.2,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T06:30",
+    "Wind Speed High": 27,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 27,
+    "Station Wind Gust High": "KCAMALIB114"
+  },
+  {
+    "DateTime": "2025-01-07T06:45",
+    "Wind Speed High": 24,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 24,
+    "Station Wind Gust High": "KCAMALIB114"
+  },
+  {
+    "DateTime": "2025-01-07T07:00",
+    "Wind Speed High": 23,
+    "Station Wind Speed High": "KCAPACIF287",
+    "Wind Gust High": 32.7,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T07:15",
+    "Wind Speed High": 23.3,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 34,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T07:30",
+    "Wind Speed High": 20,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 26.2,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T07:45",
+    "Wind Speed High": 34,
+    "Station Wind Speed High": "KCAWOODL8",
+    "Wind Gust High": 34,
+    "Station Wind Gust High": "KCAWOODL8"
+  },
+  {
+    "DateTime": "2025-01-07T08:00",
+    "Wind Speed High": 28,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 33.3,
+    "Station Wind Gust High": "KCALOSAN724"
+  },
+  {
+    "DateTime": "2025-01-07T08:15",
+    "Wind Speed High": 33,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 44.5,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T08:30",
+    "Wind Speed High": 33.3,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 49,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T08:45",
+    "Wind Speed High": 32,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 34,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T09:00",
+    "Wind Speed High": 33.3,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 50.3,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T09:15",
+    "Wind Speed High": 30.8,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 50.6,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T09:30",
+    "Wind Speed High": 32.4,
+    "Station Wind Speed High": "KCALOSAN724",
+    "Wind Gust High": 46.1,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T09:45",
+    "Wind Speed High": 29.3,
+    "Station Wind Speed High": "KCALOSAN724",
+    "Wind Gust High": 41.6,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T10:00",
+    "Wind Speed High": 39,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 44.5,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T10:15",
+    "Wind Speed High": 35.2,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 40,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T10:30",
+    "Wind Speed High": 28,
+    "Station Wind Speed High": "KCALOSAN872",
+    "Wind Gust High": 35,
+    "Station Wind Gust High": "KCAMALIB52"
+  },
+  {
+    "DateTime": "2025-01-07T10:45",
+    "Wind Speed High": 31,
+    "Station Wind Speed High": "KCALOSAN872",
+    "Wind Gust High": 35.6,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T11:00",
+    "Wind Speed High": 33,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 35.3,
+    "Station Wind Gust High": "KCATOPAN32"
+  },
+  {
+    "DateTime": "2025-01-07T11:15",
+    "Wind Speed High": 28.9,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 36,
+    "Station Wind Gust High": "KCAPACIF287"
+  },
+  {
+    "DateTime": "2025-01-07T11:30",
+    "Wind Speed High": 29.1,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 35.3,
+    "Station Wind Gust High": "KCATOPAN32"
+  },
+  {
+    "DateTime": "2025-01-07T11:45",
+    "Wind Speed High": 28.2,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 42.9,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T12:00",
+    "Wind Speed High": 27.7,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 38.5,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T12:15",
+    "Wind Speed High": 35.7,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 40,
+    "Station Wind Gust High": "KCAPACIF287"
+  },
+  {
+    "DateTime": "2025-01-07T12:30",
+    "Wind Speed High": 28.9,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 35,
+    "Station Wind Gust High": "KCAMALIB52"
+  },
+  {
+    "DateTime": "2025-01-07T12:45",
+    "Wind Speed High": 32.2,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 36.5,
+    "Station Wind Gust High": "KCATOPAN32"
+  },
+  {
+    "DateTime": "2025-01-07T13:00",
+    "Wind Speed High": 31.2,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 37.1,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T13:15",
+    "Wind Speed High": 29.8,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 38.5,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T13:30",
+    "Wind Speed High": 24,
+    "Station Wind Speed High": "KCALOSAN872",
+    "Wind Gust High": 31.1,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T13:45",
+    "Wind Speed High": 28.6,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 40,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T14:00",
+    "Wind Speed High": 27.3,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 31.1,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T14:15",
+    "Wind Speed High": 28,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 32,
+    "Station Wind Gust High": "KCALOSAN872"
+  },
+  {
+    "DateTime": "2025-01-07T14:30",
+    "Wind Speed High": 29.5,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 41.6,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T14:45",
+    "Wind Speed High": 28.2,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 37,
+    "Station Wind Gust High": "KCALOSAN872"
+  },
+  {
+    "DateTime": "2025-01-07T15:00",
+    "Wind Speed High": 29.5,
+    "Station Wind Speed High": "KCALOSAN724",
+    "Wind Gust High": 37.8,
+    "Station Wind Gust High": "KCALOSAN724"
+  },
+  {
+    "DateTime": "2025-01-07T15:15",
+    "Wind Speed High": 25.3,
+    "Station Wind Speed High": "KCALOSAN724",
+    "Wind Gust High": 37.6,
+    "Station Wind Gust High": "KCASANTA4210"
+  },
+  {
+    "DateTime": "2025-01-07T15:30",
+    "Wind Speed High": 27.3,
+    "Station Wind Speed High": "KCALOSAN724",
+    "Wind Gust High": 37,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-07T15:45",
+    "Wind Speed High": 27.1,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 37.6,
+    "Station Wind Gust High": "KCATOPAN32"
+  },
+  {
+    "DateTime": "2025-01-07T16:00",
+    "Wind Speed High": 33.3,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 42.3,
+    "Station Wind Gust High": "KCATOPAN32"
+  },
+  {
+    "DateTime": "2025-01-07T16:15",
+    "Wind Speed High": 26.8,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 35.3,
+    "Station Wind Gust High": "KCATOPAN32"
+  },
+  {
+    "DateTime": "2025-01-07T16:30",
+    "Wind Speed High": 27.5,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 35.3,
+    "Station Wind Gust High": "KCATOPAN32"
+  },
+  {
+    "DateTime": "2025-01-07T16:45",
+    "Wind Speed High": 30.4,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 36.5,
+    "Station Wind Gust High": "KCATOPAN32"
+  },
+  {
+    "DateTime": "2025-01-07T17:00",
+    "Wind Speed High": 26.6,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 36,
+    "Station Wind Gust High": "KCAPACIF287"
+  },
+  {
+    "DateTime": "2025-01-07T17:15",
+    "Wind Speed High": 27.1,
+    "Station Wind Speed High": "KCALOSAN724",
+    "Wind Gust High": 60,
+    "Station Wind Gust High": "KCAPACIF287"
+  },
+  {
+    "DateTime": "2025-01-07T17:30",
+    "Wind Speed High": 29,
+    "Station Wind Speed High": "KCAPACIF287",
+    "Wind Gust High": 56,
+    "Station Wind Gust High": "KCAPACIF287"
+  },
+  {
+    "DateTime": "2025-01-07T17:45",
+    "Wind Speed High": 28.2,
+    "Station Wind Speed High": "KCALOSAN724",
+    "Wind Gust High": 36,
+    "Station Wind Gust High": "KCAPACIF287"
+  },
+  {
+    "DateTime": "2025-01-07T18:00",
+    "Wind Speed High": 31.2,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 41,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-07T18:15",
+    "Wind Speed High": 30.2,
+    "Station Wind Speed High": "KCALOSAN724",
+    "Wind Gust High": 41,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-07T18:30",
+    "Wind Speed High": 36,
+    "Station Wind Speed High": "KCAWOODL8",
+    "Wind Gust High": 41,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-07T18:45",
+    "Wind Speed High": 37.8,
+    "Station Wind Speed High": "KCATOPAN32",
+    "Wind Gust High": 49,
+    "Station Wind Gust High": "KCATOPAN32"
+  },
+  {
+    "DateTime": "2025-01-07T19:00",
+    "Wind Speed High": 32.2,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 38,
+    "Station Wind Gust High": "KCALOSAN872"
+  },
+  {
+    "DateTime": "2025-01-07T19:15",
+    "Wind Speed High": 32,
+    "Station Wind Speed High": "KCALOSAN872",
+    "Wind Gust High": 36.7,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T19:30",
+    "Wind Speed High": 30.5,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 40.5,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T19:45",
+    "Wind Speed High": 35,
+    "Station Wind Speed High": "KCALOSAN872",
+    "Wind Gust High": 43,
+    "Station Wind Gust High": "KCALOSAN872"
+  },
+  {
+    "DateTime": "2025-01-07T20:00",
+    "Wind Speed High": 31.5,
+    "Station Wind Speed High": "KCASANTA2881",
+    "Wind Gust High": 43,
+    "Station Wind Gust High": "KCALOSAN872"
+  },
+  {
+    "DateTime": "2025-01-07T20:15",
+    "Wind Speed High": 30.1,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 43,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-07T20:30",
+    "Wind Speed High": 29,
+    "Station Wind Speed High": "KLAX",
+    "Wind Gust High": 43,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-07T20:45",
+    "Wind Speed High": 34,
+    "Station Wind Speed High": "KCALOSAN872",
+    "Wind Gust High": 52.8,
+    "Station Wind Gust High": "KCATOPAN55"
+  },
+  {
+    "DateTime": "2025-01-07T21:00",
+    "Wind Speed High": 38.5,
+    "Station Wind Speed High": "KCALOSAN724",
+    "Wind Gust High": 48.3,
+    "Station Wind Gust High": "KCALOSAN724"
+  },
+  {
+    "DateTime": "2025-01-07T21:15",
+    "Wind Speed High": 32.4,
+    "Station Wind Speed High": "KCALOSAN724",
+    "Wind Gust High": 42.3,
+    "Station Wind Gust High": "KCAMALIB61"
+  },
+  {
+    "DateTime": "2025-01-07T21:30",
+    "Wind Speed High": 34,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 54.8,
+    "Station Wind Gust High": "KCAMALIB61"
+  },
+  {
+    "DateTime": "2025-01-07T21:45",
+    "Wind Speed High": 37,
+    "Station Wind Speed High": "KCALOSAN872",
+    "Wind Gust High": 42,
+    "Station Wind Gust High": "KCALOSAN872"
+  },
+  {
+    "DateTime": "2025-01-07T22:00",
+    "Wind Speed High": 35.1,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 48.8,
+    "Station Wind Gust High": "KCASANTA2881"
+  },
+  {
+    "DateTime": "2025-01-07T22:15",
+    "Wind Speed High": 35.1,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 47.4,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T22:30",
+    "Wind Speed High": 34.2,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 57.9,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T22:45",
+    "Wind Speed High": 40.8,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 42.9,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T23:00",
+    "Wind Speed High": 35.3,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 54.8,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T23:15",
+    "Wind Speed High": 35.6,
+    "Station Wind Speed High": "KCAMALIB158",
+    "Wind Gust High": 50.3,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-07T23:30",
+    "Wind Speed High": 35.9,
+    "Station Wind Speed High": "KCAMALIB52",
+    "Wind Gust High": 36,
+    "Station Wind Gust High": "KCAMALIB52"
+  },
+  {
+    "DateTime": "2025-01-07T23:45",
+    "Wind Speed High": 26.4,
+    "Station Wind Speed High": "KCASANTA2881",
+    "Wind Gust High": 38.5,
+    "Station Wind Gust High": "KCAMALIB158"
+  },
+  {
+    "DateTime": "2025-01-08T00:00",
+    "Wind Speed High": 28,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 40,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-08T00:15",
+    "Wind Speed High": 28,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 40,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-08T00:30",
+    "Wind Speed High": 28,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 40,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-08T00:45",
+    "Wind Speed High": 28,
+    "Station Wind Speed High": "KCAMALIB114",
+    "Wind Gust High": 40,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-08T01:00",
+    "Wind Speed High": 18,
+    "Station Wind Speed High": "KLAX",
+    "Wind Gust High": 32,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-08T01:15",
+    "Wind Speed High": 18,
+    "Station Wind Speed High": "KLAX",
+    "Wind Gust High": 32,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-08T01:30",
+    "Wind Speed High": 18,
+    "Station Wind Speed High": "KLAX",
+    "Wind Gust High": 32,
+    "Station Wind Gust High": "KLAX"
+  },
+  {
+    "DateTime": "2025-01-08T01:45",
+    "Wind Speed High": 18,
+    "Station Wind Speed High": "KLAX",
+    "Wind Gust High": 32,
+    "Station Wind Gust High": "KLAX"
+  }
+]
