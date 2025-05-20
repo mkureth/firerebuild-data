@@ -5,8 +5,8 @@ const path = require('path');
 const csv = require('csv-parser');
 
 // Input and output paths
-const inputPath = path.join(__dirname, 'data/source/sce-fire.csv');
-const outputDir = path.join(__dirname, 'data/json');
+const inputPath = path.join(__dirname, '../../data/SOURCE/sce/sce/source/sce-fire.csv');
+const outputDir = path.join(__dirname, '../../data/SOURCE/sce/sce/json');
 const outputPath = path.join(outputDir, 'sce-extract.json');
 
 const results = [];

@@ -4,11 +4,6 @@ Repo for fire-ca-gov data
 # node version:
 18.18.0
 
-# source data
-//SOURCE: https://capuc.maps.arcgis.com/apps/dashboards/ecd21b1c204f47da8b1fcc4c5c3b7d3a
-no scripts.  just download
-
-
 # research
 https://www.fire.ca.gov/incidents/2025/1/7/palisades-fire/updates/
 
