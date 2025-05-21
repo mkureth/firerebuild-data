@@ -5,15 +5,15 @@ const { parse } = require('csv-parse/sync');
 
 const combinedCsvFile = '../../../data/PROCESSED/weather/day/combined.csv';
 const stationDataPath = '../../../data/SOURCE/weather/stations/stations.json';
-const perStationOutputDir = '../../../deploy/content/assets/stations/';
+const perStationOutputDir = '../../../deploy/content/palisades-fire-weather-report/assets/stations/';
 
-const outputTextFile = '../../../deploy/content/assets/summary.txt';
-const outputJsonFile = '../../../deploy/content/assets/summary.json';
-const outputCsvFile = '../../../deploy/content/assets/summary.csv';
+const outputTextFile = '../../../deploy/content/palisades-fire-weather-report/assets/summary.txt';
+const outputJsonFile = '../../../deploy/content/palisades-fire-weather-report/assets/summary.json';
+const outputCsvFile = '../../../deploy/content/palisades-fire-weather-report/assets/summary.csv';
 
-const outputRangedTextFile = '../../../deploy/content/assets/summary-ranged.txt';
-const outputRangedJsonFile = '../../../deploy/content/assets/summary-ranged.json';
-const outputRangedCsvFile = '../../../deploy/content/assets/summary-ranged.csv';
+const outputRangedTextFile = '../../../deploy/content/palisades-fire-weather-report/assets/summary-ranged.txt';
+const outputRangedJsonFile = '../../../deploy/content/palisades-fire-weather-report/assets/summary-ranged.json';
+const outputRangedCsvFile = '../../../deploy/content/palisades-fire-weather-report/assets/summary-ranged.csv';
 
 const fireLat = 34.07901;
 const fireLng = -118.5591;
