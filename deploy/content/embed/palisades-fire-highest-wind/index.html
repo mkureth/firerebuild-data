@@ -8,9 +8,9 @@
 <script>
     var params = new URLSearchParams(window.location.search);
     var urlParam = params.get("env");
-    var dataURL = 'https://firerebuild.com/assets/content/embed/palisades-fire-highest-wind/data/grid-wind-reports.json';
+    var dataURL = 'https://firerebuild.com/assets/content/embed/palisades-fire-highest-wind/data/palisades-fire-highest-wind.json';
     if (urlParam == 'local') {
-        dataURL = 'http://localhost:3000/assets/content/embed/palisades-fire-highest-wind/data/grid-wind-reports.json';
+        dataURL = 'http://127.0.0.1:8080/content/embed/palisades-fire-highest-wind/data/palisades-fire-highest-wind.json';
     }
 </script>
 

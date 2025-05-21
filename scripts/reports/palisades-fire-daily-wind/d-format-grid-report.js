@@ -2,18 +2,19 @@ const fs = require('fs');
 const path = require('path');
 const moment = require('moment');
 
-const inputFilePath = '../../../data/REPORTS/weather/palisades-fire-daily-wind/reports/final-combined-report.json';
+const inputFilePath = '../../../data/REPORTS/weather/palisades-fire-daily-wind/reports/summary.json';
 const rawData = fs.readFileSync(inputFilePath);
 let inputData = JSON.parse(rawData); // Use let as we will reassign after sorting
 
 const output = {
     dataTable: {
         columns: {
-            "Date": [],
-            "Station Wind Speed High": [],
+            "Station": [],
             "Wind Speed High": [],
-            "Station Wind Gust High": [],
-            "Wind Gust High": []
+            "Wind Gust High": [],
+            "Wind Speed Time": [],
+            "Wind Gust Time": [],
+            "Distance": []
         }
     },
     rendering: {
@@ -26,8 +27,8 @@ const output = {
 
 // Sort inputData by Date ascending
 inputData.sort((a, b) => {
-    const dateA = moment(a.DateTime);
-    const dateB = moment(b.DateTime);
+    const dateA = moment(a.maxWindSpeedTime);
+    const dateB = moment(b.maxWindSpeedTime);
     if (dateA.isBefore(dateB)) {
         return -1;
     }
@@ -37,21 +38,19 @@ inputData.sort((a, b) => {
     return 0; // Dates are equal
 });
 
+const excludeStations = ['KCASANTA630', 'KCALOSAN842', 'KCASANTA4733'];
 inputData.forEach(entry => {
-    output.dataTable.columns["Date"].push(entry.DateTime);
-    output.dataTable.columns["Station Wind Speed High"].push( checkSource(entry.DateTime, entry["Station Wind Speed High"]) );
+    if (excludeStations.indexOf(entry.stationCode) === -1) {
+        output.dataTable.columns["Station"].push( checkSource(entry.stationCode) );
+        
+        output.dataTable.columns["Wind Speed Time"].push( entry.maxWindSpeedTime );
+        output.dataTable.columns["Wind Speed High"].push( entry.maxWindSpeedHigh );
 
-    // Assign "Wind Speed High" as a number
-    const windSpeedHigh = parseFloat(entry["Wind Speed High"]);
-    // Push the number, or null if parsing fails
-    output.dataTable.columns["Wind Speed High"].push(isNaN(windSpeedHigh) ? null : windSpeedHigh);
+        output.dataTable.columns["Wind Gust High"].push( entry.maxWindGustHigh );
+        output.dataTable.columns["Wind Gust Time"].push( entry.maxWindGustTime );
 
-    output.dataTable.columns["Station Wind Gust High"].push( checkSource(entry.DateTime, entry["Station Wind Gust High"]) );
-
-    // Assign "Wind Gust High" as a number
-    const windGustHigh = parseFloat(entry["Wind Gust High"]);
-    // Push the number, or null if parsing fails
-    output.dataTable.columns["Wind Gust High"].push(isNaN(windGustHigh) ? null : windGustHigh);
+        output.dataTable.columns["Distance"].push( entry.distanceMiles );
+    }
 });
 
 // This function is not used in the provided code but kept for completeness
@@ -59,7 +58,7 @@ function parsePercentage(str) {
     return str ? parseFloat(str.replace('%', '')) : 0;
 }
 
-function checkSource(datetime, station) {
+function checkSource(station) {
     // Note: The original code hardcoded the date to '2025-01-07'.
     // If you intend to use the date from the entry, uncomment the line below:
     //var weather = datetime.split('T')[0]; // Use date from entry
@@ -84,8 +83,10 @@ function parseNumber(str) {
     return str ? parseInt(str.replace(/,/g, '')) : 0;
 }
 
-const outputFilePath = '../../../data/REPORTS/weather/palisades-fire-daily-wind/deploy/grid-wind-stations.json';
+//const outputFilePath = '../../../data/REPORTS/weather/palisades-fire-daily-wind/deploy/grid-wind-reports.json';
+const outputFilePath = '../../../data/REPORTS/weather/palisades-fire-daily-wind/deploy/grid-wind-reports.json';
+
 // Use null, 2 for pretty printing
 fs.writeFileSync(outputFilePath, JSON.stringify(output));
 
-console.log('Conversion complete. Output saved to grid-wind-stations.json');
+console.log('Conversion complete. Output saved to grid-wind-reports.json');
