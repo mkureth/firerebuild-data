@@ -24,22 +24,22 @@ fetch(dataURL)
 
         header: [
             {
-                format: 'Draught Period',
+                format: 'Drought Period',
                 columns: [{
-                    columnId: 'Draught Start Date',
+                    columnId: 'Drought Start Date',
                     format: 'Start Date'
                 }, {
-                    columnId: 'Draught End Date',
+                    columnId: 'Drought End Date',
                     format: 'End Date'
                 }, {
-                    columnId: 'Draught Total Days',
+                    columnId: 'Drought Total Days',
                     format: 'Total Days'
                 }, {
-                    columnId: 'Draught Total Precipitation',
+                    columnId: 'Drought Total Precipitation',
                     format: 'Total Precipitation'
                 }]
             }, {
-                format: 'Precipitation between Draught Periods',
+                format: 'Precipitation between Drought Periods',
                 columns: [{
                     columnId: 'Rain Between Droughts Start',
                     format: 'Start Date'
@@ -62,7 +62,7 @@ fetch(dataURL)
 
         columns: [
             {
-                id: 'Draught Start Date',
+                id: 'Drought Start Date',
                 cells: {
                     formatter: function () {
                         const dateMoment = moment.utc(this.value);
@@ -71,7 +71,7 @@ fetch(dataURL)
                     }
                 }
             }, {
-                id: 'Draught End Date',
+                id: 'Drought End Date',
                 cells: {
                     formatter: function () {
                         const dateMoment = moment.utc(this.value);
@@ -98,7 +98,7 @@ fetch(dataURL)
                     }
                 }
             }, {
-                id: 'Draught Total Days',
+                id: 'Drought Total Days',
                 cells: {
                     formatter: function () {
                         var displayValue = this.value + ' days';
@@ -114,7 +114,7 @@ fetch(dataURL)
                     }
                 }
             }, {
-                id: 'Draught Total Precipitation',
+                id: 'Drought Total Precipitation',
                 cells: {
                     formatter: function () {
                         var displayValue = this.value.toFixed(1) + ' inches';

@@ -1,4 +1,4 @@
-Draught Start Date,Draught End Date,Draught Total Days,Draught Total Precipitation,Previous 180 Days Precipitation,Rain Between Droughts Start,Rain Between Droughts End,Rain Total Days,Rain Between Droughts
+Drought Start Date,Drought End Date,Drought Total Days,Drought Total Precipitation,Previous 180 Days Precipitation,Rain Between Droughts Start,Rain Between Droughts End,Rain Total Days,Rain Between Droughts
 2015-01-12,2015-07-18,187,1.53,6.66,2014-11-13,2015-01-12,60,6.27
 2015-07-20,2015-09-14,56,0.04,1.80,2015-07-19,2015-07-20,1,0.32
 2015-09-17,2015-12-19,93,0.33,2.69,2015-09-15,2015-09-17,2,1.78
