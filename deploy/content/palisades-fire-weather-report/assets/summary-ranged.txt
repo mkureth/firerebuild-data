@@ -35,8 +35,8 @@ Distance from fire: 4.01 miles
 ---
 
 Station Code: KCALOSAN1201
-[10AM–4PM] Max Wind Speed High: 20.6 mph at Jan 7, 10:15 AM
-[10AM–4PM] Max Wind Gust High: 26.2 mph at Jan 7, 10:15 AM
+[10AM–4PM] Max Wind Speed High: 17.5 mph at Jan 7, 12:15 PM
+[10AM–4PM] Max Wind Gust High: 25.1 mph at Jan 7, 12:15 PM
 Station Name: Sawtelle
 Address: Sawtelle, Los Angeles, CA 90025
 Zip Code: 90025
@@ -83,8 +83,8 @@ Distance from fire: 9.07 miles
 ---
 
 Station Code: KCALOSAN724
-[10AM–4PM] Max Wind Speed High: 30 mph at Jan 7, 10:00 AM
-[10AM–4PM] Max Wind Gust High: 38.9 mph at Jan 7, 10:00 AM
+[10AM–4PM] Max Wind Speed High: 29.5 mph at Jan 7, 3:00 PM
+[10AM–4PM] Max Wind Gust High: 37.8 mph at Jan 7, 3:00 PM
 Station Name: Brentwood
 Address: Brentwood, Los Angeles, CA 90049
 Zip Code: 90049
@@ -167,8 +167,8 @@ Distance from fire: 13.52 miles
 ---
 
 Station Code: KCAMALIB114
-[10AM–4PM] Max Wind Speed High: 39 mph at Jan 7, 10:00 AM
-[10AM–4PM] Max Wind Gust High: 39 mph at Jan 7, 10:00 AM
+[10AM–4PM] Max Wind Speed High: 33 mph at Jan 7, 11:00 AM
+[10AM–4PM] Max Wind Gust High: 33 mph at Jan 7, 11:00 AM
 Station Name: Malibu
 Address: Malibu, CA 90265
 Zip Code: 90265
@@ -192,7 +192,7 @@ Distance from fire: 13.52 miles
 
 Station Code: KCAMALIB158
 [10AM–4PM] Max Wind Speed High: 29.5 mph at Jan 7, 2:30 PM
-[10AM–4PM] Max Wind Gust High: 44.5 mph at Jan 7, 10:00 AM
+[10AM–4PM] Max Wind Gust High: 42.9 mph at Jan 7, 11:45 AM
 Station Name: Santa Monica Mountains
 Address: Santa Monica Mountains (Solstice Canyon), Malibu, CA 90265
 Zip Code: 90265
@@ -203,8 +203,8 @@ Distance from fire: 11.04 miles
 ---
 
 Station Code: KCAMALIB166
-[10AM–4PM] Max Wind Speed High: 23.5 mph at Jan 7, 10:15 AM
-[10AM–4PM] Max Wind Gust High: 36.9 mph at Jan 7, 10:15 AM
+[10AM–4PM] Max Wind Speed High: 18.3 mph at Jan 7, 11:00 AM
+[10AM–4PM] Max Wind Gust High: 29.5 mph at Jan 7, 10:45 AM
 Station Name: Broad Beach
 Address: 31250 Broad Beach Rd, Malibu, CA 90265
 Zip Code: 90265
@@ -216,7 +216,7 @@ Distance from fire: 13.52 miles
 
 Station Code: KCAMALIB52
 [10AM–4PM] Max Wind Speed High: 35.7 mph at Jan 7, 12:15 PM
-[10AM–4PM] Max Wind Gust High: 35 mph at Jan 7, 10:15 AM
+[10AM–4PM] Max Wind Gust High: 35 mph at Jan 7, 10:30 AM
 Station Name: Tapia Reclamation Facility
 Address: Tapia Water Reclamation Facility, 4232 Las Virgenes Road, Calabasas, CA 91302
 Zip Code: 91302
@@ -252,7 +252,7 @@ Distance from fire: 13.52 miles
 
 Station Code: KCAMALIB87
 [10AM–4PM] Max Wind Speed High: 21 mph at Jan 7, 10:45 AM
-[10AM–4PM] Max Wind Gust High: 31 mph at Jan 7, 10:00 AM
+[10AM–4PM] Max Wind Gust High: 29 mph at Jan 7, 3:30 PM
 Station Name: Malibu
 Address: Malibu, CA 90265
 Zip Code: 90265
@@ -287,7 +287,7 @@ Distance from fire: 0.84 miles
 ---
 
 Station Code: KCASANTA2881
-[10AM–4PM] Max Wind Speed High: 25.7 mph at Jan 7, 10:00 AM
+[10AM–4PM] Max Wind Speed High: 22.8 mph at Jan 7, 1:30 PM
 [10AM–4PM] Max Wind Gust High: 29.1 mph at Jan 7, 2:45 PM
 Station Name: Wilshire/Montana
 Address: Wilshire/Montana, Santa Monica, CA 90403
@@ -311,7 +311,7 @@ Distance from fire: 6.97 miles
 ---
 
 Station Code: KCASANTA4210
-[10AM–4PM] Max Wind Speed High: 24.2 mph at Jan 7, 10:00 AM
+[10AM–4PM] Max Wind Speed High: 22.6 mph at Jan 7, 2:45 PM
 [10AM–4PM] Max Wind Gust High: 37.6 mph at Jan 7, 3:15 PM
 Station Name: Pico
 Address: Pico, Santa Monica, CA 90404
@@ -348,7 +348,7 @@ Distance from fire: 5.15 miles
 
 Station Code: KCASANTA4711
 [10AM–4PM] Max Wind Speed High: 9 mph at Jan 7, 1:45 PM
-[10AM–4PM] Max Wind Gust High: 9 mph at Jan 7, 10:00 AM
+[10AM–4PM] Max Wind Gust High: 9 mph at Jan 7, 1:45 PM
 Station Name: The Palisades
 Address: The Palisades, Santa Monica, CA 90402
 Zip Code: 90402
@@ -360,7 +360,7 @@ Distance from fire: 4.34 miles
 
 Station Code: KCATOPAN28
 [10AM–4PM] Max Wind Speed High: 12.8 mph at Jan 7, 3:00 PM
-[10AM–4PM] Max Wind Gust High: 18.3 mph at Jan 7, 10:15 AM
+[10AM–4PM] Max Wind Gust High: 18.3 mph at Jan 7, 12:30 PM
 Station Name: Topanga
 Address: Topanga, CA 90290
 Zip Code: 90290
@@ -371,8 +371,8 @@ Distance from fire: 3.31 miles
 ---
 
 Station Code: KCATOPAN32
-[10AM–4PM] Max Wind Speed High: 29.1 mph at Jan 7, 11:30 AM
-[10AM–4PM] Max Wind Gust High: 38.7 mph at Jan 7, 12:15 PM
+[10AM–4PM] Max Wind Speed High: 33.3 mph at Jan 7, 4:00 PM
+[10AM–4PM] Max Wind Gust High: 42.3 mph at Jan 7, 4:00 PM
 Station Name: Topanga
 Address: Topanga, CA 90290
 Zip Code: 90290
@@ -395,8 +395,8 @@ Distance from fire: 3.31 miles
 ---
 
 Station Code: KCATOPAN43
-[10AM–4PM] Max Wind Speed High: 13.6 mph at Jan 7, 2:00 PM
-[10AM–4PM] Max Wind Gust High: 21.7 mph at Jan 7, 10:30 AM
+[10AM–4PM] Max Wind Speed High: 13.9 mph at Jan 7, 4:00 PM
+[10AM–4PM] Max Wind Gust High: 27.3 mph at Jan 7, 4:00 PM
 Station Name: Topanga
 Address: Topanga, CA 90290
 Zip Code: 90290
@@ -408,7 +408,7 @@ Distance from fire: 3.31 miles
 
 Station Code: KCATOPAN47
 [10AM–4PM] Max Wind Speed High: 16.1 mph at Jan 7, 2:45 PM
-[10AM–4PM] Max Wind Gust High: 22.8 mph at Jan 7, 10:30 AM
+[10AM–4PM] Max Wind Gust High: 23.7 mph at Jan 7, 4:00 PM
 Station Name: Topanga
 Address: Topanga, CA 90290
 Zip Code: 90290
@@ -431,8 +431,8 @@ Distance from fire: 3.31 miles
 ---
 
 Station Code: KCATOPAN55
-[10AM–4PM] Max Wind Speed High: 20.8 mph at Jan 7, 10:15 AM
-[10AM–4PM] Max Wind Gust High: 33.6 mph at Jan 7, 10:15 AM
+[10AM–4PM] Max Wind Speed High: 18.6 mph at Jan 7, 2:15 PM
+[10AM–4PM] Max Wind Gust High: 26.4 mph at Jan 7, 3:45 PM
 Station Name: Topanga
 Address: Topanga, CA 90290
 Zip Code: 90290
@@ -455,8 +455,8 @@ Distance from fire: 3.31 miles
 ---
 
 Station Code: KCATOPAN68
-[10AM–4PM] Max Wind Speed High: 9.2 mph at Jan 7, 10:00 AM
-[10AM–4PM] Max Wind Gust High: 15.9 mph at Jan 7, 10:00 AM
+[10AM–4PM] Max Wind Speed High: 8.7 mph at Jan 7, 1:00 PM
+[10AM–4PM] Max Wind Gust High: 14.8 mph at Jan 7, 12:15 PM
 Station Name: Fernwood
 Address: 913 Fernwood Pacific Drive, Topanga, CA 90290
 Zip Code: 90290
@@ -467,8 +467,8 @@ Distance from fire: 2.58 miles
 ---
 
 Station Code: KCATOPAN8
-[10AM–4PM] Max Wind Speed High: 61.1 mph at Jan 7, 10:00 AM
-[10AM–4PM] Max Wind Gust High: 67 mph at Jan 7, 10:00 AM
+[10AM–4PM] Max Wind Speed High: 57.9 mph at Jan 7, 10:30 AM
+[10AM–4PM] Max Wind Gust High: 66 mph at Jan 7, 3:45 PM
 Station Name: L.A.Co.F.D. Helistop 69Bravo
 Address: 401 S. Topanga Cyn Blvd, Topanga, CA 90290
 Zip Code: 90290
@@ -491,8 +491,8 @@ Distance from fire: 7.85 miles
 ---
 
 Station Code: KCAWOODL8
-[10AM–4PM] Max Wind Speed High: 28 mph at Jan 7, 10:15 AM
-[10AM–4PM] Max Wind Gust High: 29 mph at Jan 7, 10:15 AM
+[10AM–4PM] Max Wind Speed High: 28 mph at Jan 7, 10:30 AM
+[10AM–4PM] Max Wind Gust High: 29 mph at Jan 7, 10:45 AM
 Station Name: Mulholland Dr. and Canoga Ave.
 Address: 21329 Mulholland Drive, Woodland Hills, CA 91364
 Zip Code: 91364
@@ -527,8 +527,8 @@ Distance from fire: 7.56 miles
 ---
 
 Station Code: KTOA
-[10AM–4PM] Max Wind Speed High: 10 mph at Jan 7, 12:00 PM
-[10AM–4PM] Max Wind Gust High: 22 mph at Jan 7, 12:00 PM
+[10AM–4PM] Max Wind Speed High: 13 mph at Jan 7, 4:00 PM
+[10AM–4PM] Max Wind Gust High: 30 mph at Jan 7, 4:00 PM
 Station Name: Zamperini Fld
 Address: Zamperini Field, 3301 Airport Drive, Torrance, CA 90505
 Zip Code: 90505

@@ -223,11 +223,17 @@ function processRangedSummary(records) {
     const stationRecords = groupedByStation[stationCode];
     const stationInfo = stationMap.find(s => s.StationCode === stationCode);
 
-    // Filter records to time range 10:00 AM – 4:00 PM
+    // Filter records to time range 10:30 AM – 4:00 PM
     const filtered = stationRecords.filter(entry => {
       const m = moment(entry.DateTime);
       const hour = m.hour();
-      return hour >= 10 && hour < 16;
+      const minute = m.minute();
+
+      return (
+        (hour > 10 && hour < 16) ||           // Between 11:00 AM and 3:59 PM
+        (hour === 10 && minute >= 30) ||      // 10:30 AM to 10:59 AM
+        (hour === 16 && minute === 0)         // Exactly 4:00 PM (optional)
+      );
     });
 
     if (filtered.length === 0) continue;

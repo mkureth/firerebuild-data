@@ -1,0 +1,18 @@
+<script src="https://cdn.jsdelivr.net/npm/@highcharts/grid-lite/grid-lite.js"></script>
+<link href="css/main.css?010" rel="stylesheet">
+
+<div id="container"></div>
+<p class="highcharts-description"></p>
+
+<script>
+    var timestamp = new Date().getTime();
+    var hostname = window.location.hostname;
+    var dataURL = 'https://firerebuild.com/content/palisades-fire-weather-report/reports/wind-during-potential-containment/data/wind-during-potential-containment.json?'+timestamp;
+    if (hostname == '127.0.0.1') {
+        dataURL = 'http://127.0.0.1:8080/content/palisades-fire-weather-report/reports/wind-during-potential-containment/data/wind-during-potential-containment.json?'+timestamp;
+    }
+</script>
+
+<script type="text/javascript" src="js/main.js?011"></script>
+
+<noscript>Please enable JavaScript to view the interactive chart.</noscript>

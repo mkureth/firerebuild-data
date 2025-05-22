@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wind Gust Data</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Basic and formal styling for executive presentation */
+        body {
+            font-family: Arial, sans-serif; /* Formal font */
+            background-color: #ffffff; /* White background */
+        }
+        /* Style for table headers */
+        th {
+            background-color: #f2f2f2; /* Very light gray for headers */
+            color: #333333; /* Dark gray text */
+            padding: 10px 12px;
+            text-align: left;
+            border-bottom: 1px solid #cccccc; /* Subtle border below headers */
+            font-weight: bold; /* Ensure headers are bold */
+        }
+        /* Style for table cells */
+        td {
+            padding: 8px 12px;
+            border-bottom: 1px solid #eeeeee; /* Very light border between rows */
+            color: #555555; /* Slightly lighter text for content */
+        }
+        /* Remove any specific row background colors or hover effects */
+        tbody tr {
+            background-color: transparent;
+        }
+        tbody tr:hover {
+            background-color: transparent; /* No hover effect */
+        }
+        /* Remove rounded corners from tables and cells */
+        table, th, td {
+            border-radius: 0;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+    <div class="max-w-4xl mx-auto bg-white p-6">
+        <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Wind Gust Data Reports</h1>
+        <p>
+          For all reports and data, we consistently use maximum values. Specifically, for each 15-minute interval, the greatest "Wind Gust High" value observed during that time is selected to represent the interval. This approach significantly streamlines the organization of data gathered from numerous sources.  
+        </p>
+        <br />
+        <p>
+          Please note that the 'Gust' displayed on the source page corresponds to the 'Wind Gust Avg' from the weather.com API call. While the API provides more detailed information, including 'Wind Gust High,' 'Wind Gust Low,' and 'Wind Gust Avg,' only 'Gust' is visible on the source page. However, the complete dataset is accessible through the page's source code and directly via the weather.com API.
+        </p>
+        <br />
+        <p>
+          Source page example shown:
+          <br />
+          https://www.wunderground.com/dashboard/pws/KCAMALIB158/table/2025-01-07/2025-01-07/daily
+        </p>
+        <br /><br />
+        <div class="mb-8 overflow-x-auto">
+            <h2 class="text-xl font-semibold text-gray-700 mb-3">Daily Wind Gust Analysis</h2>
+            <table class="min-w-full border-collapse">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Wind Gust High (mph)</th>
+                        <th>Wind Gust Low (mph)</th>
+                        <th>Wind Gust Avg (mph)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:54 AM</td>
+                        <td>44.5</td>
+                        <td>17.9</td>
+                        <td>33.2</td>
+                    </tr>
+                    <tr>
+                        <td><strong>09:59 AM</strong></td>
+                        <td><strong>44.5</strong></td>
+                        <td>17.9</td>
+                        <td>34.4</td>
+                    </tr>
+                    <tr>
+                        <td>10:04 AM</td>
+                        <td>41.6</td>
+                        <td>25.3</td>
+                        <td>35.7</td>
+                    </tr>
+                    <tr>
+                        <td><strong>10:09 AM</strong></td>
+                        <td><strong>40.0</strong></td>
+                        <td>26.6</td>
+                        <td>34.6</td>
+                    </tr>
+                    <tr>
+                        <td>10:14 AM</td>
+                        <td>35.6</td>
+                        <td>23.7</td>
+                        <td>29.7</td>
+                    </tr>
+                    <tr>
+                        <td>10:19 AM</td>
+                        <td>23.7</td>
+                        <td>7.4</td>
+                        <td>16.5</td>
+                    </tr>
+                    <tr>
+                        <td><strong>10:24 AM</strong></td>
+                        <td><strong>34.0</strong></td>
+                        <td>11.9</td>
+                        <td>24.2</td>
+                    </tr>
+                    <tr>
+                        <td>10:29 AM</td>
+                        <td>25.3</td>
+                        <td>8.9</td>
+                        <td>15.0</td>
+                    </tr>
+                    <tr>
+                        <td>10:34 AM</td>
+                        <td>32.7</td>
+                        <td>16.3</td>
+                        <td>29.0</td>
+                    </tr>
+                    <tr>
+                        <td>10:39 AM</td>
+                        <td>20.8</td>
+                        <td>11.9</td>
+                        <td>17.2</td>
+                    </tr>
+                    <tr>
+                        <td><strong>10:42 AM</strong></td>
+                        <td><strong>35.6</strong></td>
+                        <td>19.2</td>
+                        <td>29.9</td>
+                    </tr>
+                    <!--
+                    <tr>
+                        <td>10:54 AM</td>
+                        <td>22.1</td>
+                        <td>16.3</td>
+                        <td>19.8</td>
+                    </tr>
+                    <tr>
+                        <td>10:59 AM</td>
+                        <td>26.6</td>
+                        <td>17.9</td>
+                        <td>22.3</td>
+                    </tr>
+                    <tr>
+                        <td>11:04 AM</td>
+                        <td>28.2</td>
+                        <td>14.8</td>
+                        <td>21.8</td>
+                    </tr>
+                    -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="overflow-x-auto">
+            <h2 class="text-xl font-semibold text-gray-700 mb-3">Maximum High Wind Gust Recorded</h2>
+            <table class="min-w-full border-collapse">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Wind Gust High (mph)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10:00 AM</td>
+                        <td>44.5</td>
+                    </tr>
+                    <tr>
+                        <td>10:15 AM</td>
+                        <td>40.0</td>
+                    </tr>
+                    <tr>
+                        <td>10:30 AM</td>
+                        <td>34.0</td>
+                    </tr>
+                    <tr>
+                        <td>10:45 AM</td>
+                        <td>35.6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

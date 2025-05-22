@@ -1,0 +1,212 @@
+[
+  {
+    "startDate": "2014-03-27T00:00",
+    "endDate": "2014-11-12T00:00",
+    "length": 231
+  },
+  {
+    "startDate": "2014-11-14T00:00",
+    "endDate": "2014-12-11T00:00",
+    "length": 27
+  },
+  {
+    "startDate": "2014-12-14T00:00",
+    "endDate": "2015-01-10T00:00",
+    "length": 26
+  },
+  {
+    "startDate": "2015-01-12T00:00",
+    "endDate": "2015-07-18T00:00",
+    "length": 188
+  },
+  {
+    "startDate": "2015-07-20T00:00",
+    "endDate": "2015-09-14T00:00",
+    "length": 57
+  },
+  {
+    "startDate": "2015-09-17T00:00",
+    "endDate": "2015-12-19T00:00",
+    "length": 94
+  },
+  {
+    "startDate": "2015-12-21T00:00",
+    "endDate": "2016-02-17T00:00",
+    "length": 56
+  },
+  {
+    "startDate": "2016-02-19T00:00",
+    "endDate": "2016-05-07T00:00",
+    "length": 76
+  },
+  {
+    "startDate": "2016-05-09T00:00",
+    "endDate": "2016-11-20T00:00",
+    "length": 196
+  },
+  {
+    "startDate": "2016-11-22T00:00",
+    "endDate": "2016-12-15T00:00",
+    "length": 24
+  },
+  {
+    "startDate": "2016-12-17T00:00",
+    "endDate": "2017-01-12T00:00",
+    "length": 22
+  },
+  {
+    "startDate": "2017-01-14T00:00",
+    "endDate": "2017-02-06T00:00",
+    "length": 21
+  },
+  {
+    "startDate": "2017-02-09T00:00",
+    "endDate": "2017-04-07T00:00",
+    "length": 57
+  },
+  {
+    "startDate": "2017-04-09T00:00",
+    "endDate": "2018-01-09T00:00",
+    "length": 276
+  },
+  {
+    "startDate": "2018-01-11T00:00",
+    "endDate": "2018-03-02T00:00",
+    "length": 51
+  },
+  {
+    "startDate": "2018-03-04T00:00",
+    "endDate": "2018-10-12T00:00",
+    "length": 221
+  },
+  {
+    "startDate": "2018-10-14T00:00",
+    "endDate": "2018-11-21T00:00",
+    "length": 39
+  },
+  {
+    "startDate": "2018-11-23T00:00",
+    "endDate": "2019-01-05T00:00",
+    "length": 42
+  },
+  {
+    "startDate": "2019-01-07T00:00",
+    "endDate": "2019-02-13T00:00",
+    "length": 29
+  },
+  {
+    "startDate": "2019-02-16T00:00",
+    "endDate": "2019-11-20T00:00",
+    "length": 276
+  },
+  {
+    "startDate": "2019-11-22T00:00",
+    "endDate": "2019-12-22T00:00",
+    "length": 29
+  },
+  {
+    "startDate": "2019-12-24T00:00",
+    "endDate": "2020-01-16T00:00",
+    "length": 23
+  },
+  {
+    "startDate": "2020-01-18T00:00",
+    "endDate": "2020-03-12T00:00",
+    "length": 55
+  },
+  {
+    "startDate": "2020-03-14T00:00",
+    "endDate": "2020-04-05T00:00",
+    "length": 21
+  },
+  {
+    "startDate": "2020-04-08T00:00",
+    "endDate": "2020-12-27T00:00",
+    "length": 262
+  },
+  {
+    "startDate": "2020-12-30T00:00",
+    "endDate": "2021-01-28T00:00",
+    "length": 30
+  },
+  {
+    "startDate": "2021-01-31T00:00",
+    "endDate": "2021-03-10T00:00",
+    "length": 39
+  },
+  {
+    "startDate": "2021-03-12T00:00",
+    "endDate": "2021-10-25T00:00",
+    "length": 227
+  },
+  {
+    "startDate": "2021-10-27T00:00",
+    "endDate": "2021-12-14T00:00",
+    "length": 49
+  },
+  {
+    "startDate": "2021-12-16T00:00",
+    "endDate": "2022-03-28T00:00",
+    "length": 99
+  },
+  {
+    "startDate": "2022-03-30T00:00",
+    "endDate": "2022-11-08T00:00",
+    "length": 224
+  },
+  {
+    "startDate": "2022-11-10T00:00",
+    "endDate": "2022-12-11T00:00",
+    "length": 32
+  },
+  {
+    "startDate": "2022-12-13T00:00",
+    "endDate": "2023-01-04T00:00",
+    "length": 21
+  },
+  {
+    "startDate": "2023-01-07T00:00",
+    "endDate": "2023-02-23T00:00",
+    "length": 43
+  },
+  {
+    "startDate": "2023-02-27T00:00",
+    "endDate": "2023-03-21T00:00",
+    "length": 21
+  },
+  {
+    "startDate": "2023-03-23T00:00",
+    "endDate": "2023-08-20T00:00",
+    "length": 150
+  },
+  {
+    "startDate": "2023-08-22T00:00",
+    "endDate": "2023-12-20T00:00",
+    "length": 121
+  },
+  {
+    "startDate": "2023-12-23T00:00",
+    "endDate": "2024-01-20T00:00",
+    "length": 28
+  },
+  {
+    "startDate": "2024-01-22T00:00",
+    "endDate": "2024-02-19T00:00",
+    "length": 24
+  },
+  {
+    "startDate": "2024-02-22T00:00",
+    "endDate": "2024-03-29T00:00",
+    "length": 36
+  },
+  {
+    "startDate": "2024-04-01T00:00",
+    "endDate": "2025-01-26T00:00",
+    "length": 300
+  },
+  {
+    "startDate": "2025-01-28T00:00",
+    "endDate": "2025-02-28T00:00",
+    "length": 31
+  }
+]
