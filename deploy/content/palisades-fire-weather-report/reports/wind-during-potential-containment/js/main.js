@@ -48,7 +48,8 @@ fetch(dataURL)
             
         ],
 
-        columns: [{
+        columns: [
+            {
             id: 'Wind Speed Time',
             cells: {
                 formatter: function () {
@@ -71,7 +72,7 @@ fetch(dataURL)
                     return reformattedDate;
                 }
             }
-        }, {
+            }, {
             id: 'Wind Gust Time',
             cells: {
                 formatter: function () {
@@ -94,7 +95,7 @@ fetch(dataURL)
                     return reformattedDate;
                 }
             }
-        }, {
+            }, {
             id: 'Wind Speed High',
             cells: {
                 formatter: function () {
@@ -102,7 +103,7 @@ fetch(dataURL)
                     return displayValue;
                 }
             }
-        }, {
+            }, {
             id: 'Wind Gust High',
             cells: {
                 formatter: function () {
@@ -110,7 +111,7 @@ fetch(dataURL)
                     return displayValue;
                 }
             }
-        }, {
+            }, {
             id: 'Distance',
             cells: {
                 formatter: function () {
@@ -118,7 +119,8 @@ fetch(dataURL)
                     return displayValue;
                 }
             }
-        }]
+            }
+        ]
     })
   })
   .catch(error => {

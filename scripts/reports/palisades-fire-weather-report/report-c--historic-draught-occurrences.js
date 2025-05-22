@@ -9,9 +9,18 @@ let inputData = JSON.parse(rawData); // Use let as we will reassign after sortin
 const output = {
     dataTable: {
         columns: {
-            "Start Date": [],
-            "End Date": [],
-            "Days": []
+            "Draught Start Date": [],
+            "Draught End Date": [],
+            "Draught Total Days": [],
+
+            "Draught Total Precipitation": [],
+            "Previous 180 Days Precipitation": [],
+
+            "Rain Between Droughts Start": [],
+            "Rain Between Droughts End": [],
+            "Rain Total Days": [],
+            "Rain Between Droughts": [],
+
         }
     }
 };
@@ -19,9 +28,18 @@ const output = {
 //const excludeStations = ['KCASANTA630', 'KCALOSAN842', 'KCASANTA4733', 'KCATOPAN8'];
 inputData.forEach(entry => {
     //if (excludeStations.indexOf(entry.stationCode) === -1) {
-        output.dataTable.columns["Start Date"].push( entry.startDate );
-        output.dataTable.columns["End Date"].push( entry.endDate );
-        output.dataTable.columns["Days"].push( entry.length );
+        output.dataTable.columns["Draught Start Date"].push( entry['startDate'] );
+        output.dataTable.columns["Draught End Date"].push( entry['endDate'] );
+        output.dataTable.columns["Draught Total Days"].push( entry['totalDays'] );
+
+        output.dataTable.columns["Draught Total Precipitation"].push( Number(entry['totalPrecipitation']) );
+        output.dataTable.columns["Previous 180 Days Precipitation"].push( Number(entry['previousPrecipitation']) );
+
+        output.dataTable.columns["Rain Between Droughts Start"].push( entry['rainBetweenDroughtsRangeStart'] );
+        output.dataTable.columns["Rain Between Droughts End"].push( entry['rainBetweenDroughtsRangeEnd'] );
+        output.dataTable.columns["Rain Total Days"].push( entry['totalRainDays'] );
+        output.dataTable.columns["Rain Between Droughts"].push( Number(entry['rainBetweenDroughts']) );
+
     //}
 });
 

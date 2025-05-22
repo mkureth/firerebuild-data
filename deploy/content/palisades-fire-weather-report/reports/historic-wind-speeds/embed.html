@@ -7,12 +7,12 @@
 <script>
     var timestamp = new Date().getTime();
     var hostname = window.location.hostname;
-    var dataURL = 'https://firerebuild.com/content/palisades-fire-weather-report/reports/greatest-wind-speeds/data/greatest-wind-speeds.json?'+timestamp;
+    var dataURL = 'https://firerebuild.com/content/palisades-fire-weather-report/reports/historic-wind-speeds/data/historic-wind-speeds.json?'+timestamp;
     if (hostname == '127.0.0.1') {
-        dataURL = 'http://127.0.0.1:8080/content/palisades-fire-weather-report/reports/greatest-wind-speeds/data/greatest-wind-speeds.json?'+timestamp;
+        dataURL = 'http://127.0.0.1:8080/content/palisades-fire-weather-report/reports/historic-wind-speeds/data/historic-wind-speeds.json?'+timestamp;
     }
 </script>
 
-<script type="text/javascript" src="js/main.js?029"></script>
+<script type="text/javascript" src="js/main.js?030"></script>
 
 <noscript>Please enable JavaScript to view the interactive chart.</noscript>

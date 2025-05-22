@@ -1,149 +1,170 @@
 const fs = require('fs');
 const path = require('path');
 const csv = require('csv-parser');
+const { createObjectCsvWriter } = require('csv-writer');
 const moment = require('moment');
 
-// Input
-const weatherFilePath = path.resolve(__dirname, '../../../data/PROCESSED/weather/monthly/combined.csv');
+// File paths
+const INPUT_FILE = path.resolve(__dirname, '../../../data/PROCESSED/weather/monthly/combined.csv');
+const OUTPUT_JSON = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/assets/draught-occurrences.json');
+const OUTPUT_CSV = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/assets/draught-occurrences.csv');
 
-// Output
-const outputJSONPath = '../../../deploy/content/palisades-fire-weather-report/assets/draught-occurrences.json';
-const outputCSVPath = '../../../deploy/content/palisades-fire-weather-report/assets/draught-occurrences.csv';
+function parseDate(dateStr) {
+  return new Date(dateStr);
+}
 
-function loadWeatherData(filePath) {
+function readCSV(filePath) {
   return new Promise((resolve, reject) => {
-    const results = [];
+    const records = [];
 
     fs.createReadStream(filePath)
       .pipe(csv())
       .on('data', (row) => {
-
-        var dateToCheck = moment(row['DateTime']);
-        var targetDate = moment('2014-03-26');
-        var isGreater = dateToCheck.isAfter(targetDate);
-
-        if (isGreater) {
-            results.push({
-                date: row['DateTime'],
-                precipitation: parseFloat(row['Precipitation']) || 0
-            });
+        const date = parseDate(row.DateTime);
+        const precipitation = parseFloat(row.Precipitation);
+        if (!isNaN(date) && !isNaN(precipitation)) {
+          records.push({ date, precipitation });
         }
-
       })
-      .on('end', () => resolve(results))
+      .on('end', () => {
+        records.sort((a, b) => a.date - b.date);
+        resolve(records);
+      })
       .on('error', reject);
   });
 }
 
-function findBestDrySpells(data) {
-  if (!Array.isArray(data) || data.length === 0) return [];
-
-  data.sort((a, b) => new Date(a.date) - new Date(b.date));
-
-  let minPrecip = Infinity;
-  let maxLength = 0;
-  let bestRanges = [];
-
-  for (let start = 0; start < data.length; start++) {
-    let totalPrecip = 0;
-
-    for (let end = start; end < data.length; end++) {
-      totalPrecip += data[end].precipitation;
-      const rangeLength = end - start + 1;
-
-      if (
-        totalPrecip < minPrecip ||
-        (totalPrecip === minPrecip && rangeLength > maxLength)
-      ) {
-        minPrecip = totalPrecip;
-        maxLength = rangeLength;
-        bestRanges = [{
-          startDate: data[start].date,
-          endDate: data[end].date,
-          totalPrecip,
-          length: rangeLength
-        }];
-      } else if (totalPrecip === minPrecip && rangeLength === maxLength) {
-        bestRanges.push({
-          startDate: data[start].date,
-          endDate: data[end].date,
-          totalPrecip,
-          length: rangeLength
-        });
-      }
-    }
-  }
-
-  return bestRanges;
+function getDayDifference(date1, date2) {
+  const momentDate1 = moment(date1);
+  const momentDate2 = moment(date2);
+  const diffInDays = momentDate2.diff(momentDate1, 'days');
+  return diffInDays;
 }
 
-
-function findAllDrySpells(data) {
-  if (!Array.isArray(data) || data.length === 0) return [];
-
-  data.sort((a, b) => new Date(a.date) - new Date(b.date));
-
-  const drySpells = [];
-  let currentSpell = [];
+function detectDroughts(data) {
+  const droughts = [];
+  let currentDrought = null;
+  let previousDroughtEnd = null;
 
   for (let i = 0; i < data.length; i++) {
-    if (data[i].precipitation < .3) {
-      currentSpell.push(data[i]);
-    } else {
-      if (currentSpell.length > 20) {
-        drySpells.push({
-          startDate: currentSpell[0].date,
-          endDate: currentSpell[currentSpell.length - 1].date,
-          length: currentSpell.length
-        });
-        currentSpell = [];
+    const entry = data[i];
+
+    if (entry.precipitation <= .3) {
+      if (!currentDrought) {
+        currentDrought = {
+          start: entry.date,
+          end: entry.date,
+          totalPrecip: entry.precipitation,
+          startIndex: i
+        };
+      } else {
+        currentDrought.end = entry.date;
+        currentDrought.totalPrecip += entry.precipitation;
       }
+    } else if (currentDrought) {
+      const totalDays = getDayDifference(currentDrought.start, currentDrought.end);
+      
+      // Skip short droughts
+      if (totalDays < 20) {
+        currentDrought = null;
+        continue;
+      }
+
+/*
+      const startIdx = currentDrought.startIndex;
+      const priorStartDate = new Date(currentDrought.start);
+      priorStartDate.setDate(priorStartDate.getDate() - 180);
+*/
+
+      const startIdx = currentDrought.startIndex;
+      const priorStartDate = moment(currentDrought.start).subtract(180, 'days');
+
+      let prevPrecip = 0;
+      for (let j = 0; j < startIdx; j++) {
+        if (data[j].date >= priorStartDate && data[j].date < currentDrought.start) {
+          prevPrecip += data[j].precipitation;
+        }
+      }
+
+      // Default empty values
+      let rainBetweenDroughts = '';
+      let rainBetweenDroughtsRangeStart = '';
+      let rainBetweenDroughtsRangeEnd = '';
+      let totalRainDays = '';
+
+      if (previousDroughtEnd) {
+        const rainStart = moment(previousDroughtEnd).add(1, 'days').startOf('day');
+        const rainEnd = moment(currentDrought.start).subtract(1, 'days').endOf('day');
+        const rainAmount = data
+          .filter(entry => {
+            const entryDate = moment(entry.date); // Convert entry.date to a Moment object for comparison
+            return entryDate.isSameOrAfter(rainStart, 'day') && entryDate.isSameOrBefore(rainEnd, 'day');
+          })
+          .reduce((sum, entry) => sum + entry.precipitation, 0);
+
+        rainBetweenDroughts = rainAmount.toFixed(2);
+        rainBetweenDroughtsRangeStart = rainStart.toISOString().split('T')[0];
+        rainBetweenDroughtsRangeEnd = rainEnd.toISOString().split('T')[0];
+
+        totalRainDays = getDayDifference(rainBetweenDroughtsRangeStart, rainBetweenDroughtsRangeEnd);
+      }
+
+      const droughtEntry = {
+        startDate: currentDrought.start.toISOString().split('T')[0],
+        endDate: currentDrought.end.toISOString().split('T')[0],
+        totalPrecipitation: currentDrought.totalPrecip.toFixed(2),
+        previousPrecipitation: prevPrecip.toFixed(2),
+        totalDays,
+        rainBetweenDroughts,
+        rainBetweenDroughtsRangeStart,
+        rainBetweenDroughtsRangeEnd,
+        totalRainDays
+      };
+
+      if (droughtEntry.previousPrecipitation > 0) {
+        droughts.push(droughtEntry);
+      }
+      previousDroughtEnd = currentDrought.end;
+      currentDrought = null;
     }
   }
 
-  // Push the final dry spell if it ended at the last row
-  if (currentSpell.length > 0) {
-    drySpells.push({
-      startDate: currentSpell[0].date,
-      endDate: currentSpell[currentSpell.length - 1].date,
-      length: currentSpell.length
-    });
-  }
-
-  return drySpells;
+  return droughts;
 }
 
 
-function saveAsJSON(data, filePath) {
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-  console.log(`Saved JSON to ${filePath}`);
-}
+async function saveOutputs(droughts) {
+  fs.writeFileSync(OUTPUT_JSON, JSON.stringify(droughts, null, 2));
 
-function saveAsCSV(data, filePath) {
-  const headers = Object.keys(data[0]);
-  const csvContent = [
-    headers.join(','),
-    ...data.map(row => headers.map(field => row[field]).join(','))
-  ].join('\n');
+  const csvWriter = createObjectCsvWriter({
+    path: OUTPUT_CSV,
+    header: [
+      { id: 'startDate', title: 'Draught Start Date' },
+      { id: 'endDate', title: 'Draught End Date' },
+      { id: 'totalDays', title: 'Draught Total Days' },
+      { id: 'totalPrecipitation', title: 'Draught Total Precipitation' },
 
-  fs.writeFileSync(filePath, csvContent);
-  console.log(`Saved CSV to ${filePath}`);
-}
-
-// Main Execution
-loadWeatherData(weatherFilePath)
-  .then(weatherData => {
-    const drySpells = findAllDrySpells(weatherData);
-
-    console.log('Dry spells found:', drySpells.length);
-
-    if (drySpells.length > 0) {
-      saveAsJSON(drySpells, outputJSONPath);
-      saveAsCSV(drySpells, outputCSVPath);
-    } else {
-      console.log('No dry spells found.');
-    }
-  })
-  .catch(err => {
-    console.error('Error loading or processing data:', err);
+      { id: 'previousPrecipitation', title: 'Previous 180 Days Precipitation' },
+      
+      { id: 'rainBetweenDroughtsRangeStart', title: 'Rain Between Droughts Start' },
+      { id: 'rainBetweenDroughtsRangeEnd', title: 'Rain Between Droughts End' },
+      { id: 'totalRainDays', title: 'Rain Total Days' },
+      { id: 'rainBetweenDroughts', title: 'Rain Between Droughts' }
+    ]
   });
+
+  await csvWriter.writeRecords(droughts);
+}
+
+async function run() {
+  try {
+    const records = await readCSV(INPUT_FILE);
+    const droughts = detectDroughts(records);
+    await saveOutputs(droughts);
+    console.log('Drought occurrences saved to JSON and CSV.');
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
+
+run();

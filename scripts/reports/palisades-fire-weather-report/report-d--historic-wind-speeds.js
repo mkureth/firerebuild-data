@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const moment = require('moment');
 
-const inputFilePath = '../../../deploy/content/palisades-fire-weather-report/assets/greatest-wind-speeds.json';
+const inputFilePath = '../../../deploy/content/palisades-fire-weather-report/assets/historic-wind-speeds.json';
 const rawData = fs.readFileSync(inputFilePath);
 let inputData = JSON.parse(rawData); // Use let as we will reassign after sorting
 
@@ -33,9 +33,9 @@ function parseNumber(str) {
     return str ? parseInt(str.replace(/,/g, '')) : 0;
 }
 
-const outputFilePath = '../../../deploy/content/palisades-fire-weather-report/reports/greatest-wind-speeds/data/greatest-wind-speeds.json'
+const outputFilePath = '../../../deploy/content/palisades-fire-weather-report/reports/historic-wind-speeds/data/historic-wind-speeds.json'
 
 // Use null, 2 for pretty printing
 fs.writeFileSync(outputFilePath, JSON.stringify(output));
 
-console.log('Conversion complete. Output saved to greatest-wind-speeds.json');
+console.log('Conversion complete. Output saved to historic-wind-speeds.json');

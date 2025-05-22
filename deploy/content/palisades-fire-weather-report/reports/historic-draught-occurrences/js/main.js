@@ -21,69 +21,129 @@ fetch(dataURL)
                 strictHeights: true,
             },
         },
+
         header: [
             {
-                columnId: 'Start Date',
-                format: 'Start Date'
+                format: 'Draught Period',
+                columns: [{
+                    columnId: 'Draught Start Date',
+                    format: 'Start Date'
+                }, {
+                    columnId: 'Draught End Date',
+                    format: 'End Date'
+                }, {
+                    columnId: 'Draught Total Days',
+                    format: 'Total Days'
+                }, {
+                    columnId: 'Draught Total Precipitation',
+                    format: 'Total Precipitation'
+                }]
             }, {
-                columnId: 'End Date',
-                format: 'End Date'
+                format: 'Precipitation between Draught Periods',
+                columns: [{
+                    columnId: 'Rain Between Droughts Start',
+                    format: 'Start Date'
+                }, {
+                    columnId: 'Rain Between Droughts End',
+                    format: 'End Date'
+                }, {
+                    columnId: 'Rain Total Days',
+                    format: 'Total Days'
+                }, {
+                    columnId: 'Rain Between Droughts',
+                    format: 'Total Precipitation'
+                }]
             }, {
-                columnId: 'Days',
-                format: 'Days'
+                columnId: 'Previous 180 Days Precipitation',
+                format: '180 Days Before'
             }
             
         ],
 
-        columns: [{
-            id: 'Start Date',
-            cells: {
-                formatter: function () {
-                    const date = new Date(this.value);
-                    const monthNames = [
-                      "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                      "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-                    ];
-                    const month = monthNames[date.getMonth()];
-                    const day = date.getDate();
-                    const year = date.getFullYear();
-                    let hours = date.getHours();
-                    const minutes = date.getMinutes();
-                    const ampm = hours >= 12 ? 'PM' : 'AM';
-                    hours = hours % 12;
-                    hours = hours ? hours : 12; // the hour '0' should be '12'
-                    const minutesPadded = minutes < 10 ? '0' + minutes : minutes;
-                    //const reformattedDate = `${month} ${day}, ${year} ${hours}:${minutesPadded} ${ampm}`;
-                    const reformattedDate = `${month} ${day}, ${year}`;
-                    return reformattedDate;
+        columns: [
+            {
+                id: 'Draught Start Date',
+                cells: {
+                    formatter: function () {
+                        const dateMoment = moment.utc(this.value);
+                        const reformattedDate = dateMoment.format('MMM D, YYYY');
+                        return reformattedDate;
+                    }
+                }
+            }, {
+                id: 'Draught End Date',
+                cells: {
+                    formatter: function () {
+                        const dateMoment = moment.utc(this.value);
+                        const reformattedDate = dateMoment.format('MMM D, YYYY');
+                        return reformattedDate;
+                    }
+                }
+            }, {
+                id: 'Rain Between Droughts Start',
+                cells: {
+                    formatter: function () {
+                        const dateMoment = moment.utc(this.value);
+                        const reformattedDate = dateMoment.format('MMM D, YYYY');
+                        return reformattedDate;
+                    }
+                }
+            }, {
+                id: 'Rain Between Droughts End',
+                cells: {
+                    formatter: function () {
+                        const dateMoment = moment.utc(this.value);
+                        const reformattedDate = dateMoment.format('MMM D, YYYY');
+                        return reformattedDate;
+                    }
+                }
+            }, {
+                id: 'Draught Total Days',
+                cells: {
+                    formatter: function () {
+                        var displayValue = this.value + ' days';
+                        return displayValue;
+                    }
+                }
+            }, {
+                id: 'Rain Total Days',
+                cells: {
+                    formatter: function () {
+                        var displayValue = this.value + ' days';
+                        return displayValue;
+                    }
+                }
+            }, {
+                id: 'Draught Total Precipitation',
+                cells: {
+                    formatter: function () {
+                        var displayValue = this.value.toFixed(1) + ' inches';
+                        return displayValue;
+                    }
+                }
+            }, {
+                id: 'Previous 180 Days Precipitation',
+                cells: {
+                    formatter: function () {
+                        var displayValue = this.value.toFixed(1) + ' inches';
+                        return displayValue;
+                    }
+                }
+            }, {
+                id: 'Rain Between Droughts',
+                cells: {
+                    formatter: function () {
+                        var displayValue = this.value.toFixed(1) + ' inches';
+                        return displayValue;
+                    }
                 }
             }
-        }, {
-            id: 'End Date',
-            cells: {
-                formatter: function () {
-                    const date = new Date(this.value);
-                    const monthNames = [
-                      "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                      "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-                    ];
-                    const month = monthNames[date.getMonth()];
-                    const day = date.getDate();
-                    const year = date.getFullYear();
-                    let hours = date.getHours();
-                    const minutes = date.getMinutes();
-                    const ampm = hours >= 12 ? 'PM' : 'AM';
-                    hours = hours % 12;
-                    hours = hours ? hours : 12; // the hour '0' should be '12'
-                    const minutesPadded = minutes < 10 ? '0' + minutes : minutes;
-                    //const reformattedDate = `${month} ${day}, ${year} ${hours}:${minutesPadded} ${ampm}`;
-                    const reformattedDate = `${month} ${day}, ${year}`;
-                    return reformattedDate;
-                }
-            }
-        }]
+        ]
+
     })
   })
   .catch(error => {
     console.error('Failed to load data:', error);
   });
+
+
