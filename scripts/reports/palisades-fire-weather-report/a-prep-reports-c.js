@@ -6,8 +6,8 @@ const moment = require('moment');
 
 // File paths
 const INPUT_FILE = path.resolve(__dirname, '../../../data/PROCESSED/weather/monthly/combined.csv');
-const OUTPUT_JSON = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/assets/drought-occurrences.json');
-const OUTPUT_CSV = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/assets/drought-occurrences.csv');
+const OUTPUT_JSON = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/reports/historic-drought-occurrences/files/drought-occurrences.json');
+const OUTPUT_CSV = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/reports/historic-drought-occurrences/files/drought-occurrences.csv');
 
 function parseDate(dateStr) {
   return new Date(dateStr);

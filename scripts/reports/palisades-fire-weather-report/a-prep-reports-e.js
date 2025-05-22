@@ -4,8 +4,8 @@ const csv = require('csv-parser');
 const { Parser } = require('json2csv');
 
 const inputCsvPath = path.resolve(__dirname, '../../../data/PROCESSED/fire/fire-ca-gov/combined.csv');
-const outputJsonPath = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/assets/cal-fire-reports.json');
-const outputCsvPath = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/assets/cal-fire-reports.csv');
+const outputJsonPath = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/reports/cal-fire-reports/files/cal-fire-reports.json');
+const outputCsvPath = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/reports/cal-fire-reports/files/cal-fire-reports.csv');
 
 // Fields to extract
 const desiredFields = [

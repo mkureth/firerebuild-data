@@ -4,8 +4,8 @@ const csv = require('csv-parser');
 
 // File paths
 const inputCsvPath = path.resolve(__dirname, '../../../data/PROCESSED/weather/monthly/combined.csv');
-const outputJsonPath = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/assets/historic-wind-speeds.json');
-const outputCsvPath = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/assets/historic-wind-speeds.csv');
+const outputJsonPath = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/reports/historic-wind-speeds/files/historic-wind-speeds.json');
+const outputCsvPath = path.resolve(__dirname, '../../../deploy/content/palisades-fire-weather-report/reports/historic-wind-speeds/files/historic-wind-speeds.csv');
 
 const filteredRows = [];
 

@@ -2,7 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const moment = require('moment');
 
-const inputFilePath = '../../../deploy/content/palisades-fire-weather-report/assets/summary-ranged.json';
+//const inputFilePath = '../../../deploy/content/palisades-fire-weather-report/assets/summary-ranged.json';
+const inputFilePath = '../../../deploy/content/palisades-fire-weather-report/reports/wind-during-potential-containment/files/summary-ranged.json';
+
 const rawData = fs.readFileSync(inputFilePath);
 let inputData = JSON.parse(rawData); // Use let as we will reassign after sorting
 
