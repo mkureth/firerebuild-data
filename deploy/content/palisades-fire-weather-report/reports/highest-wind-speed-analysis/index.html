@@ -67,6 +67,218 @@
       }
     }
   </script>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #eef4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 40px;
+            /*font-size: 2.5em;*/
+        }
+
+        /* --- Grid Container Styles --- */
+        .grid-container {
+            display: grid;
+            /* Default to 2 columns, adjust as needed */
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px; /* Space between grid items */
+            max-width: 1200px; /* Max width of the grid */
+            margin: 0 auto; /* Center the grid container */
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        /* --- Grid Item Styles --- */
+        .grid-item {
+            background-color: #f8fafd;
+            border: 1px solid #e0e6ed;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            display: flex; /* Use flex to center content vertically/horizontally */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 80px; /* Minimum height for grid items */
+        }
+
+        .grid-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+            background-color: #eef7fc;
+        }
+
+        .grid-item a {
+            text-decoration: none;
+            color: #007bff; /* Blue for links */
+            font-weight: bold;
+            font-size: 1.1em;
+            word-break: break-all; /* Helps with long filenames */
+            text-align: center;
+        }
+
+        .grid-item a:hover {
+            color: #0056b3; /* Darker blue on hover */
+            text-decoration: underline;
+        }
+
+        /* Optional: Add a small icon to links for better UX */
+        .grid-item a::before {
+            content: '⬇️ '; /* Download arrow emoji */
+            margin-right: 5px;
+            font-size: 0.9em;
+        }
+
+        /* --- Responsive Adjustments --- */
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+                gap: 15px;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .grid-container {
+                grid-template-columns: 1fr; /* Single column on small screens */
+                gap: 10px;
+                padding: 10px;
+            }
+            .grid-item {
+                min-height: 60px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 10px 15px;
+            background-color: #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .section-header:hover {
+            background-color: #d0d0d0;
+        }
+
+        .section-header h2 {
+            margin: 0; /* Remove default margin */
+            font-size: 1.8em;
+            color: #0056b3;
+            flex-grow: 1; /* Allows h2 to take up available space */
+        }
+
+        .toggle-icon {
+            font-size: 1.5em;
+            margin-left: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        /* Initial state: icon pointing right */
+        .toggle-icon.collapsed {
+            transform: rotate(0deg);
+        }
+
+        /* Expanded state: icon pointing down */
+        .toggle-icon.expanded {
+            transform: rotate(90deg);
+        }
+
+        .content-wrapper {
+            max-height: 0; /* Hidden by default */
+            overflow: hidden;
+            transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.5s ease-out;
+            opacity: 0;
+            padding: 0 15px; /* No padding when collapsed */
+        }
+
+        .content-wrapper.expanded {
+            max-height: 500px; /* Adjust based on max expected content height */
+            opacity: 1;
+            padding: 15px; /* Padding when expanded */
+        }
+
+        /* Grid specific styles from previous example */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+/*
+        .grid-item {
+            background-color: #e6f7ff;
+            border: 1px solid #b3e0ff;
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 60px;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            background-color: #d9edf7;
+        }
+
+        .grid-item a {
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: bold;
+            font-size: 1em;
+            word-break: break-all;
+        }
+
+        .grid-item a:hover {
+            color: #003f8c;
+            text-decoration: underline;
+        }
+
+        .grid-item a::before {
+            content: '⬇️ ';
+            margin-right: 5px;
+            font-size: 0.9em;
+        }
+*/
+
+    </style>
+
 </head>
 
 <body>
@@ -96,13 +308,122 @@
       <p>
         On January 7 2025, wind conditions near Pacific Palisades were not unprecedented. Throughout the day, the highest recorded wind speed was 40.8 mph in Malibu (7.1 miles from the fire), with gusts reaching 60 mph in Pacific Palisades at 5:15 PM. Hurricane-force winds begin at 74 mph, so the fire did not spread under record-breaking or unmanageable wind conditions.
       </p>
-
-      <h2>Detail</h2>
       <p>
         Analysis of 48 weather stations across the impacted region shows that sustained winds never exceeded 40.8 mph, and gusts peaked at 60 mph.
         Most stations recorded far lower values. This data challenges any false assertion that the fire’s rapid growth was driven by hurricane-level winds.
       </p>
+
+      <div class="section-container">
+          <div class="section-header" id="summaryHeader">
+              <h2>Download Summary Reports</h2>
+              <span class="toggle-icon collapsed">▶</span>
+          </div>
+
+          <div class="content-wrapper" id="summaryContent">
+              <div class="grid-container">
+                  <div class="grid-item"><a href="files/stations/summary.csv" download>CSV</a></div>
+                  <div class="grid-item"><a href="files/stations/summary.json" download>JSON</a></div>
+                  <div class="grid-item"><a href="files/stations/summary.txt" download>TXT</a></div>
+              </div>
+          </div>
+      </div>
+
+      <div class="section-container" style="margin-top: 30px;">
+          <div class="section-header" id="otherHeader">
+              <h2>Download CSV Station Data</h2>
+              <span class="toggle-icon collapsed">▶</span>
+          </div>
+
+          <div class="content-wrapper" id="otherContent">
+              <div class="grid-container">
+                  <div class="grid-item"><a href="files/stations/KCABEVER36.csv" download>KCABEVER36</a></div>
+                  <div class="grid-item"><a href="files/stations/KCACALAB70.csv" download>KCACALAB70</a></div>
+                  <div class="grid-item"><a href="files/stations/KCALOSAN364.csv" download>KCALOSAN364</a></div>
+                  <div class="grid-item"><a href="files/stations/KCALOSAN724.csv" download>KCALOSAN724</a></div>
+                  <div class="grid-item"><a href="files/stations/KCALOSAN803.csv" download>KCALOSAN803</a></div>
+                  <div class="grid-item"><a href="files/stations/KCALOSAN842.csv" download>KCALOSAN842</a></div>
+                  <div class="grid-item"><a href="files/stations/KCALOSAN872.csv" download>KCALOSAN872</a></div>
+                  <div class="grid-item"><a href="files/stations/KCALOSAN895.csv" download>KCALOSAN895</a></div>
+                  <div class="grid-item"><a href="files/stations/KCALOSAN902.csv" download>KCALOSAN902</a></div>
+                  <div class="grid-item"><a href="files/stations/KCALOSAN938.csv" download>KCALOSAN938</a></div>
+                  <div class="grid-item"><a href="files/stations/KCALOSAN1017.csv" download>KCALOSAN1017</a></div>
+                  <div class="grid-item"><a href="files/stations/KCALOSAN1201.csv" download>KCALOSAN1201</a></div>
+                  <div class="grid-item"><a href="files/stations/KCALOSAN1231.csv" download>KCALOSAN1231</a></div>
+                  <div class="grid-item"><a href="files/stations/KCALOSAN1246.csv" download>KCALOSAN1246</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAMALIB52.csv" download>KCAMALIB52</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAMALIB61.csv" download>KCAMALIB61</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAMALIB62.csv" download>KCAMALIB62</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAMALIB87.csv" download>KCAMALIB87</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAMALIB108.csv" download>KCAMALIB108</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAMALIB114.csv" download>KCAMALIB114</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAMALIB151.csv" download>KCAMALIB151</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAMALIB158.csv" download>KCAMALIB158</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAMALIB166.csv" download>KCAMALIB166</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAPACIF272.csv" download>KCAPACIF272</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAPACIF287.csv" download>KCAPACIF287</a></div>
+                  <div class="grid-item"><a href="files/stations/KCASANTA630.csv" download>KCASANTA630</a></div>
+                  <div class="grid-item"><a href="files/stations/KCASANTA2881.csv" download>KCASANTA2881</a></div>
+                  <div class="grid-item"><a href="files/stations/KCASANTA3310.csv" download>KCASANTA3310</a></div>
+                  <div class="grid-item"><a href="files/stations/KCASANTA4210.csv" download>KCASANTA4210</a></div>
+                  <div class="grid-item"><a href="files/stations/KCASANTA4447.csv" download>KCASANTA4447</a></div>
+                  <div class="grid-item"><a href="files/stations/KCASANTA4632.csv" download>KCASANTA4632</a></div>
+                  <div class="grid-item"><a href="files/stations/KCASANTA4711.csv" download>KCASANTA4711</a></div>
+                  <div class="grid-item"><a href="files/stations/KCASANTA4733.csv" download>KCASANTA4733</a></div>
+                  <div class="grid-item"><a href="files/stations/KCATOPAN8.csv" download>KCATOPAN8</a></div>
+                  <div class="grid-item"><a href="files/stations/KCATOPAN28.csv" download>KCATOPAN28</a></div>
+                  <div class="grid-item"><a href="files/stations/KCATOPAN32.csv" download>KCATOPAN32</a></div>
+                  <div class="grid-item"><a href="files/stations/KCATOPAN40.csv" download>KCATOPAN40</a></div>
+                  <div class="grid-item"><a href="files/stations/KCATOPAN43.csv" download>KCATOPAN43</a></div>
+                  <div class="grid-item"><a href="files/stations/KCATOPAN47.csv" download>KCATOPAN47</a></div>
+                  <div class="grid-item"><a href="files/stations/KCATOPAN52.csv" download>KCATOPAN52</a></div>
+                  <div class="grid-item"><a href="files/stations/KCATOPAN55.csv" download>KCATOPAN55</a></div>
+                  <div class="grid-item"><a href="files/stations/KCATOPAN62.csv" download>KCATOPAN62</a></div>
+                  <div class="grid-item"><a href="files/stations/KCATOPAN68.csv" download>KCATOPAN68</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAVENIC20.csv" download>KCAVENIC20</a></div>
+                  <div class="grid-item"><a href="files/stations/KCAWOODL8.csv" download>KCAWOODL8</a></div>
+                  <div class="grid-item"><a href="files/stations/KLAX.csv" download>KLAX</a></div>
+                  <div class="grid-item"><a href="files/stations/KSMO.csv" download>KSMO</a></div>
+                  <div class="grid-item"><a href="files/stations/KTOA.csv" download>KTOA</a></div>
+              </div>
+          </div>
+      </div>
+
     </article>
   </main>
+
+  <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          // Get references to the header and content wrapper
+          const summaryHeader = document.getElementById('summaryHeader');
+          const summaryContent = document.getElementById('summaryContent');
+          const summaryIcon = summaryHeader.querySelector('.toggle-icon');
+
+          // Set initial state (optional, but good for clarity)
+          // summaryContent.classList.remove('expanded'); // Ensure it starts collapsed
+          // summaryIcon.classList.remove('expanded');
+          // summaryIcon.classList.add('collapsed');
+
+          // Add click event listener to the header
+          summaryHeader.addEventListener('click', () => {
+              // Toggle the 'expanded' class on the content wrapper
+              summaryContent.classList.toggle('expanded');
+              // Toggle the icon class for visual feedback
+              summaryIcon.classList.toggle('expanded');
+              summaryIcon.classList.toggle('collapsed');
+          });
+
+          // --- You can repeat this for other collapsible sections ---
+          const otherHeader = document.getElementById('otherHeader');
+          const otherContent = document.getElementById('otherContent');
+          const otherIcon = otherHeader.querySelector('.toggle-icon');
+
+          otherHeader.addEventListener('click', () => {
+              otherContent.classList.toggle('expanded');
+              otherIcon.classList.toggle('expanded');
+              otherIcon.classList.toggle('collapsed');
+          });
+      });
+  </script>
+
 </body>
 </html>
