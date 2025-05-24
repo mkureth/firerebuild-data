@@ -106,6 +106,18 @@ Distance from fire: 6.18 miles
 
 ---
 
+Station Code: KCALOSAN842
+Max Wind Speed High: 0 mph at Jan 7, 12:00 AM
+Max Wind Gust High: 0 mph at Jan 7, 12:00 AM
+Station Name: Sawtelle
+Address: Sawtelle, Los Angeles, CA 90025
+Zip Code: 90025
+Latitude: 34.04551
+Longitude: -118.44583
+Distance from fire: 6.88 miles
+
+---
+
 Station Code: KCALOSAN872
 Max Wind Speed High: 37 mph at Jan 7, 9:45 PM
 Max Wind Gust High: 43 mph at Jan 7, 7:45 PM
@@ -355,6 +367,30 @@ Zip Code: 90402
 Latitude: 34.03598
 Longitude: -118.50391
 Distance from fire: 4.34 miles
+
+---
+
+Station Code: KCASANTA4733
+Max Wind Speed High: 0 mph at Jan 7, 12:00 AM
+Max Wind Gust High: 0 mph at Jan 7, 12:00 AM
+Station Name: Pico
+Address: Pico, Santa Monica, CA 90404
+Zip Code: 90404
+Latitude: 34.03
+Longitude: -118.47
+Distance from fire: 6.12 miles
+
+---
+
+Station Code: KCASANTA630
+Max Wind Speed High: 15 mph at Jan 7, 10:30 PM
+Max Wind Gust High: 0 mph at Jan 7, 12:00 AM
+Station Name: SM/Brentwood
+Address: SM/Brentwood, Santa Monica, CA 90403
+Zip Code: 90403
+Latitude: 34.03164
+Longitude: -118.48975
+Distance from fire: 5.15 miles
 
 ---
 

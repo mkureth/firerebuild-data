@@ -1,0 +1,63 @@
+StationCode,StationName,StationFullAddress,Lat,Lng,FireDistanceMiles,KCATOPANDistanceMiles,KLAXDistanceMiles,Anomaly
+KCAPACIF287,Alphabet Streets,"Alphabet Streets, Pacific Palisades, CA 90272",34.08066,-118.54459,0.84,3.15,12.37,false
+KCALOSAN1231,Bel Air,"Bel Air, Los Angeles, CA 90077",34.10536,-118.45591,6.18,8.35,11.64,false
+KCALOSAN902,Bel Air,"Bel Air, Los Angeles, CA 90077",34.10536,-118.45591,6.18,8.35,11.64,false
+KCABEVER36,Benedict Canyon/Mulholland,"13211 Mulholland Drive, Beverly Hills, CA 90210",34.128809,-118.420488,8.64,10.71,12.95,false
+KCALOSAN1246,Beverly Crest,"Beverly Crest, Los Angeles, CA 90210",34.10251,-118.41505,8.40,10.63,11.12,false
+KCALOSAN724,Brentwood,"Brentwood, Los Angeles, CA 90049",34.08749,-118.48976,4.01,6.29,11.10,false
+KCALOSAN1017,Brentwood,"Brentwood, Los Angeles, CA 90049",34.08749,-118.48976,4.01,6.29,11.10,false
+KCALOSAN895,Brentwood,"Brentwood, Los Angeles, CA 90049",34.08749,-118.48976,4.01,6.29,11.10,false
+KCALOSAN938,Brentwood,"Brentwood, Los Angeles, CA 90049",34.08749,-118.48976,4.01,6.29,11.10,false
+KCAMALIB166,Broad Beach,"31250 Broad Beach Rd, Malibu, CA 90265",34.031246,-118.788193,13.52,11.39,22.62,false
+KCACALAB70,Calabasas Highlands,"Calabasas Highlands, Calabasas, CA 91302",34.12295,-118.67193,7.13,4.95,19.61,false
+KCALOSAN872,Del Rey,"Del Rey, Los Angeles, CA 90066",34.00166,-118.43104,9.07,11.19,4.35,false
+KCAENCIN812,Encino,"Encino, CA 91436",34.15219,-118.49053,6.40,7.83,15.29,false
+KCATOPAN68,Fernwood,"913 Fernwood Pacific Drive, Topanga, CA 90290",34.0812,-118.60405,2.58,0.31,14.78,false
+KCATOPAN8,L.A.Co.F.D. Helistop 69Bravo,"401 S. Topanga Cyn Blvd, Topanga, CA 90290",34.0837306,-118.5995221,2.34,0.00,14.70,true
+KCAMALIB140,Latigo Canyon,"5092 Latigo Canyon Road, Malibu, CA 90265",34.0385,-119.2294,38.47,36.19,47.50,false
+KCAMALIB162,Latigo Canyon,"5092 Latigo Canyon Road, Malibu, CA 90265",34.0385,-119.2294,38.47,36.19,47.50,false
+KCALOSAN803,Lower Bel Air,"Lower Bel Air, Los Angeles, CA 90077",34.10536,-118.45591,6.18,8.35,11.64,false
+KCAMALIB108,Malibu,"Malibu, CA 90265",34.031246,-118.788193,13.52,11.39,22.62,false
+KCAMALIB114,Malibu,"Malibu, CA 90265",34.031246,-118.788193,13.52,11.39,22.62,false
+KCAMALIB147,Malibu,"Malibu, CA 90265",34.031246,-118.788193,13.52,11.39,22.62,false
+KCAMALIB87,Malibu,"Malibu, CA 90265",34.031246,-118.788193,13.52,11.39,22.62,false
+KCAMALIB62,Malibu Country Estates,"Malibu Country Estates, Malibu, CA 90265",34.031246,-118.788193,13.52,11.39,22.62,false
+KCAMALIB61,Malibu Springs - Vedder,"Malibu Springs - Vedder, Malibu, CA 90265",34.031246,-118.788193,13.52,11.39,22.62,false
+KCALOSAN364,Mar Vista Hill,"Mar Vista Hill, Los Angeles, CA 90066",34.00166,-118.43104,9.07,11.19,4.35,false
+KCAWOODL8,Mulholland Dr. and Canoga Ave.,"21329 Mulholland Drive, Woodland Hills, CA 91364",34.144699,-118.597554,5.04,4.21,17.72,false
+KCAVENIC20,Oakwood Pentagon,"2009 Oakwood Ave, Venice, CA 90291",33.9972,-118.4639,7.85,9.80,4.98,false
+KCASANTA3310,Ocean Park,"Ocean Park, Santa Monica, CA 90405",34.01208,-118.4679,6.97,9.02,5.94,false
+KCAPACIF208,Pacific Palisades,"Pacific Palisades, CA 90272",34.08066,-118.54459,0.84,3.15,12.37,false
+KCAPACIF227,Pacific Palisades,"Pacific Palisades, CA 90272",34.08066,-118.54459,0.84,3.15,12.37,false
+KCAPACIF272,Pacific Palisades,"Pacific Palisades, CA 90272",34.08066,-118.54459,0.84,3.15,12.37,false
+KCAPACIF320,Pacific Palisades,"Pacific Palisades, CA 90272",34.08066,-118.54459,0.84,3.15,12.37,false
+KCAPACIF132,Palisades Country Estates,"Palisades Country Estates, Pacific Palisades, CA 90272",34.08066,-118.54459,0.84,3.15,12.37,false
+KCASANTA4210,Pico,"Pico, Santa Monica, CA 90404",34.03,-118.47,6.12,8.29,7.05,false
+KCASANTA4733,Pico,"Pico, Santa Monica, CA 90404",34.03,-118.47,6.12,8.29,7.05,true
+KCAMALIB151,Point Dume,"Point Dume, Malibu, CA 90265",34.031246,-118.788193,13.52,11.39,22.62,false
+KCAPACIF367,Riviera,"Riviera, Pacific Palisades, CA 90272",34.08066,-118.54459,0.84,3.15,12.37,false
+KCAAGOUR101,Santa Monica Mountains,"Santa Monica Mountains, Agoura Hills, CA 91376",34.142,-118.75286,11.91,9.65,24.09,false
+KCACALAB72,Santa Monica Mountains,"Santa Monica Mountains Visitor Center, 26876 Mulholland Highway, Calabasas, CA 91302",34.1046,-118.709,8.76,6.43,20.57,false
+KCAMALIB110,Santa Monica Mountains,"Santa Monica Mountains (Solstice Canyon), Malibu, CA 90265",34.035,-118.7445,11.04,8.96,20.30,false
+KCAMALIB158,Santa Monica Mountains,"Santa Monica Mountains (Solstice Canyon), Malibu, CA 90265",34.035,-118.7445,11.04,8.96,20.30,false
+KSMO,Santa Monica Muni,"Santa Monica Municipal Airport, 3223 Donald Douglas Loop S, Santa Monica, CA 90405",34.0158219,-118.4513061,7.56,9.70,5.68,false
+KCALOSAN1201,Sawtelle,"Sawtelle, Los Angeles, CA 90025",34.04551,-118.44583,6.88,9.18,7.49,false
+KCALOSAN842,Sawtelle,"Sawtelle, Los Angeles, CA 90025",34.04551,-118.44583,6.88,9.18,7.49,true
+KCASANTA630,SM/Brentwood,"SM/Brentwood, Santa Monica, CA 90403",34.03164,-118.48975,5.15,7.24,7.77,true
+KCAMALIB52,Tapia Reclamation Facility,"Tapia Water Reclamation Facility, 4232 Las Virgenes Road, Calabasas, CA 91302",34.12295,-118.67193,7.13,4.95,19.61,false
+KCASANTA4711,The Palisades,"The Palisades, Santa Monica, CA 90402",34.03598,-118.50391,4.34,6.39,8.51,false
+KCATOPAN28,Topanga,"Topanga, CA 90290",34.09725,-118.6125,3.31,1.19,15.88,false
+KCATOPAN31,Topanga,"Topanga, CA 90290",34.09725,-118.6125,3.31,1.19,15.88,false
+KCATOPAN32,Topanga,"Topanga, CA 90290",34.09725,-118.6125,3.31,1.19,15.88,false
+KCATOPAN40,Topanga,"Topanga, CA 90290",34.09725,-118.6125,3.31,1.19,15.88,false
+KCATOPAN43,Topanga,"Topanga, CA 90290",34.09725,-118.6125,3.31,1.19,15.88,false
+KCATOPAN47,Topanga,"Topanga, CA 90290",34.09725,-118.6125,3.31,1.19,15.88,false
+KCATOPAN52,Topanga,"Topanga, CA 90290",34.09725,-118.6125,3.31,1.19,15.88,false
+KCATOPAN55,Topanga,"Topanga, CA 90290",34.09725,-118.6125,3.31,1.19,15.88,false
+KCATOPAN62,Topanga,"Topanga, CA 90290",34.09725,-118.6125,3.31,1.19,15.88,false
+KCALOSAN1130,West Los Angeles,"West Los Angeles, CA 90025",34.04551,-118.44583,6.88,9.18,7.49,false
+KCASANTA4632,Wilshire,"Wilshire, Santa Monica, CA 90403",34.03164,-118.48975,5.15,7.24,7.77,false
+KCASANTA2881,Wilshire/Montana,"Wilshire/Montana, Santa Monica, CA 90403",34.023935,-118.493419,5.35,7.35,7.49,false
+KLAX,Los Angeles International Airport,"1 World Way, Los Angeles, CA 90045",33.942387,-118.416062,12.50,14.34,0.44,false
+KTOA,Zamperini Fld,"Zamperini Field, 3301 Airport Drive, Torrance, CA 90505",33.80338,-118.33961,22.83,24.44,10.34,false
+KCASANTA4447,Rustic Canyon,Rustic Canyon Park,34.035,-118.504,4.38,6.42,8.46,false

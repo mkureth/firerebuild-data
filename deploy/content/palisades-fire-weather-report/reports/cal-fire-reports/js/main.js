@@ -10,10 +10,10 @@ fetch(dataURL)
     Grid.grid('container', {
         dataTable: jsonData.dataTable,
         caption: {
-            text: 'Pacific Palisades Fire: Wind Conditions During Potential Containment Window (10:00 a.m. – 4:00 p.m.)'
+            text: 'Pacific Palisades Fire: Cal Fire Reporting Timeline'
         },
         description: {
-            text: 'Weather Data is provided by https://weather.com'
+            text: 'Data is provided by https://www.fire.ca.gov/incidents/2025/1/7/palisades-fire'
         },
         rendering: {
             theme: 'hcg-theme-default theme-compact',
@@ -24,7 +24,7 @@ fetch(dataURL)
         header: [
             {
                 columnId: 'DateTime',
-                format: 'DateTime'
+                format: 'Date and Time'
             },
             {
                 format: 'Fire Size and Containment',
@@ -67,7 +67,7 @@ fetch(dataURL)
                 }]
             }, {
                 columnId: 'Source',
-                format: 'Source'
+                format: 'Cal Fire Source'
             }
             
         ],

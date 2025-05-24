@@ -64,9 +64,9 @@ function processRecords(records) {
   }, {});
 
   const excludedFromSummary = new Set([
-    'KCALOSAN842',
-    'KCASANTA4733',
-    'KCASANTA630',
+    //'KCALOSAN842',
+    //'KCASANTA4733',
+    //'KCASANTA630',
     //'KCATOPAN8',
     //'KLAX'
   ]);
@@ -146,10 +146,10 @@ function processRecords(records) {
 
     if (excludedFromSummary.has(stationCode)) continue;
 
-    let maxWindSpeed = -Infinity;
-    let maxWindSpeedTime = '';
-    let maxWindGust = -Infinity;
-    let maxWindGustTime = '';
+    let maxWindSpeed = 0;
+    let maxWindSpeedTime = '2025-01-07T00:00';
+    let maxWindGust = 0;
+    let maxWindGustTime = '2025-01-07T00:00';
 
     stationRecords.forEach(entry => {
       const speed = parseFloat(entry['Wind Speed High']);
@@ -202,9 +202,9 @@ function processRecords(records) {
 
 function processRangedSummary(records) {
   const excludedFromSummary = new Set([
-    'KCALOSAN842',
-    'KCASANTA4733',
-    'KCASANTA630',
+    //'KCALOSAN842',
+    //'KCASANTA4733',
+    //'KCASANTA630',
     //'KCATOPAN8'
   ]);
 
@@ -239,10 +239,10 @@ function processRangedSummary(records) {
 
     if (filtered.length === 0) continue;
 
-    let maxWindSpeed = -Infinity;
-    let maxWindSpeedTime = '';
-    let maxWindGust = -Infinity;
-    let maxWindGustTime = '';
+    let maxWindSpeed = 0;
+    let maxWindSpeedTime = '2025-01-07T00:00';
+    let maxWindGust = 0;
+    let maxWindGustTime = '2025-01-07T00:00';
 
     filtered.forEach(entry => {
       const speed = parseFloat(entry['Wind Speed High']);

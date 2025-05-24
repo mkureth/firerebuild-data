@@ -10,7 +10,7 @@ fetch(dataURL)
     Grid.grid('container', {
         dataTable: jsonData.dataTable,
         caption: {
-            text: 'Pacific Palisades Fire: Wind Conditions During Potential Containment Window (10:00 a.m. – 4:00 p.m.)'
+            text: 'Pacific Palisades Fire: Wind Conditions During Potential Containment Window (10:00 a.m. to 4:00 p.m.)'
         },
         description: {
             text: 'Weather Data is provided by https://weather.com'

@@ -10,7 +10,7 @@ fetch(dataURL)
     Grid.grid('container', {
         dataTable: jsonData.dataTable,
         caption: {
-            text: 'Pacific Palisades Fire: Highest Wind Speed Analysis by Station Proximity to Fire Origin (January 7, 2025)'
+            text: 'Pacific Palisades Fire: Historical Context for Drought Occurrences'
         },
         description: {
             text: 'Weather Data is provided by https://weather.com'

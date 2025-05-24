@@ -1,6 +1,6 @@
 <script src="https://cdn.jsdelivr.net/npm/@highcharts/grid-lite/grid-lite.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
-<link href="css/main.css?010" rel="stylesheet">
+<link href="css/main.css?009" rel="stylesheet">
 
 <div id="container"></div>
 <p class="highcharts-description"></p>
@@ -8,12 +8,12 @@
 <script>
     var timestamp = new Date().getTime();
     var hostname = window.location.hostname;
-    var dataURL = 'https://firerebuild.com/content/palisades-fire-weather-report/reports/cal-fire-reports/data/cal-fire-reports.json?'+timestamp;
+    var dataURL = 'https://firerebuild.com/content/palisades-fire-weather-report/reports/weather-stations-details/data/weather-stations-details.json?'+timestamp;
     if (hostname == '127.0.0.1') {
-        dataURL = 'http://127.0.0.1:8080/content/palisades-fire-weather-report/reports/cal-fire-reports/data/cal-fire-reports.json?'+timestamp;
+        dataURL = 'http://127.0.0.1:8080/content/palisades-fire-weather-report/reports/weather-stations-details/data/weather-stations-details.json?'+timestamp;
     }
 </script>
 
-<script type="text/javascript" src="js/main.js?021"></script>
+<script type="text/javascript" src="js/main.js?015"></script>
 
 <noscript>Please enable JavaScript to view the interactive chart.</noscript>

@@ -117,6 +117,19 @@
     "fireDistanceMiles": 6.18
   },
   {
+    "stationCode": "KCALOSAN842",
+    "maxWindSpeedHigh": 0,
+    "maxWindSpeedTime": "2025-01-07T00:00",
+    "maxWindGustHigh": 0,
+    "maxWindGustTime": "2025-01-07T00:00",
+    "stationName": "Sawtelle",
+    "stationAddress": "Sawtelle, Los Angeles, CA 90025",
+    "zipCode": "90025",
+    "latitude": 34.04551,
+    "longitude": -118.44583,
+    "fireDistanceMiles": 6.88
+  },
+  {
     "stationCode": "KCALOSAN872",
     "maxWindSpeedHigh": 31,
     "maxWindSpeedTime": "2025-01-07T10:45",
@@ -388,6 +401,32 @@
     "latitude": 34.03598,
     "longitude": -118.50391,
     "fireDistanceMiles": 4.34
+  },
+  {
+    "stationCode": "KCASANTA4733",
+    "maxWindSpeedHigh": 0,
+    "maxWindSpeedTime": "2025-01-07T00:00",
+    "maxWindGustHigh": 0,
+    "maxWindGustTime": "2025-01-07T00:00",
+    "stationName": "Pico",
+    "stationAddress": "Pico, Santa Monica, CA 90404",
+    "zipCode": "90404",
+    "latitude": 34.03,
+    "longitude": -118.47,
+    "fireDistanceMiles": 6.12
+  },
+  {
+    "stationCode": "KCASANTA630",
+    "maxWindSpeedHigh": 8,
+    "maxWindSpeedTime": "2025-01-07T10:30",
+    "maxWindGustHigh": 0,
+    "maxWindGustTime": "2025-01-07T00:00",
+    "stationName": "SM/Brentwood",
+    "stationAddress": "SM/Brentwood, Santa Monica, CA 90403",
+    "zipCode": "90403",
+    "latitude": 34.03164,
+    "longitude": -118.48975,
+    "fireDistanceMiles": 5.15
   },
   {
     "stationCode": "KCATOPAN28",
